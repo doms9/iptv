@@ -30,9 +30,9 @@ async def process_event(url: str, url_num: int) -> str | None:
     if not (html_data := await network.request(url, url_num, log=log)):
         return
 
-    num_list_ptrn = re.compile(r"var\s+_(\w|\d)+=\[(.*)\],", re.S)
+    num_list_ptrn = re.compile(r"var\s+_(\w+)=\[([^\]]*)\],", re.S)
 
-    index_ptrn = re.compile(r'\],(.*)(_.*="")')
+    index_ptrn = re.compile(r"(_[a-z]+\d+)=(\d+)")
 
     m3u_ptrn = re.compile(r'(var\s?signed_)?url\s?=\s?"(.*)";', re.I)
 
@@ -41,17 +41,20 @@ async def process_event(url: str, url_num: int) -> str | None:
     #     log.warning(f"URL {url_num}) Unable to decipher m3u encryption.")
     #     return
 
-    if not (num_list_mtch := num_list_ptrn.search(html_data.text)):
+    if not (num_list_mtch := num_list_ptrn.findall(html_data.text)):
         log.warning(f"URL {url_num}) Unable to decipher m3u encryption.")
         return
 
-    elif not (index_mtch := index_ptrn.search(html_data.text)):
+    elif not (index_mtch := index_ptrn.findall(html_data.text)):
         log.warning(f"URL {url_num}) Unable to decipher m3u encryption.")
         return
 
-    num_list = (int(i) for i in num_list_mtch[2].split(","))
+    num_list = (int(n.strip()) for n in num_list_mtch[-1][-1].split(","))
 
-    x, y = (int(i.split("=")[-1]) for i in index_mtch[1].split(",") if i)
+    if len(index_mtch) > 2:
+        index_mtch.pop()
+
+    x, y = (int(i[-1].strip()) for i in index_mtch)
 
     # z = int(z_mtch[1])
 
