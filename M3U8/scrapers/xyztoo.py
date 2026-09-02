@@ -1,4 +1,4 @@
-from urllib.parse import urlsplit
+from urllib.parse import parse_qsl, urlsplit
 
 from .utils import Cache, Time, get_logger, leagues, network
 
@@ -10,7 +10,7 @@ TAG = "XYZ2"
 
 CACHE_FILE = Cache(TAG, exp=19_800)
 
-API_URL = "https://tsnusopen.bobbbyb02.workers.dev"
+API_URL = "https://espn.fancy-shark151.workers.dev"
 
 
 async def get_events() -> dict[str, dict[str, str | float]]:
@@ -23,30 +23,29 @@ async def get_events() -> dict[str, dict[str, str | float]]:
 
     api_data = api_req.json()
 
-    if not api_data.get("success"):
-        return events
+    sport = "US Open"
 
-    for game in api_data.get("events", []):
-        title, stream_url = game.get("title"), game.get("embedUrl")
+    for game in api_data.get("itemListElement", []):
+        title, stream_url = game.get("name"), game.get("contentUrl")
 
         if not (title and stream_url):
             continue
 
         splits = urlsplit(stream_url)
 
-        if not (stream_id := splits.query):
+        params = dict(parse_qsl(splits.query))
+
+        if not (stream_id := params.get("streamid")):
             continue
 
-        sport, event_name = (s.strip() for s in title.split("-", 1))
+        key = f"[{sport}] {title} ({TAG})"
 
-        key = f"[{sport}] {event_name} ({TAG})"
-
-        tvg_id, logo = leagues.get_tvg_info(sport, event_name)
+        tvg_id, logo = leagues.get_tvg_info(sport, title)
 
         events[key] = {
-            "url": f"https://iptvstream2.xyzstreams.space/{stream_id}/mono.ts.m3u8",
-            "logo": game.get("thumbnail") or logo,
-            "base": API_URL,
+            "source": f"https://xyzstreams.blog/2/stream/espn/{stream_id}/stream_0.m3u8",
+            "logo": game.get("thumbnailUrl") or logo,
+            "refer": "https://xyzstreams.st/",
             "timestamp": now.timestamp(),
             "id": tvg_id or "Live.Event.us",
         }
