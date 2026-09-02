@@ -110,13 +110,14 @@ async def get_events(cached_keys: KeysView[str]) -> list[EMBDEvent]:
 
         HTML_FILE.write(events)
 
-    start_ts = now.delta(minutes=-30).timestamp()
+    start_ts = now.delta(hours=-3).timestamp()
     end_ts = now.delta(minutes=30).timestamp()
 
     return [
         EMBDEvent(**v)
         for k, v in events.items()
-        if k not in cached_keys and start_ts <= v.pop("event_ts") <= end_ts
+        if k not in cached_keys
+        and (start_ts <= (event_ts := v.pop("event_ts")) <= end_ts or event_ts == 0)
     ]
 
 

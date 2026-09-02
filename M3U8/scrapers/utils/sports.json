@@ -1263,7 +1263,13 @@
       {
         "GREECE CUP": {
           "logo": "https://i.gyazo.com/f80306df9b94a90f991b3cce386dc2b5.png",
-          "aliases": ["BETSSON GREECE UP", "GREEK CUP", "GREEK FOOTBALL CUP"]
+          "aliases": [
+            "BETSSON GREECE UP",
+            "GREECE GREEK CUP",
+            "GREEK CUP",
+            "GREEK FOOTBALL CUP",
+            "SUPERBET GREEK CUP"
+          ]
         }
       },
       {
@@ -1443,6 +1449,17 @@
             "PRIMERA DIVISIÓN DE EL SALVADOR",
             "PRIMERA DIVISIÓN DE FÚTBOL PROFESIONAL DE EL SALVADOR",
             "SALVADORAN PRIMERA DIVISION"
+          ]
+        }
+      },
+      {
+        "LATVIA CUP": {
+          "logo": "https://static.wikia.nocookie.net/the-football-database/images/b/b3/Latvian_Second_League.png/revision/latest",
+          "aliases": [
+            "LATVIAN FOOTBALL CUP",
+            "LATVIJAS KAUSS FUTBOLĀ",
+            "LVBET LATVIAN CUP",
+            "LVBET LATVIJAS KAUSS"
           ]
         }
       },
@@ -2292,6 +2309,12 @@
             "SUPERCOPA DE EUROPA",
             "SUPERCOPA DE LA UEFA"
           ]
+        }
+      },
+      {
+        "UEFA WOMEN EUROPA CUP": {
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/UEFA_Women%27s_Europa_Cup.svg/960px-UEFA_Women%27s_Europa_Cup.svg.png",
+          "aliases": []
         }
       },
       {
