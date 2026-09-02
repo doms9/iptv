@@ -47,7 +47,7 @@ async def get_events() -> dict[str, dict[str, str | float]]:
             "logo": game.get("thumbnailUrl") or logo,
             "refer": "https://xyzstreams.st/",
             "timestamp": now.timestamp(),
-            "id": tvg_id or "Live.Event.us",
+            "tvg-id": tvg_id or "Live.Event.us",
         }
 
     return events
