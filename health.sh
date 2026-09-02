@@ -133,7 +133,7 @@ check_links() {
 write_readme() {
     local total_urls=$1
 
-    local base="https://s.id/d9M3U8"
+    local base="https://s.id/d9Base"
     local live="https://s.id/d9Live"
     local combined="https://s.id/d9M3U8"
     local kodi="https://s.id/d9Kod"
