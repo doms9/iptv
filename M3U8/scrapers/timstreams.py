@@ -18,7 +18,7 @@ CACHE_FILE = Cache(TAG, exp=7_200)
 
 API_FILE = Cache(f"{TAG}-api", exp=19_800)
 
-BASE_URL = "https://timstreams.st"
+BASE_URL = "https://timst.cfd"
 
 
 @dataclass(kw_only=True, slots=True)
