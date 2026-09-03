@@ -30,7 +30,9 @@ http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8
 https://tvsen3.aynaott.com/P2fJzfsg/index.m3u8
 
 #EXTINF:-1 tvg-chno="10" tvg-id="BBC.America.HD.us2" tvg-name="BBC America" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s64492_dark_360w_270h.png" group-title="TV",BBC America
-http://23.237.104.106:8080/USA_BBC_AMERICA/index.m3u8
+#EXTVLCOPT:http-referrer=https://tvnow.st/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cache0.wonvt.st/live/0a8a7o303jcm7q0igvapt/master.m3u8
 
 #EXTINF:-1 tvg-chno="11" tvg-id="BBC.One.Lon.HD.uk" tvg-name="BBC One" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s67081_dark_360w_270h.png" group-title="TV",BBC One
 http://41.205.93.154/BBCONE/tracks-v1a1/mono.m3u8
@@ -129,7 +131,9 @@ http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
 https://circle-klowdtv.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="37" tvg-id="CMT.HD.us2" tvg-name="CMT" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10138_dark_360w_270h.png" group-title="TV",CMT
-http://23.237.104.106:8080/USA_CMT/index.m3u8
+#EXTVLCOPT:http-referrer=https://tvnow.st/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cache0.wonvt.st/live/1dl2j7a1eycmfv0hzqo9q/master.m3u8
 
 #EXTINF:-1 tvg-chno="38" tvg-id="CNBC.HD.us2" tvg-name="CNBC" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002NF45Y.png_dark_360w_270h.png" group-title="TV",CNBC
 http://41.205.93.154/CNBC/index.m3u8
@@ -145,7 +149,9 @@ https://p14.usnlive.com/stream/cnn.m3u8
 https://jmp2.uk/stvp-GBBD8000016N
 
 #EXTINF:-1 tvg-chno="42" tvg-id="Comedy.Central.HD.us2" tvg-name="Comedy Central" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10149_dark_360w_270h.png" group-title="TV",Comedy Central
-http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
+#EXTVLCOPT:http-referrer=https://tvnow.st/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cache0.wonvt.st/live/14rw4rg1p40gaj1jl7u0v/master.m3u8
 
 #EXTINF:-1 tvg-chno="43" tvg-id="Comet.us2" tvg-name="Comet TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s97051_dark_360w_270h.png" group-title="TV",Comet TV
 https://fast-channels.sinclairstoryline.com/COMET/index.m3u8
@@ -183,7 +189,9 @@ https://messi.damitv.st/papi/ts2/dazn1-de.m3u8
 https://messi.damitv.st/papi/ts2/dazn2-de.m3u8
 
 #EXTINF:-1 tvg-chno="52" tvg-id="Destination.America.HD.us2" tvg-name="Destination America" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16617_dark_360w_270h.png" group-title="TV",Destination America
-http://23.237.104.106:8080/USA_DESTINATION_AMERICA/index.m3u8
+#EXTVLCOPT:http-referrer=https://tvnow.st/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cache0.wonvt.st/live/0u3c2ys0rdkozv0955jhy/master.m3u8
 
 #EXTINF:-1 tvg-chno="53" tvg-id="Discovery.Channel.HD.us2" tvg-name="Discovery Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11150_dark_360w_270h.png" group-title="TV",Discovery Channel
 http://23.237.104.106:8080/USA_DISCOVERY/index.m3u8
@@ -264,7 +272,9 @@ http://stream.cammonitorplus.net/1792/index.m3u8
 https://cache0.wonvt.st/live/1535tij0zqfx3l1yko1qw/master.m3u8
 
 #EXTINF:-1 tvg-chno="73" tvg-id="Fox.Deportes.HD.us2" tvg-name="Fox Deportes" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s15377_dark_360w_270h.png" group-title="TV",Fox Deportes
-http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
+#EXTVLCOPT:http-referrer=https://tvnow.st/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cache0.wonvt.st/live/0abl34w0f29hih0e5qgvt/master.m3u8
 
 #EXTINF:-1 tvg-chno="74" tvg-id="plex.tv.LiveNOW.from.FOX.plex" tvg-name="Fox LiveNOW" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s119219_dark_360w_270h.png" group-title="TV",Fox LiveNOW
 https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
@@ -304,7 +314,9 @@ https://247wlive.foxweather.com/stream/index.m3u8
 http://190.11.225.124:5000/live/freeform_hd/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="84" tvg-id="Fuse.HD.us2" tvg-name="FUSE" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14929_dark_360w_270h.png" group-title="TV",FUSE
-http://23.237.104.106:8080/USA_FUSE/index.m3u8
+#EXTVLCOPT:http-referrer=https://tvnow.st/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cache0.wonvt.st/live/0tti8d0153qqmu07bmt5q/master.m3u8
 
 #EXTINF:-1 tvg-chno="85" tvg-id="FX.HD.us2" tvg-name="FX" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14321_dark_360w_270h.png" group-title="TV",FX
 http://23.237.104.106:8080/USA_FX/index.m3u8
@@ -561,7 +573,9 @@ https://xameleon.phantemlis.top/three/secure/73b1ea332c4a3cb9bf5aed663c385888/17
 http://23.237.104.106:8080/USA_MAV_TV/index.m3u8
 
 #EXTINF:-1 tvg-chno="150" tvg-id="ReelzChannel.HD.us2" tvg-name="Reelz Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s68385_dark_360w_270h.png" group-title="TV",Reelz Channel
-http://23.237.104.106:8080/USA_REELZ/index.m3u8
+#EXTVLCOPT:http-referrer=https://tvnow.st/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cache0.wonvt.st/live/0k8zpg50jakid00dp8vqm/master.m3u8
 
 #EXTINF:-1 tvg-chno="151" tvg-id="Science.Channel.HD.us2" tvg-name="Science Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24282_dark_360w_270h.png" group-title="TV",Science Channel
 #EXTVLCOPT:http-referrer=https://tvnow.st/
@@ -569,7 +583,9 @@ http://23.237.104.106:8080/USA_REELZ/index.m3u8
 https://cache0.wonvt.st/live/1qy87o21k84k1r0zek1wt/master.m3u8
 
 #EXTINF:-1 tvg-chno="152" tvg-id="SEC.Network.HD.us2" tvg-name="SEC Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89535_dark_360w_270h.png" group-title="TV",SEC Network
-http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
+#EXTVLCOPT:http-referrer=https://tvnow.st/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cache0.wonvt.st/live/0wvobh902biwzw08m7trv/master.m3u8
 
 #EXTINF:-1 tvg-chno="153" tvg-id="Paramount+.with.Showtime.HD.us2" tvg-name="Showtime" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/showtime-us.png" group-title="TV",Showtime
 #EXTVLCOPT:http-referrer=https://tvnow.st/
@@ -966,7 +982,9 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb34e/playlist.m3u8?token=
 http://23.237.104.106:8080/USA_VH1/index.m3u8
 
 #EXTINF:-1 tvg-chno="239" tvg-id="Vice.HD.us2" tvg-name="VICE TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18822_dark_360w_270h.png" group-title="TV",VICE TV
-http://23.237.104.106:8080/USA_VICETV/index.m3u8
+#EXTVLCOPT:http-referrer=https://tvnow.st/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://cache0.wonvt.st/live/1tnlwlu1grvsnf1hs6fs4/master.m3u8
 
 #EXTINF:-1 tvg-chno="240" tvg-id="WE.tv.HD.us2" tvg-name="WE Tv" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16409_dark_360w_270h.png" group-title="TV",WE Tv
 http://23.237.104.106:8080/USA_WE_TV/index.m3u8
