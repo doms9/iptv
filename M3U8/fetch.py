@@ -134,7 +134,7 @@ async def main() -> None:
                 asyncio.create_task(streamgate.scrape()),
                 asyncio.create_task(streamtp.scrape()),
                 asyncio.create_task(streamxhd.scrape()),
-                asyncio.create_task(timstreams.scrape()),
+                # asyncio.create_task(timstreams.scrape()),
                 asyncio.create_task(webcast.scrape()),
                 asyncio.create_task(xyzstreams.scrape()),
                 asyncio.create_task(xyztoo.scrape()),
