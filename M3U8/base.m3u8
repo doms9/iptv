@@ -3,8 +3,8 @@
 #EXTINF:-1 tvg-chno="1" tvg-id="A.and.E.HD.East.us2" tvg-name="A&E TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s51529_dark_360w_270h.png" group-title="TV",A&E TV
 http://23.239.31.26:8989/aande/index.m3u8
 
-#EXTINF:-1 tvg-chno="2" tvg-id="KMBC-DT.us_locals1" tvg-name="ABC" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10003_dark_360w_270h.png" group-title="TV",ABC
-http://stream.cammonitorplus.net/1790/index.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-id="KMGH-DT.us_locals1" tvg-name="ABC" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10003_dark_360w_270h.png" group-title="TV",ABC
+http://stream.cammonitorplus.net/1766/index.m3u8
 
 #EXTINF:-1 tvg-chno="3" tvg-id="ACC.Network.us2" tvg-name="ACC Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s111871_dark_360w_270h.png" group-title="TV",ACC Network
 http://23.239.31.26:8989/accnetwork/index.m3u8
@@ -437,8 +437,8 @@ http://23.237.104.106:8080/USA_NAT_GEO_WILD/index.m3u8
 #EXTINF:-1 tvg-chno="118" tvg-id="NBA.TV.HD.us2" tvg-name="NBA TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s32281_dark_360w_270h.png" group-title="TV",NBA TV
 http://23.237.104.106:8080/USA_NBA/index.m3u8
 
-#EXTINF:-1 tvg-chno="119" tvg-id="WFLA-DT.us_locals1" tvg-name="NBC" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10991_dark_360w_270h.png" group-title="TV",NBC
-http://stream.cammonitorplus.net/1842/index.m3u8
+#EXTINF:-1 tvg-chno="119" tvg-id="KXAS-DT.us_locals1" tvg-name="NBC" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10991_dark_360w_270h.png" group-title="TV",NBC
+http://stream.cammonitorplus.net/1765/index.m3u8
 
 #EXTINF:-1 tvg-chno="120" tvg-id="[NBCNN].NBC.News.NOW.PEACOCK" tvg-name="NBC News NOW" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s114174_light_360w_270h.png" group-title="TV",NBC News NOW
 https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master.m3u8
@@ -589,7 +589,9 @@ https://xameleon.phantemlis.top/four/secure/9105b1875e837686ed2fa2445a104813/178
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc31a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzFhOjE3ODg0MTM0NTE0MDE6Y2RubGl2ZXR2LnR2OjczMTI4Y2NlM2Q4MWYwZDQuZjNmMjEzODQ0OWJmMzk4YmY2ODhjYjRmNjc2ZGU3MjgzZGYxYzI2NmY5ODc2MGJkOGIxNzNjY2MxZGE5OTFkMQ
 
 #EXTINF:-1 tvg-chno="156" tvg-id="SkySp.F1.uk" tvg-name="Sky Sports F1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-f1-icon-uk.png" group-title="TV",Sky Sports F1
-http://stream.bottledesk.net/p/AwZGQwwEZA/index.m3u8
+#EXTVLCOPT:http-referrer=https://ondemand.st/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://messi.damitv.st/papi/ts2/skysportsf1-uk.m3u8
 
 #EXTINF:-1 tvg-chno="157" tvg-id="SkySp.Fball.uk" tvg-name="Sky Sports Football" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-football-icon-uk.png" group-title="TV",Sky Sports Football
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=35
@@ -637,7 +639,9 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc32d/playlist.m3u8?token=
 https://xameleon.phantemlis.top/two/secure/915e4ee705d1f3a402a2b4b665aaf6ec/1788409850/premium366/index.m3u8
 
 #EXTINF:-1 tvg-chno="166" tvg-id="SkySp.PL.HD.uk" tvg-name="Sky Sports Premier League" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-premier-league-icon-uk.png" group-title="TV",Sky Sports Premier League
-http://stream.bottledesk.net/p/AAxBRQEBc2c/index.m3u8
+#EXTVLCOPT:http-referrer=https://ondemand.st/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+https://messi.damitv.st/papi/ts2/skysportspremierleague-uk.m3u8
 
 #EXTINF:-1 tvg-chno="167" tvg-id="SkySp.Racing.HD.uk" tvg-name="Sky Sports Racing" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-racing-icon-uk.png" group-title="TV",Sky Sports Racing
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=554
