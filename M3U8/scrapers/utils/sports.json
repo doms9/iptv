@@ -33,8 +33,10 @@
           "aliases": [
             "BALONCESTO",
             "BASKETBALL EUROBASKET QUALIFICATION",
+            "BASKETBALL FRIENDLY",
             "BASKETBALL WORLD CUP QUALIFICATION",
             "CEBL",
+            "FIBA WOMEN'S WORLD CUP",
             "THE BASKETBALL TOURNAMENT"
           ]
         }
@@ -118,7 +120,7 @@
       {
         "HOCKEY": {
           "logo": "https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f3d2.png",
-          "aliases": []
+          "aliases": ["CHAMPIONS HOCKEY LEAGUE", "HOCKEY CHL"]
         }
       }
     ],
@@ -1234,6 +1236,18 @@
         }
       },
       {
+        "FINLAND LIIGA": {
+          "logo": "https://i.gyazo.com/07832b492479c345264ce2fe52fdd7dd.png",
+          "aliases": [
+            "FINLAND ELITE LEAGUE",
+            "FINNISH ELITE LEAGUE",
+            "FINNISH LIIGA",
+            "FM-LIGAN",
+            "SM-LIIGA"
+          ]
+        }
+      },
+      {
         "FINLAND VEIKKAUSLIIGA": {
           "logo": "https://1000logos.net/wp-content/uploads/2022/01/Veikkausliiga-logo.png",
           "aliases": ["FINNISH VEIKKAUSLIIGA", "VEIKKAUSLIIGA"]
@@ -1246,6 +1260,20 @@
             "GERMAN WOMEN BUNDESLIGA",
             "GOOGLE PIXEL FRAUEN-BUNDESLIGA",
             "WOMEN'S FEDERAL LEAGUE"
+          ]
+        }
+      },
+      {
+        "FRENCH PREMIÈRE LIGUE": {
+          "logo": "https://upload.wikimedia.org/wikipedia/en/7/74/Premi%C3%A8re_Ligue.png",
+          "aliases": [
+            "ARKEMA PREMIERE LIGUE",
+            "ARKEMA PREMIÈRE LIGUE",
+            "DIVISION 1 FEMININE",
+            "DIVISION 1 FÉMININE",
+            "FRANCE PREMIERE LIGUE WOMEN",
+            "FRENCH PREMIERE LIGUE",
+            "PREMIÈRE LIGUE"
           ]
         }
       },
