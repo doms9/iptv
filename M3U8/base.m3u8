@@ -135,6 +135,8 @@ https://circle-klowdtv.amagi.tv/playlist.m3u8
 http://23.237.104.106:8080/USA_CMT/index.m3u8
 
 #EXTINF:-1 tvg-chno="39" tvg-id="CNBC.HD.us2" tvg-name="CNBC" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002NF45Y.png_dark_360w_270h.png" group-title="TV",CNBC
+#EXTVLCOPT:http-referrer=https://tvnow.st/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 https://cache0.wonvt.st/live/0f06lpb0ljqelj0qrw1ol/master.m3u8
 
 #EXTINF:-1 tvg-chno="40" tvg-id="CNBC.World.us2" tvg-name="CNBC World" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/cnbc-world-us.png" group-title="TV",CNBC World
