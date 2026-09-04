@@ -204,7 +204,7 @@ write_readme() {
         echo "#### Mirrors"
         echo -n "[GitHub](https://github.com/doms9/iptv) | "
         echo -e "[GitLab](https://gitlab.com/doms9/iptv) |"
-        echo -e "[Forgejo](https://forgejo.mxnticek.eu/doms/iptv)\n"
+        echo -e "[Codeberg](https://codeberg.org/doms/iptv)\n"
         echo "---"
         echo "#### Legal Disclaimer"
         echo "This repository lists publicly accessible IPTV streams as found on the internet at the time of checking."
