@@ -34,9 +34,12 @@
             "BALONCESTO",
             "BASKETBALL EUROBASKET QUALIFICATION",
             "BASKETBALL FRIENDLY",
+            "BASKETBALL WORLD CUP",
             "BASKETBALL WORLD CUP QUALIFICATION",
             "CEBL",
+            "FIBA BASKETBALL WORLD CUP",
             "FIBA WOMEN'S WORLD CUP",
+            "FIBA WORLD CUP",
             "THE BASKETBALL TOURNAMENT"
           ]
         }
@@ -299,6 +302,7 @@
         "F1": {
           "logo": "https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png",
           "aliases": [
+            "F1 | GP DE ITALIA",
             "FIA FORMULA 1",
             "FIA FORMULA 2",
             "FORMULA 1",
@@ -2102,6 +2106,8 @@
             "CONCACAF SUB-20",
             "CONCACAF SUB20",
             "CONCACAF U20 CHAMPIONSHIP",
+            "COPA MUNDIAL FEMENINA SUB-20",
+            "ENGLISH PREMIER LEAGUE U18",
             "ENGLISH PREMIER LEAGUE U21",
             "FOOTBALL",
             "FRIENDLY INTERNATIONAL",
@@ -2136,7 +2142,8 @@
             "A1 ETHNIKI KATIGORIA",
             "GREECE SUPER LEAGUE",
             "GREEK SUPER LEAGUE",
-            "SUPER LEAGUE 1"
+            "SUPER LEAGUE 1",
+            "SUPERLIGA DE GRECIA"
           ]
         }
       },
@@ -2233,6 +2240,18 @@
             "LIGI KUU TANZANIA BARA",
             "TANZANIA MAINLAND PREMIER LEAGUE",
             "TANZANIAN PREMIER LEAGUE"
+          ]
+        }
+      },
+      {
+        "THAI LEAGUE 1": {
+          "logo": "https://assets.football-logos.cc/logos/thailand/1500x1500/thai-league-1.3069b0a9.png",
+          "aliases": [
+            "T1",
+            "THAI LEAGUE",
+            "THAI PREMIER LEAGUE",
+            "THAILAND PREMIER LEAGUE",
+            "THAILAND THAI LEAGUE 1"
           ]
         }
       },
