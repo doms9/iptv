@@ -1,8 +1,6 @@
-import json
-import re
 from collections.abc import KeysView
 from functools import partial
-from urllib.parse import urljoin
+from urllib.parse import parse_qsl, urljoin, urlsplit
 
 from selectolax.lexbor import LexborHTMLParser as HTMLParser
 
@@ -46,18 +44,15 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         log.warning(f"URL {url_num}) No iframe element/src found. (IFR2)")
         return nones
 
-    if not (ifr_2_src_data := await network.request(ifr_2_src, url_num, log=log)):
-        return nones
+    params = dict(parse_qsl(urlsplit(ifr_2_src).query))
 
-    ptrn = re.compile(r'\|\|\s?(".*");')
-
-    if not (match := ptrn.search(ifr_2_src_data.text)):
-        log.warning
+    if not (stream_key := params.get("stream")):
+        log.warning(f"URL {url_num}) No stream key found.")
         return nones
 
     log.info(f"URL {url_num}) Captured M3U8")
 
-    return json.loads(match[1]), ifr_2_src
+    return f"https://cdn1.obstreamx.click/live/{stream_key}.m3u8", ifr_2_src
 
 
 async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
