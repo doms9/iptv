@@ -1,3 +1,5 @@
+from collections.abc import KeysView
+from dataclasses import dataclass
 from functools import partial
 from urllib.parse import parse_qsl, urljoin, urlsplit
 
@@ -11,11 +13,18 @@ urls: dict[str, dict[str, str | float]] = {}
 
 TAG = "STRMCNTR"
 
-CACHE_FILE = Cache(TAG, exp=28_800)
+CACHE_FILE = Cache(TAG, exp=16_200)
+
+HTML_FILE = Cache(f"{TAG}-html", exp=28_800)
 
 BASE_URL = "https://streamecenter.live"
 
 ALT_BASE = "https://streame.center"
+
+
+@dataclass(kw_only=True, slots=True)
+class CNTREvent(Event):
+    event_ts: int | float
 
 
 def cleanup(s: str) -> str:
@@ -59,8 +68,8 @@ async def process_event(url: str, url_num: int) -> str | None:
     )
 
 
-async def get_events() -> list[Event]:
-    events: list[Event] = []
+async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
+    events = {}
 
     if not (
         html_data := await network.request(
@@ -72,16 +81,13 @@ async def get_events() -> list[Event]:
 
     soup = HTMLParser(html_data.content)
 
-    now = Time.rn()
-
     for card in soup.css(".game-card-group"):
         if not (sport_elem := card.css_first("h2")):
             continue
 
-        for game in card.css(".game-card-row"):
-            if not (name_elem := game.css_first("h3")):
-                continue
+        sport = fix_sport(cleanup(sport_elem.text(strip=True)))
 
+        for game in card.css(".game-card-row"):
             if not (event_time_elem := game.css_first(".game-card-when > time")):
                 continue
 
@@ -93,40 +99,66 @@ async def get_events() -> list[Event]:
             if event_dt.date() != now.date():
                 continue
 
-            sport = cleanup(sport_elem.text(strip=True))
+            if not (name_elem := game.css_first("h3")):
+                continue
 
-            event_name = name_elem.text(strip=True)
+            elif not (event_name := name_elem.attributes.get("aria-label")):
+                continue
 
             for source in game.css(".game-card-source > a.game-card-open-link"):
                 if not (href := source.attributes.get("href")):
                     continue
 
-                lang = source.text(strip=True)
+                name = f"{event_name} | {source.text(strip=True)}"
 
-                events.append(
-                    Event(
-                        sport=fix_sport(sport),
-                        name=f"{event_name} | {lang}",
-                        link=urljoin(BASE_URL, href),
-                        timestamp=now.timestamp(),
-                    )
-                )
+                key = f"[{sport}] {name} ({TAG})"
+
+                events[key] = {
+                    "sport": sport,
+                    "name": name,
+                    "link": urljoin(BASE_URL, href),
+                    "event_ts": event_dt.timestamp(),
+                    "timestamp": now.timestamp(),
+                }
 
     return events
 
 
+async def get_events(cached_keys: KeysView[str]) -> list[CNTREvent]:
+    now = Time.rn()
+
+    if not (events := HTML_FILE.load()):
+        log.info("Refreshing HTML cache")
+
+        events = await refresh_html_cache(now)
+
+        HTML_FILE.write(events)
+
+    start_ts = now.delta(minutes=-30).timestamp()
+    end_ts = now.delta(minutes=30).timestamp()
+
+    return [
+        CNTREvent(**v)
+        for k, v in events.items()
+        if k not in cached_keys and start_ts <= v["event_ts"] <= end_ts
+    ]
+
+
 async def scrape() -> None:
-    if cached_urls := CACHE_FILE.load():
-        urls.update({k: v for k, v in cached_urls.items() if v["source"]})
+    cached_urls = CACHE_FILE.load()
 
-        log.info(f"Loaded {len(urls)} event(s) from cache")
+    valid_urls = {k: v for k, v in cached_urls.items() if v["source"]}
 
-        return
+    valid_count = cached_count = len(valid_urls)
+
+    urls.update(valid_urls)
+
+    log.info(f"Loaded {cached_count} event(s) from cache")
 
     log.info(f'Scraping from "{BASE_URL}"')
 
-    if events := await get_events():
-        log.info(f"Processing {len(events)} URL(s)")
+    if events := await get_events(cached_urls.keys()):
+        log.info(f"Processing {len(events)} new URL(s)")
 
         for i, ev in enumerate(events, start=1):
             handler = partial(
@@ -150,7 +182,7 @@ async def scrape() -> None:
                 "source": source,
                 "logo": logo,
                 "refer": ALT_BASE,
-                "timestamp": ev.timestamp,
+                "timestamp": ev.event_ts,
                 "tvg-id": tvg_id or "Live.Event.us",
                 "link": ev.link,
             }
@@ -158,11 +190,13 @@ async def scrape() -> None:
             cached_urls[key] = entry
 
             if source:
+                valid_count += 1
+
                 urls[key] = entry
 
-        log.info(f"Collected and cached {len(urls)} event(s)")
+        log.info(f"Collected and cached {valid_count - cached_count} new event(s)")
 
     else:
-        log.info("No events found")
+        log.info("No new events found")
 
     CACHE_FILE.write(cached_urls)

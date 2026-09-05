@@ -26,6 +26,7 @@ BASE_URL = "https://embedsport.live/"
 class EMBDEvent(Event):
     link: str | None = None
     event_id: str
+    event_ts: int | float
 
 
 async def process_event(url_num: int, event_id: str) -> str | None:
@@ -51,7 +52,7 @@ async def process_event(url_num: int, event_id: str) -> str | None:
     return match[1]
 
 
-async def refresh_html_cache() -> dict[str, dict[str, str | float]]:
+async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
     events = {}
 
     if not (html_data := await network.request(BASE_URL, log=log)):
@@ -79,6 +80,9 @@ async def refresh_html_cache() -> dict[str, dict[str, str | float]]:
 
         event_dt = Time.from_ts(int(event_ts))
 
+        if event_dt.date() != now.date():
+            continue
+
         name = card.css_first(".leading-tight").text(strip=True)
 
         key = f"[{sport}] {name} ({TAG})"
@@ -93,8 +97,9 @@ async def refresh_html_cache() -> dict[str, dict[str, str | float]]:
         events[key] = {
             "sport": sport,
             "name": name,
-            "event_ts": event_dt.timestamp(),
             "event_id": event_id,
+            "event_ts": event_dt.timestamp(),
+            "timestamp": now.timestamp(),
         }
 
     return events
@@ -106,7 +111,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[EMBDEvent]:
     if not (events := HTML_FILE.load()):
         log.info("Refreshing HTML cache")
 
-        events = await refresh_html_cache()
+        events = await refresh_html_cache(now)
 
         HTML_FILE.write(events)
 
@@ -117,7 +122,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[EMBDEvent]:
         EMBDEvent(**v)
         for k, v in events.items()
         if k not in cached_keys
-        and (start_ts <= (event_ts := v.pop("event_ts")) <= end_ts or event_ts == 0)
+        and (start_ts <= (event_ts := v["event_ts"]) <= end_ts or event_ts == 0)
     ]
 
 
@@ -136,8 +141,6 @@ async def scrape() -> None:
 
     if events := await get_events(cached_urls.keys()):
         log.info(f"Processing {len(events)} new URL(s)")
-
-        now = Time.rn()
 
         for i, ev in enumerate(events, start=1):
             handler = partial(
@@ -161,7 +164,7 @@ async def scrape() -> None:
                 "source": source,
                 "logo": logo,
                 "refer": BASE_URL,
-                "timestamp": now.timestamp(),
+                "timestamp": ev.event_ts,
                 "tvg-id": tvg_id or "Live.Event.us",
             }
 
