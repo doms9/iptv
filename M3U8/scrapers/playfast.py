@@ -120,7 +120,7 @@ async def scrape(browser: Browser) -> None:
                     entry = {
                         "source": source,
                         "logo": logo,
-                        "refer": "https://forgemindly.com",
+                        "refer": "https://forgemindly.com/",
                         "timestamp": ev.timestamp,
                         "tvg-id": tvg_id or "Live.Event.us",
                         "link": ev.link,
