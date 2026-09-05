@@ -14,9 +14,11 @@ urls: dict[str, dict[str, str | float]] = {}
 
 TAG = "STRMHUB"
 
-CACHE_FILE = Cache(TAG, exp=10_800)
+CACHE_FILE = Cache(TAG, exp=16_200)
 
-BASE_URL = "https://intelsportz.pro"
+HTML_FILE = Cache(f"{TAG}-html", exp=28_800)
+
+BASE_URL = "https://intelsportz.pro/"
 
 
 async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
@@ -58,43 +60,79 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
     return json.loads(match[1]), ifr_2_src
 
 
-async def get_events(cached_keys: KeysView[str]) -> list[Event]:
-    events: list[Event] = []
+async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
+    events = {}
 
-    if not (html_data := await network.request(BASE_URL, log=log)):
+    if not (
+        html_data := await network.request(
+            BASE_URL,
+            params={"date": f"{now:%Y-%m-%d}"},
+            log=log,
+        )
+    ):
         return events
 
     soup = HTMLParser(html_data.content)
 
-    for card in soup.css(".live-card"):
-        if not (href := card.attributes.get("href")):
+    for card in soup.css(".league-block"):
+        if not (sport_elem := card.css_first(".league-name")):
             continue
 
-        elif not (team_elems := card.css(".live-team-name")):
-            continue
+        sport = sport_elem.text(strip=True)
 
-        sport = "".join(
-            x for x in card.css_first(".live-league").text(strip=True) if x.isascii()
-        ).lstrip()
+        for match in card.css(".match-row"):
+            if not (time_elem := match.css_first(".time > span.countdown")):
+                continue
 
-        event_name = (
-            "".join(x.text(strip=True) for x in team_elems)
-            if len(team_elems) == 1
-            else " vs ".join(x.text(strip=True) for x in team_elems)
-        )
+            elif not (event_ts := time_elem.attributes.get("data-start")):
+                continue
 
-        if f"[{sport}] {event_name} ({TAG})" in cached_keys:
-            continue
+            if not (watch_btn := match.css_first("a.watch-live")):
+                continue
 
-        events.append(
-            Event(
-                sport=sport,
-                name=event_name,
-                link=urljoin(BASE_URL, href),
-            )
-        )
+            elif not (href := watch_btn.attributes.get("href")):
+                continue
+
+            if not (team_elem := match.css(".team")):
+                continue
+
+            if match.css_first(".score").text(strip=True).lower() == "scheduled":
+                event_name = team_elem[0].text(strip=True)
+
+            else:
+                event_name = " vs ".join(i.text(strip=True) for i in team_elem)
+
+            key = f"[{sport}] {event_name} ({TAG})"
+
+            events[key] = {
+                "sport": sport,
+                "name": event_name,
+                "link": urljoin(BASE_URL, href),
+                "event_ts": int(event_ts),
+                "timestamp": now.timestamp(),
+            }
 
     return events
+
+
+async def get_events(cached_keys: KeysView[str]) -> list[Event]:
+    now = Time.rn()
+
+    if not (events := HTML_FILE.load()):
+        log.info("Refreshing HTML cache")
+
+        events = await refresh_html_cache(now)
+
+        HTML_FILE.write(events)
+
+    start_ts = now.delta(minutes=-30).timestamp()
+    end_ts = now.delta(minutes=30).timestamp()
+
+    return [
+        Event(**v)
+        for k, v in events.items()
+        if k not in cached_keys and start_ts <= v["event_ts"] <= end_ts
+    ]
 
 
 async def scrape() -> None:
@@ -112,8 +150,6 @@ async def scrape() -> None:
 
     if events := await get_events(cached_urls.keys()):
         log.info(f"Processing {len(events)} new URL(s)")
-
-        now = Time.rn()
 
         for i, ev in enumerate(events, start=1):
             handler = partial(
@@ -138,7 +174,7 @@ async def scrape() -> None:
                 "source": source,
                 "logo": logo,
                 "refer": iframe,
-                "timestamp": now.timestamp(),
+                "timestamp": ev.event_ts,
                 "tvg-id": tvg_id or "Live.Event.us",
                 "link": ev.link,
             }

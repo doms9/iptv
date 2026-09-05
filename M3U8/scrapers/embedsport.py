@@ -26,7 +26,6 @@ BASE_URL = "https://embedsport.live/"
 class EMBDEvent(Event):
     link: str | None = None
     event_id: str
-    event_ts: int | float
 
 
 async def process_event(url_num: int, event_id: str) -> str | None:

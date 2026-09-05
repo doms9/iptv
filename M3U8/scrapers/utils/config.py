@@ -11,6 +11,7 @@ class Event:
     sport: str
     name: str | None = None
     link: str
+    event_ts: float | None = None
     timestamp: float | None = None
 
 

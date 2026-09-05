@@ -1,5 +1,4 @@
 from collections.abc import KeysView
-from dataclasses import dataclass
 from functools import partial
 from urllib.parse import parse_qsl, urljoin, urlsplit
 
@@ -20,11 +19,6 @@ HTML_FILE = Cache(f"{TAG}-html", exp=28_800)
 BASE_URL = "https://streamecenter.live"
 
 ALT_BASE = "https://streame.center"
-
-
-@dataclass(kw_only=True, slots=True)
-class CNTREvent(Event):
-    event_ts: int | float
 
 
 def cleanup(s: str) -> str:
@@ -124,7 +118,7 @@ async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
     return events
 
 
-async def get_events(cached_keys: KeysView[str]) -> list[CNTREvent]:
+async def get_events(cached_keys: KeysView[str]) -> list[Event]:
     now = Time.rn()
 
     if not (events := HTML_FILE.load()):
@@ -138,7 +132,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[CNTREvent]:
     end_ts = now.delta(minutes=30).timestamp()
 
     return [
-        CNTREvent(**v)
+        Event(**v)
         for k, v in events.items()
         if k not in cached_keys and start_ts <= v["event_ts"] <= end_ts
     ]
