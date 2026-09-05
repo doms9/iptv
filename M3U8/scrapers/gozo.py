@@ -5,7 +5,7 @@ from collections.abc import KeysView
 from functools import partial
 from urllib.parse import urljoin
 
-from selectolax.parser import HTMLParser
+from selectolax.lexbor import LexborHTMLParser as HTMLParser
 
 from .utils import Cache, Event, Time, get_logger, leagues, network
 
@@ -66,7 +66,7 @@ def decrypt(enc: str, xor_key: int, num_list: list[int]) -> str | None:
 async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
     nones = None, None
 
-    if not (html_data := await network.request(url, log=log)):
+    if not (html_data := await network.request(url, url_num, log=log)):
         return nones
 
     soup = HTMLParser(html_data.content)
@@ -80,6 +80,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
     if not (
         iframe_src_data := await network.request(
             iframe_src,
+            url_num,
             headers={"Referer": url},
             log=log,
         )
