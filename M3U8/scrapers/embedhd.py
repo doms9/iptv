@@ -25,7 +25,7 @@ def fix_league(s: str) -> str:
 
     i = splits[0]
 
-    return f"{i.upper() if len(i) < 4 else i.capitalize()} {' '.join(x.capitalize() for x in splits[1:])}".strip()
+    return f"{i.upper() if len(i) <= 5 else i.capitalize()} {' '.join(x.capitalize() for x in splits[1:])}".strip()
 
 
 async def process_event(
@@ -182,7 +182,7 @@ async def scrape(browser: Browser) -> None:
                     entry = {
                         "source": source,
                         "logo": logo,
-                        "refer": "https://exposestrat.com",
+                        "refer": "https://forgemindly.com",
                         "timestamp": ev.timestamp,
                         "tvg-id": tvg_id or "Live.Event.us",
                         "link": ev.link,
