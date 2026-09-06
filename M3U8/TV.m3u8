@@ -144,7 +144,7 @@ https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlis
 
 #EXTINF:-1 tvg-chno="44" tvg-id="CNN.HD.us2" tvg-name="CNN" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58646_dark_360w_270h.png" group-title="TV",CNN
 #EXTVLCOPT:http-referrer=https://usnewson.com/watch/cnn-live
-https://p13.usnlive.com/stream/cnn.m3u8
+https://p10.usnlive.com/stream/cnn.m3u8
 
 #EXTINF:-1 tvg-chno="45" tvg-id="CNN.International.us2" tvg-name="CNN International" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10146_dark_360w_270h.png" group-title="TV",CNN International
 https://jmp2.uk/stvp-GBBD8000016N
@@ -267,7 +267,7 @@ https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="80" tvg-id="Fox.News.Channel.HD.us2" tvg-name="Fox News" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16374_dark_360w_270h.png" group-title="TV",Fox News
 #EXTVLCOPT:http-referrer=https://usnewson.com/watch/fox-news-live
-https://p13.usnlive.com/stream/foxnews.m3u8
+https://p10.usnlive.com/stream/foxnews.m3u8
 
 #EXTINF:-1 tvg-chno="81" tvg-id="Fox.Soccer.Plus.HD.us2" tvg-name="Fox Soccer Plus" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s66879_dark_360w_270h.png" group-title="TV",Fox Soccer Plus
 #EXTVLCOPT:http-referrer=https://hamis.romponalis.st/premiumtv/daddy3.php?id=756
@@ -421,7 +421,7 @@ http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8
 
 #EXTINF:-1 tvg-chno="124" tvg-id="MS.NOW.HD.us2" tvg-name="MS NOW" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002H5PTP.png_dark_360w_270h.png" group-title="TV",MS NOW
 #EXTVLCOPT:http-referrer=https://usnewson.com/watch/msnbc-live
-https://p13.usnlive.com/stream/msnbc.m3u8
+https://p10.usnlive.com/stream/msnbc.m3u8
 
 #EXTINF:-1 tvg-chno="125" tvg-id="MSG.National.us2" tvg-name="MSG" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10979_dark_360w_270h.png" group-title="TV",MSG
 http://23.237.104.106:8080/USA_MSG/index.m3u8
