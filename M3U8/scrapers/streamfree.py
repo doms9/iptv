@@ -129,7 +129,8 @@ async def get_events(cached_keys: list[str]) -> list[STFEvent]:
 
         API_FILE.write(api_data)
 
-    start_dt = now.delta(hours=-3)
+    start_ts = now.delta(hours=-3).timestamp()
+    now_ts = now.timestamp()
 
     for stream_info in api_data.get("streams", []):
         if not all(
@@ -151,9 +152,7 @@ async def get_events(cached_keys: list[str]) -> list[STFEvent]:
         if f"[{sport}] {name} ({TAG})" in cached_keys:
             continue
 
-        event_dt = Time.from_ts(event_time)
-
-        if not start_dt <= event_dt <= now:
+        if not start_ts <= (event_time + 1800) <= now_ts:
             continue
 
         events.append(
@@ -163,7 +162,7 @@ async def get_events(cached_keys: list[str]) -> list[STFEvent]:
                 category=category,
                 stream_key=quote(stream_key),
                 logo=stream_info.get("thumbnail_url"),
-                timestamp=now.timestamp(),
+                timestamp=now_ts,
             )
         )
 
