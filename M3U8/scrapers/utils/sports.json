@@ -353,7 +353,7 @@
       {
         "NASCAR": {
           "logo": "https://logos-world.net/wp-content/uploads/2021/09/NASCAR-Logo.png",
-          "aliases": ["NASCAR CUP SERIES"]
+          "aliases": ["NASCAR CANADA SERIES", "NASCAR CUP SERIES"]
         }
       },
       {
@@ -361,6 +361,7 @@
           "logo": null,
           "aliases": [
             "DIRTVISION",
+            "FIA RACING",
             "FLORACING",
             "FORMULA ONE/TWO/TREE",
             "LA VUELTA A ESPAÑA",
@@ -679,6 +680,12 @@
         "CAF CHAMPIONS LEAGUE": {
           "logo": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2391.png",
           "aliases": ["AFRICA CAF CHAMPIONS LEAGUE"]
+        }
+      },
+      {
+        "CAF CONFEDERATION CUP": {
+          "logo": "https://static.wikia.nocookie.net/logopedia/images/9/97/CAFCCOr.png/revision/latest",
+          "aliases": ["AFRICA CAF CONFEDERATION CUP"]
         }
       },
       {
@@ -2114,6 +2121,7 @@
             "CONCACAF U20 CHAMPIONSHIP",
             "COPA MUNDIAL FEMENINA",
             "COPA MUNDIAL FEMENINA SUB-20",
+            "COPA MUNDIAL SUB-20 (F)",
             "ENGLISH PREMIER LEAGUE U18",
             "ENGLISH PREMIER LEAGUE U21",
             "FOOTBALL",
