@@ -5,6 +5,8 @@ from functools import partial
 from typing import Any
 from urllib.parse import quote, urlencode, urljoin
 
+import httpx
+
 from .utils import Cache, Event, Time, get_logger, leagues, network
 
 log = get_logger(__name__)
@@ -86,6 +88,7 @@ async def process_event(
             urljoin(BASE_URL, f"embed/{category}/{stream_key}{num}"),
             url_num,
             params={"quality": qual, "category": category},
+            timeout=httpx.Timeout(25.0),
             log=log,
         )
     ):
