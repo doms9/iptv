@@ -20,11 +20,11 @@ BASE_URL = "https://xyzstreams.st/"
 SPORT_URLS = {
     sport: urljoin(BASE_URL, endpoint)
     for sport, endpoint in {
-        "MLB": "mlbplayer",
-        "WNBA": "wnba",
+        "MLB": "mlb",
+        # "WNBA": "wnba",
         # "NBA",
         # "NHL",
-        "NFL": "nflembed",
+        # "NFL": "nflembed",
     }.items()
 }
 
@@ -33,8 +33,8 @@ API_URLS = [
     for sport in [
         "baseball/mlb",
         # "basketball/nba",
-        "basketball/wnba",
-        "football/nfl",
+        # "basketball/wnba",
+        # "football/nfl",
         # "hockey/nhl",
     ]
 ]
@@ -86,22 +86,22 @@ async def get_sports_map() -> dict[str, dict[str, dict[str, str]]]:
     replaces = {
         "MLB": {
             "CWS": "CHW",
-            "OAK": "ATH",
+            # "OAK": "ATH",
             "AZ": "ARI",
             # "WAS": "WSH",
         },
-        "WNBA": {
-            "GSV": "GS",
-            "LVA": "LV",
-            "LAS": "LA",
-            "NYL": "NY",
-            "PHO": "PHX",
-            "PDX": "POR",
-            "WAS": "WSH",
-        },
-        "NFL": {
-            "WAS": "WSH",
-        },
+        # "WNBA": {
+        #     "GSV": "GS",
+        #     "LVA": "LV",
+        #     "LAS": "LA",
+        #     "NYL": "NY",
+        #     "PHO": "PHX",
+        #     "PDX": "POR",
+        #     "WAS": "WSH",
+        # },
+        # "NFL": {
+        #     "WAS": "WSH",
+        # },
     }
 
     ptrn = re.compile(r"M3U8_CHANNELS_MAP\s*=\s*\{(.*?)\};", re.S)

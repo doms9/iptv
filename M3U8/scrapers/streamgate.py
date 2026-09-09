@@ -47,25 +47,31 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
     if not (event_data := await network.request(url, url_num, log=log)):
         return nones
 
-    soup = HTMLParser(event_data.content)
+    if re.search(r"^https?://instreams?", url.lower()):
+        ifr_src, ifr_src_data_text = url, event_data.text
 
-    ifr = soup.css_first("iframe")
+    else:
+        soup = HTMLParser(event_data.content)
 
-    if not ifr or not (src := ifr.attributes.get("src")):
-        log.warning(f"URL {url_num}) No iframe element found.")
-        return nones
+        ifr = soup.css_first("iframe")
 
-    ifr_src = network.ensure_https(src)
+        if not ifr or not (src := ifr.attributes.get("src")):
+            log.warning(f"URL {url_num}) No iframe element found.")
+            return nones
 
-    if not (
-        ifr_src_data := await network.request(
-            ifr_src,
-            url_num,
-            headers={"Referer": url},
-            log=log,
-        )
-    ):
-        return nones
+        ifr_src = network.ensure_https(src)
+
+        if not (
+            ifr_src_data := await network.request(
+                ifr_src,
+                url_num,
+                headers={"Referer": url},
+                log=log,
+            )
+        ):
+            return nones
+
+        ifr_src_data_text = ifr_src_data.text
 
     valid_m3u8 = re.compile(
         r"(file|source|streamUrl)\s*(:|=)\s+(\'|\")([^\"]*)(\'|\")",
@@ -74,11 +80,11 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
 
     valid_m3u8_2 = re.compile(r"streamUrls?\s?=\s?\[\s*[\"\']([^\"\']+)[\"\']", re.I)
 
-    if match := valid_m3u8.search(ifr_src_data.text):
+    if match := valid_m3u8.search(ifr_src_data_text):
         log.info(f"URL {url_num}) Captured M3U8")
         return json.loads(f'"{match[4]}"'), ifr_src
 
-    elif match := valid_m3u8_2.search(ifr_src_data.text):
+    elif match := valid_m3u8_2.search(ifr_src_data_text):
         log.info(f"URL {url_num}) Captured M3U8")
         return json.loads(f'"{match[1]}"'), ifr_src
 
