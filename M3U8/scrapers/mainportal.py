@@ -21,7 +21,7 @@ API_URLS = {
     for sport in [
         "MLB",
         # "NBA",
-        # "NFL",
+        "NFL",
         # "NHL",
     ]
 }
