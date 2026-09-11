@@ -78,7 +78,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         re.I,
     )
 
-    valid_m3u8_2 = re.compile(r"streamUrls?\s?=\s?\[\s*[\"\']([^\"\']+)[\"\']", re.I)
+    valid_m3u8_2 = re.compile(r"0x31c4?\s?=\s?\[\s*[\"']([^\"']+)[\"']", re.I)
 
     if match := valid_m3u8.search(ifr_src_data_text):
         log.info(f"URL {url_num}) Captured M3U8")
