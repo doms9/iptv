@@ -147,7 +147,7 @@ http://23.237.104.106:8080/USA_CMT/index.m3u8
 
 #EXTINF:-1 tvg-chno="45" tvg-id="CNBC.HD.us2" tvg-name="CNBC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/cnbc-us.png" group-title="TV",CNBC
 #EXTVLCOPT:http-referrer=https://www.newslive.com/
-https://stream.livenewsplay.com:9555/hls/cnbcsd/index.m3u8?token=e8056deafb9c691ec47297319225d874&expires=1789214449&sig=e6a8ade4bad668c8fb3f11269e2125e60c185f8a9cfb823b4a85792f5b0513df
+https://stream.livenewsplay.com:9555/hls/cnbcsd/index.m3u8?token=d0e056b6b92f9e830b0b19aa2e2fbc23&expires=1789236044&sig=d894de291974e69cd513d0861a1e8893f6ce1952c768d9185fdedde27129dcf3
 
 #EXTINF:-1 tvg-chno="46" tvg-id="CNBC.World.us2" tvg-name="CNBC World" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/cnbc-world-us.png" group-title="TV",CNBC World
 https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8
@@ -304,7 +304,7 @@ https://xameleon.phantemlis.top/five/secure/6edd239b16d0c6d3d967ccc1b3051efc/178
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cbe68/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNiZTY4OjE3ODkxNzY2MzMzNjc6Y2RubGl2ZXR2LnR2OmM5MjQ5ZTBiZDI5NDQ1ODMuZDllZWM4M2I0YmYwMDc2NTU4YzgzM2JiOGIzYzM0NWNjYzc1MWIxMjM3NWVhZGRlNDlkNTZjM2Y0NGFmMTYzMQ
 
 #EXTINF:-1 tvg-chno="90" tvg-id="FS1.HD.us2" tvg-name="Fox Sports 1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82541_dark_360w_270h.png" group-title="TV",Fox Sports 1
-http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
+http://190.11.225.124:5000/live/fs1_hd/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="91" tvg-id="FS2.HD.us2" tvg-name="Fox Sports 2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33178_dark_360w_270h.png" group-title="TV",Fox Sports 2
 https://tvsen7.aynascope.net/foxsports2/index.m3u8
