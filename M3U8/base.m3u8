@@ -147,7 +147,7 @@ http://23.237.104.106:8080/USA_CMT/index.m3u8
 
 #EXTINF:-1 tvg-chno="45" tvg-id="CNBC.HD.us2" tvg-name="CNBC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/cnbc-us.png" group-title="TV",CNBC
 #EXTVLCOPT:http-referrer=https://www.newslive.com/
-https://stream.livenewsplay.com:9555/hls/cnbcsd/index.m3u8?token=d0e056b6b92f9e830b0b19aa2e2fbc23&expires=1789236044&sig=d894de291974e69cd513d0861a1e8893f6ce1952c768d9185fdedde27129dcf3
+https://stream.livenewsplay.com:9555/hls/cnbcsd/index.m3u8?token=bc8729ddfe255c5f54d45e9713bae340&expires=1789246908&sig=13bb99c6a269547952c550da341c50fa33ed771317f021ec5e128e9ccb725c57
 
 #EXTINF:-1 tvg-chno="46" tvg-id="CNBC.World.us2" tvg-name="CNBC World" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/cnbc-world-us.png" group-title="TV",CNBC World
 https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8
