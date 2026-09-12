@@ -55,7 +55,7 @@ class Network:
 
         easylist = easylist_file.read_text(encoding="utf-8")
 
-        if Time.rn().timestamp() - easylist_file.stat().st_mtime > 172_800:
+        if Time.rn().timestamp() - easylist_file.stat().st_mtime > 172_500:
             logger.info("Updating EasyList file")
 
             if r := await self.request(

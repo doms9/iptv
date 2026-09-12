@@ -118,7 +118,7 @@ async def main() -> None:
             pw_tasks = [
                 asyncio.create_task(embedhd.scrape(hdl_brwsr)),
                 asyncio.create_task(playfast.scrape(hdl_brwsr)),
-                asyncio.create_task(sportspass.scrape(xtrnl_brwsr)),
+                # asyncio.create_task(sportspass.scrape(xtrnl_brwsr)),
                 asyncio.create_task(watchfooty.scrape(xtrnl_brwsr)),
             ]
 
