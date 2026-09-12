@@ -22,7 +22,7 @@ def fix_name(n: str) -> str:
     return " ".join(
         (
             i.upper()
-            if len(i) <= 4 and i.lower() != "vs"
+            if len(i) <= 3 and i.lower() != "vs"
             else i.capitalize().replace("Vs", "vs")
         )
         for i in n.split("-")

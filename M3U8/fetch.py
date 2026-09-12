@@ -83,7 +83,7 @@ def base_to_kodi(base_m3u8: list[str]) -> list[str]:
 
             parsed_opts[parsed_key] = quote(val)
 
-        if re.search("^https?", line, re.I):
+        if line.startswith("http"):
             url = line
 
             if parsed_opts:
