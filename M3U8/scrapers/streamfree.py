@@ -1,5 +1,6 @@
 import json
 import re
+from collections.abc import KeysView
 from dataclasses import dataclass
 from functools import partial
 from typing import Any
@@ -112,7 +113,7 @@ async def process_event(
     )
 
 
-async def get_events(cached_keys: list[str]) -> list[STFEvent]:
+async def get_events(cached_keys: KeysView[str]) -> list[STFEvent]:
     now = Time.rn()
 
     events: list[STFEvent] = []
