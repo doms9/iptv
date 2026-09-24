@@ -36,6 +36,8 @@
             "BASKETBALL EUROBASKET QUALIFICATION",
             "BASKETBALL EUROLEAGUE SUPER CUP",
             "BASKETBALL FRIENDLY",
+            "BASKETBALL INTERCONTINENTAL CUP",
+            "BASKETBALL NBL",
             "BASKETBALL WORLD CUP",
             "BASKETBALL WORLD CUP QUALIFICATION",
             "CEBL",
@@ -353,9 +355,9 @@
         "F1": {
           "logo": "https://1000logos.net/wp-content/uploads/2021/06/F1-logo-500x281.png",
           "aliases": [
+            "F1 | GP DE AZERBAIYÁN",
             "F1 | GP DE ITALIA",
             "FIA FORMULA 1",
-            "FIA FORMULA 2",
             "FORMULA 1",
             "FORMULA 1 GP",
             "FORMULA ONE",
@@ -367,6 +369,8 @@
         "F2": {
           "logo": "https://r2.thesportsdb.com/images/media/league/badgearchive/q5o1b81768918140.png",
           "aliases": [
+            "F2 BAKU",
+            "F2 BAKÚ",
             "FIA FORMULA 2",
             "FIA FORMULA TWO",
             "FORMULA 2",
@@ -521,7 +525,14 @@
       {
         "AFRICA CUP OF NATIONS": {
           "logo": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/76.png",
-          "aliases": ["AFCON"]
+          "aliases": [
+            "AFCON",
+            "AFRICA CUP OF NATIONS QUALIFICATION",
+            "AFRICA CUP OF NATIONS QUALIFYING",
+            "CLASIFICACION PARA LA COPA AFRICANA DE NACIONES",
+            "CLASIFICACIÓN PARA LA COPA AFRICANA DE NACIONES",
+            "COPA AFRICANA DE NACIONES"
+          ]
         }
       },
       {
@@ -540,6 +551,12 @@
             "SWEDEN WOMEN ALLSVENSKAN",
             "SWEDISH ALLSVENSKAN"
           ]
+        }
+      },
+      {
+        "ARABIAN GULF CUP": {
+          "logo": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/0e/Khaleeji_Zain_26_logo.png/250px-Khaleeji_Zain_26_logo.png",
+          "aliases": ["GULF CUP"]
         }
       },
       {
@@ -827,13 +844,13 @@
         "COLOMBIA PRIMERA B": {
           "logo": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2295.png",
           "aliases": [
+            "BETPLAY DIMAYOR",
             "CATEGORIA PRIMERA B",
             "CATEGORÍA PRIMERA B",
             "COLOMBIA - PRIMERA B",
             "COLOMBIA PRIMERA B",
             "COLOMBIAN PRIMERA B",
             "PRIMERA B",
-            "TORNEO BETPLAY DIMAYOR",
             "TORNEO DIMAYOR"
           ]
         }
@@ -892,6 +909,17 @@
             "CONCACAF LEAGUES CUP",
             "LEAGUES CUP",
             "NORTH AMERICA LEAGUES CUP"
+          ]
+        }
+      },
+      {
+        "CONCACAF NATIONS LEAGUE": {
+          "logo": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2406.png",
+          "aliases": [
+            "CONCACAF NATIONS",
+            "LIGA DE NACIONES CONCACAF",
+            "LIGA DE NACIONES DE LA CONCACAF",
+            "LIGUE DES NATIONS DE LA CONCACAF"
           ]
         }
       },
@@ -2250,6 +2278,7 @@
             "ENGLISH PREMIER LEAGUE II",
             "ENGLISH PREMIER LEAGUE U18",
             "ENGLISH PREMIER LEAGUE U21",
+            "FIFA INTERNATIONAL FRIENDLY",
             "FOOTBALL",
             "FOOTBALL ASIAN GAMES",
             "FRIENDLY INTERNATIONAL",
@@ -2261,6 +2290,7 @@
             "NORTH AMERICA CONCACAF U20 CHAMPIONSHIP",
             "PARTIDO AMISTOSO",
             "PREMIER LEAGUE 2",
+            "TORNEO DE RESERVA",
             "U18 EUROPEAN CHAMPIONSHIP",
             "UEFA YOUTH LEAGUE",
             "UEFA YOUTH LEAGUE SUB-19",
@@ -2505,7 +2535,13 @@
       {
         "UEFA NATIONS LEAGUE": {
           "logo": "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2395.png",
-          "aliases": ["NATIONS LEAGUE", "UEFA NATIONS"]
+          "aliases": [
+            "LIGA DE NACIONES",
+            "LIGA DE NACIONES DE LA UEFA",
+            "LIGA DE NACIONES UEFA",
+            "LIGUE DES NATIONS DE LA UEFA",
+            "UEFA NATIONS"
+          ]
         }
       },
       {
@@ -2661,7 +2697,8 @@
             "MASTERS 1000",
             "TENNIS ATP",
             "TENNIS MASTERS",
-            "TENNIS WTA"
+            "TENNIS WTA",
+            "WTA"
           ]
         }
       },
