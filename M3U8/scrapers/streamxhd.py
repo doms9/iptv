@@ -15,7 +15,7 @@ TAG = "STRMXHD"
 
 CACHE_FILE = Cache(TAG, exp=19_800)
 
-BASE_URL = "https://stream-xhd.com"
+BASE_URL = "https://streamxhd.com"
 
 
 async def process_event(url: str, url_num: int) -> str | None:

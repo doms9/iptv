@@ -21,9 +21,11 @@ def fix_sport(s: str) -> str:
     return s.upper() if len(s) <= 4 else s.capitalize()
 
 
-async def process_event(url: str, url_num: int) -> str | None:
+async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
+    nones = None, None
+
     if not (html_data := await network.request(url, url_num, log=log)):
-        return
+        return nones
 
     soup = HTMLParser(html_data.content)
 
@@ -31,7 +33,7 @@ async def process_event(url: str, url_num: int) -> str | None:
 
     if not ifr or not (src := ifr.attributes.get("src")):
         log.warning(f"URL {url_num}) No iframe element found")
-        return
+        return nones
 
     elif not (
         ifr_src_data := await network.request(
@@ -41,17 +43,17 @@ async def process_event(url: str, url_num: int) -> str | None:
             log=log,
         )
     ):
-        return
+        return nones
 
     ptrn = re.compile(r'var\s?sourceurl\s?=\s?"(.*)";', re.I)
 
     if not (match := ptrn.search(ifr_src_data.text)):
         log.warning(f"URL {url_num}) No source url found.")
-        return
+        return nones
 
     log.info(f"URL {url_num}) Captured M3U8")
 
-    return match[1]
+    return match[1], src
 
 
 async def get_events() -> list[Event]:
@@ -111,9 +113,10 @@ async def scrape() -> None:
                 url_num=i,
             )
 
-            source = await network.safe_process(
+            source, iframe = await network.safe_process(
                 handler,
                 url_num=i,
+                timeout_return=(None, None),
                 semaphore=network.HTTP_S,
                 log=log,
             )
@@ -125,12 +128,12 @@ async def scrape() -> None:
             entry = {
                 "source": source,
                 "logo": logo,
-                "refer": ev.link,
+                "refer": iframe,
                 "timestamp": now.timestamp(),
                 "tvg-id": tvg_id or "Live.Event.us",
             }
 
-            cached_urls[key]
+            cached_urls[key] = entry
 
             if source:
                 urls[key] = entry
