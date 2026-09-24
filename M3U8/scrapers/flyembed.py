@@ -20,6 +20,10 @@ API_FILE = Cache(f"{TAG}-api", exp=19_800)
 API_URL = "https://ovogoal.cyou/api/v2/flyembed2.json"
 
 
+def cleanup(s: str) -> str:
+    return re.sub(r"(\r|\n)", "", s).strip()
+
+
 async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
     nones = None, None
 
@@ -128,6 +132,8 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
             continue
 
         name = f"{away.strip()} vs {home.strip()}"
+
+        sport, name = cleanup(sport), cleanup(name)
 
         if f"[{sport}] {name} ({TAG})" in cached_keys:
             continue
