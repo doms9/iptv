@@ -47,6 +47,7 @@ async def process_event(url: str, url_num: int) -> str | None:
         return
 
     log.info(f"URL {url_num}) Captured M3U8")
+
     return unquote(m3u)
 
 
@@ -94,7 +95,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
             "american-football",
             "baseball",
             # "basketball",
-            # "hockey",
+            "hockey",
         }:
             continue
 

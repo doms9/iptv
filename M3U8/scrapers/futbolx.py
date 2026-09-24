@@ -27,7 +27,7 @@ SPORT_URLS = [
         "football",
         # "golf",
         "motorsports",
-        # "nhl",
+        "nhl",
         "others",
         # "rugby",
         "tennis",

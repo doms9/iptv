@@ -19,7 +19,7 @@ CACHE_FILE = Cache(TAG, exp=12_600)
 BASE_URLS = {
     "MLB": {"base": "https://mlbwebcast.com", "api": "stream/check_stream.php"},
     "NFL": {"base": "https://nflwebcast.com", "api": "live/check_stream.php"},
-    # "NHL": {"base": "https://slapstreams.com", "api-check": ""},
+    "NHL": {"base": "https://slapstreams.com", "api": "stream/check_stream.php"},
 }
 
 

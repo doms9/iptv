@@ -22,7 +22,7 @@ API_URLS = {
         "MLB",
         # "NBA",
         "NFL",
-        # "NHL",
+        "NHL",
     ]
 }
 
