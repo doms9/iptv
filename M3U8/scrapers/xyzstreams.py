@@ -40,7 +40,12 @@ class XYZEvent(Event):
     logo: str | None = None
 
 
-def decrypt_token(secret: str, iv_h: str, token_h: str) -> str:
+def decrypt_token(
+    secret: str,
+    token_h: str,
+    iv_h: str,
+) -> str:
+
     key = hashlib.sha256(secret.encode("utf-8")).digest()
 
     iv = bytes.fromhex(iv_h)
@@ -92,8 +97,8 @@ async def process_event(url: str, url_num: int) -> str | None:
 
     raw_token = decrypt_token(
         base64.b64decode(KEY).decode("utf-8"),
-        token_iv,
         token,
+        token_iv,
     )
 
     log.info(f"URL {url_num}) Captured M3U8")
@@ -107,7 +112,10 @@ async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
     if not (html_data := await network.request(BASE_URL, log=log)):
         return events
 
-    ptrn = re.compile(r"(?:const|let|var)\s+EVENTS_DATA\s*=\s*(\[.*?\])\s*;", re.S)
+    ptrn = re.compile(
+        r"(?:const|let|var)\s+EVENTS_DATA\s*=\s*(\[.*?\])\s*;",
+        re.S | re.I,
+    )
 
     if not (match := ptrn.search(html_data.text)):
         log.warning('Failed to find "EVENTS_DATA" var.')
