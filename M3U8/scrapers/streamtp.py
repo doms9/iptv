@@ -1,4 +1,5 @@
-import json
+import ast
+import base64
 import re
 from collections import defaultdict
 from functools import partial
@@ -14,20 +15,46 @@ TAG = "STP"
 
 CACHE_FILE = Cache(TAG, exp=19_800)
 
-BASE_URL = "https://streamtp-golden1.click"
+BASE_URL = "https://streamx305.sbs"
 
 
 async def process_event(url: str, url_num: int) -> str | None:
-    if not (html_data := await network.request(url, url_num, log=log)):
+    if not (
+        event_data := await network.request(
+            url,
+            url_num,
+            headers={"Referer": BASE_URL},
+            log=log,
+        )
+    ):
         return
 
-    valid_m3u8 = re.compile(r'var\s+playbackURL\s+=\s+"([^"]*)"', re.I)
+    digit_func_ptrn = re.compile(r"{return\s+(\d*);}", re.I)
 
-    if not (match := valid_m3u8.search(html_data.text)):
-        log.warning(f"URL {url_num}) No M3U8 found")
+    if not (digit_list := digit_func_ptrn.findall(event_data.text)):
+        log.warning(f"URL {url_num}) Unable to decode url.")
         return
 
-    m3u8: str = json.loads(f'"{match[1]}"')
+    embed_list_ptrn = re.compile(
+        r"(\w+)\s*=\s*(\[\[.*?\]\])\s*;(?=\s*\1\.sort\()",
+        re.S,
+    )
+
+    if not (match := embed_list_ptrn.search(event_data.text)):
+        log.warning(f"URL {url_num}) Unable to decode url.")
+        return
+
+    embed_list_str = match[0].split("=", 1)[-1].strip(";")
+
+    embed_list: list[tuple[int, str]] = ast.literal_eval(embed_list_str)
+
+    m3u8 = "".join(
+        chr(
+            int("".join(c for c in base64.b64decode(v).decode("utf-8") if c.isdigit()))
+            - sum(map(int, digit_list[:2]))
+        )
+        for _, v in sorted(embed_list, key=lambda i: i[0])
+    )
 
     splits = urlsplit(m3u8)
 
@@ -39,11 +66,13 @@ async def process_event(url: str, url_num: int) -> str | None:
 
 
 async def get_events() -> list[Event]:
+    now = Time.rn()
+
     events: list[Event] = []
 
     if not (
         api_req := await network.request(
-            urljoin(BASE_URL, "eventos.json"),
+            urljoin(BASE_URL, "json/agenda550.json"),
             log=log,
         )
     ):
@@ -53,32 +82,34 @@ async def get_events() -> list[Event]:
 
     api_data: list[dict[str, str]] = api_req.json()
 
+    sport = "Live Event"
+
     for event_info in api_data:
         if not all(
             values := [
                 event_info.get(x)
                 for x in (
                     "title",
-                    "category",
                     "link",
+                    "date",
                 )
             ]
         ):
             continue
 
-        title, sport, link = values
+        title, link, event_date = values
 
-        if sport == "Other":
-            sport = "Live Event"
+        if event_date != f"{now.date()}":
+            continue
 
         if len(title_splits := title.split(":", 1)) > 1:
             sport, title = (i.strip() for i in title_splits[:2])
 
-        if not (url_splits := urlsplit(link)).query:
-            continue
+        # if not (url_splits := urlsplit(link)).query:
+        #     continue
 
-        elif not dict(parse_qsl(url_splits.query)).get("stream"):
-            continue
+        # elif not dict(parse_qsl(url_splits.query)).get("stream"):
+        #     continue
 
         name = (
             f"{title.split("|")[0].strip()} | {lang}"
@@ -93,6 +124,7 @@ async def get_events() -> list[Event]:
                 sport=sport,
                 name=f"{name} {counter[name]}",
                 link=link,
+                timestamp=now.timestamp(),
             )
         )
 
@@ -111,8 +143,6 @@ async def scrape() -> None:
 
     if events := await get_events():
         log.info(f"Processing {len(events)} URL(s)")
-
-        now = Time.rn()
 
         for i, ev in enumerate(events, start=1):
             handler = partial(
@@ -136,7 +166,7 @@ async def scrape() -> None:
                 "source": source,
                 "logo": logo,
                 "refer": ev.link,
-                "timestamp": now.timestamp(),
+                "timestamp": ev.timestamp,
                 "tvg-id": tvg_id or "Live.Event.us",
             }
 
