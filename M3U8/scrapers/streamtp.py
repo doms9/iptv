@@ -23,7 +23,12 @@ async def process_event(url: str, url_num: int) -> str | None:
         event_data := await network.request(
             url,
             url_num,
-            headers={"Referer": BASE_URL},
+            headers={
+                "Referer": BASE_URL,
+                "Sec-Fetch-Dest": "iframe",
+                "Sec-Fetch-Mode": "navigate",
+                "Sec-Fetch-Site": "same-origin",
+            },
             log=log,
         )
     ):

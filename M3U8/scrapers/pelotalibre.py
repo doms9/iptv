@@ -1,7 +1,7 @@
 import re
 from collections import defaultdict
 from functools import partial
-from urllib.parse import parse_qsl, urljoin, urlsplit, urlunsplit
+from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 
 from .utils import Cache, Event, Time, get_logger, leagues, network
 
@@ -26,9 +26,13 @@ async def process_event(url: str, url_num: int) -> str | None:
         log.warning(f"URL {url_num}) No M3U8 found")
         return
 
+    splits = urlsplit(match[1])
+
+    params = [(k, v) for k, v in parse_qsl(splits.query) if k.lower() != "ip"]
+
     log.info(f"URL {url_num}) Captured M3U8")
 
-    return match[1]
+    return urlunsplit(splits._replace(query=urlencode(params)))
 
 
 async def get_events() -> list[Event]:
@@ -85,7 +89,7 @@ async def get_events() -> list[Event]:
             Event(
                 sport=sport,
                 name=f"{name} {counter[name]}",
-                link=link,
+                link=link.strip(),
             )
         )
 
