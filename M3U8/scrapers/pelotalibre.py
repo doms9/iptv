@@ -65,8 +65,17 @@ async def get_events() -> list[Event]:
 
         title, sport, link = values
 
-        if len(title_splits := title.split(":", 1)) > 1:
-            sport, title = (i.strip() for i in title_splits[:2])
+        try:
+            sport, name = (
+                i.strip()
+                for i in re.split(
+                    r"[:–-]",
+                    title,
+                    maxsplit=1,
+                )
+            )
+        except ValueError:
+            sport, name = "Live Event", title
 
         if not (url_splits := urlsplit(link)).query:
             continue
@@ -78,9 +87,9 @@ async def get_events() -> list[Event]:
             link: str = urlunsplit(url_splits._replace(netloc=BASE_URL.split("/")[-1]))
 
         name = (
-            f"{title.split("|")[0].strip()} | {lang}"
+            f"{name.split("|")[0].strip()} | {lang}"
             if (lang := event_info.get("language", "").capitalize())
-            else f"{title.split("|")[0].strip()}"
+            else f"{name.split("|")[0].strip()}"
         )
 
         counter[name] += 1

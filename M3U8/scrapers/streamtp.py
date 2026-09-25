@@ -87,8 +87,6 @@ async def get_events() -> list[Event]:
 
     api_data: list[dict[str, str]] = api_req.json()
 
-    sport = "Live Event"
-
     for event_info in api_data:
         if not all(
             values := [
@@ -107,8 +105,17 @@ async def get_events() -> list[Event]:
         if event_date != f"{now.date()}":
             continue
 
-        if len(title_splits := title.split(":", 1)) > 1:
-            sport, title = (i.strip() for i in title_splits[:2])
+        try:
+            sport, name = (
+                i.strip()
+                for i in re.split(
+                    r"[:–-]",
+                    title,
+                    maxsplit=1,
+                )
+            )
+        except ValueError:
+            sport, name = "Live Event", title
 
         # if not (url_splits := urlsplit(link)).query:
         #     continue
@@ -117,9 +124,9 @@ async def get_events() -> list[Event]:
         #     continue
 
         name = (
-            f"{title.split("|")[0].strip()} | {lang}"
+            f"{name.split("|")[0].strip()} | {lang}"
             if (lang := event_info.get("language", "").capitalize())
-            else f"{title.split("|")[0].strip()}"
+            else f"{name.split("|")[0].strip()}"
         )
 
         counter[name] += 1
