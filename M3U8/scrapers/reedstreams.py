@@ -1,3 +1,4 @@
+import re
 from collections.abc import KeysView
 from dataclasses import dataclass
 from functools import partial
@@ -19,6 +20,10 @@ API_FILE = Cache(f"{TAG}-api", exp=28_800)
 BASE_DOMAIN = "reedstreams.link"
 
 
+def cleanup(s: str) -> str:
+    return re.sub(r"(\r|\n|\t)", "", s).strip()
+
+
 @dataclass(kw_only=True, slots=True)
 class REEDEvent(Event):
     logo: str | None = None
@@ -32,7 +37,7 @@ async def process_event(url: str, url_num: int) -> str | None:
         log.warning(f"URL {url_num}) No streams available")
         return
 
-    stream_urls: list[str | None] = [
+    stream_urls: list[str] = [
         stream.get("embedUrl") for stream in streams if stream.get("source") == "tnasty"
     ]
 
@@ -42,13 +47,16 @@ async def process_event(url: str, url_num: int) -> str | None:
 
     stream_url = stream_urls[0]
 
-    if not (m3u := dict(parse_qsl(urlsplit(stream_url).query)).get("url")):
-        log.warning(f"URL {url_num}) Failed to parse url")
-        return
+    if not (source := dict(parse_qsl(urlsplit(stream_url).query)).get("url")):
+        source = stream_url.rsplit("stream=", 1)[-1]
 
     log.info(f"URL {url_num}) Captured M3U8")
 
-    return unquote(m3u)
+    return (
+        unquote(source)
+        if source.startswith("http")
+        else network.ensure_https(f"//{source}")
+    )
 
 
 async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
@@ -71,7 +79,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
 
         API_FILE.write(api_data)
 
-    start_dt = now.delta(minutes=-30)
+    start_dt = now.delta(hours=-1)
     end_dt = now.delta(minutes=30)
 
     for event in api_data:
@@ -98,6 +106,8 @@ async def get_events(cached_keys: KeysView[str]) -> list[REEDEvent]:
             "hockey",
         }:
             continue
+
+        sport, name = cleanup(sport), cleanup(name)
 
         event_dt = Time.from_ts(event_ts := int(f"{start_ts}"[:-3]))
 

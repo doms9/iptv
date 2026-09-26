@@ -21,7 +21,7 @@ API_URL = "https://ovogoal.cyou/api/v2/flyembed2.json"
 
 
 def cleanup(s: str) -> str:
-    return re.sub(r"(\r|\n)", "", s).strip()
+    return re.sub(r"(\r|\n|\t)", "", s).strip()
 
 
 async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]:
