@@ -113,7 +113,7 @@ async def main() -> None:
             # xtrnl_brwsr = await network.browser(p, external=True)
 
             pw_tasks = [
-                # asyncio.create_task(sportspass.scrape(hdl_brwsr)),
+                asyncio.create_task(sportspass.scrape(hdl_brwsr)),
                 asyncio.create_task(watchfooty.scrape(hdl_brwsr)),
             ]
 
@@ -124,7 +124,7 @@ async def main() -> None:
                 asyncio.create_task(futbolx.scrape()),
                 asyncio.create_task(istreameast.scrape()),
                 asyncio.create_task(mainportal.scrape()),
-                # asyncio.create_task(ovostream.scrape()),
+                asyncio.create_task(ovostream.scrape()),
                 asyncio.create_task(pelotalibre.scrape()),
                 asyncio.create_task(reedstreams.scrape()),
                 asyncio.create_task(streamcenter.scrape()),
