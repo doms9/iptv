@@ -136,7 +136,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[STFEvent]:
 
         API_FILE.write(api_data)
 
-    start_ts = now.delta(hours=-3).timestamp()
+    start_ts = now.delta(hours=-2).timestamp()
     now_ts = now.timestamp()
 
     for stream_info in api_data.get("streams", []):
