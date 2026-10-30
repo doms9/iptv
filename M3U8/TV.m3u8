@@ -5,7 +5,7 @@ http://23.239.31.26:8989/aande/index.m3u8
 
 #EXTINF:-1 tvg-chno="2" tvg-id="WABC-DT.us_locals1" tvg-name="ABC" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10003_dark_360w_270h.png" group-title="TV",ABC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf6a/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjZhOjE3OTMzNzc4MDIxMDU6Y2RubGl2ZXR2LnR2OmIzMzYzMDRjYThkYmU3MzguZDQwZGY5NDQxNjYyNmZhM2JkZGY5YjU0NWZjZjliYjI0MWIxN2Q2NzMzYzc3MTI1Nzg4ZTc4ZWEyM2M0OWViYw
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf6a/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjZhOjE3OTMzODMyMDIyNDI6Y2RubGl2ZXR2LnR2OjM2NTc4NGUzOTdjNWMzZGQuYjhjNTU1YmE2OWYzZDIyN2FiOTE0NWY5ZTIzOWM5OGQ0NzJkNWRiNWRmNzZkMTQ3ZmIxMmViYjgyMjg3NjkwOQ
 
 #EXTINF:-1 tvg-chno="3" tvg-id="ABC.News.Live.us2" tvg-name="ABC News Live" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s113380_dark_360w_270h.png" group-title="TV",ABC News Live
 https://live-manifest.production-public.tubi.io/live/14e4f5f2-9787-4c49-8554-f2ad109764a7/playlist.m3u8
@@ -27,7 +27,7 @@ https://turnerlive.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_51
 
 #EXTINF:-1 tvg-chno="9" tvg-id="Altitude.Sports.us2" tvg-name="Altitude Sports" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44263_dark_360w_270h.png" group-title="TV",Altitude Sports
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ced8/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWQ4OjE3OTMzNzc4MDIzMDY6Y2RubGl2ZXR2LnR2OmVmMGViNDM3Mjg5OTE1YzkuZTZhNTVkY2NiMDNkNzJlMzg4M2JiZmYzZmU5YzQxODg3MDkyYzk1ZjYyYzg4MTRmZTI1MjY4Y2U0MGE1ZjIxNA
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ced8/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWQ4OjE3OTMzODMyMDI0NDE6Y2RubGl2ZXR2LnR2OjM1OTc1M2ViMTJhZmJjZGIuZWI3NTk2ZTZmNjk2N2I4YTJhMTk3ZThhMDM1NmFlMjZjYjA4NzUwYWFiNDA3MjA4NWJmZWJkZGRlYjIwNjUwZQ
 
 #EXTINF:-1 tvg-chno="10" tvg-id="AMC.HD.us2" tvg-name="AMC" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10021_dark_360w_270h.png" group-title="TV",AMC
 http://23.239.31.26:8989/amc/index.m3u8
@@ -55,7 +55,7 @@ https://bein-xtra-bein.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="18" tvg-id="BET.HD.us2" tvg-name="BET" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10051_dark_360w_270h.png" group-title="TV",BET
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cdd7/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZGQ3OjE3OTMzNzc4MDI1MDc6Y2RubGl2ZXR2LnR2OjMzNjZkNWZmYjNjODNlYmEuM2E5ZGVkMDczMzM0ZGJhODkwY2IzOGYzYWFlM2IwNDEwNWI5Njk3YWY2YzQwYTkxNDZjODI4OTJiNjJkMTgzZA
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cdd7/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZGQ3OjE3OTMzODMyMDI2NDI6Y2RubGl2ZXR2LnR2OmQ1OWMwMmVkYWU1ZTg0MTUuYTE2YTU4ZTNlZDU0MmUxMmNiNDUyOWY1MGVlOTljYWZhYTE3MGI3ZDA4MWUzZDk5MjVmOGVjZTdlNjk2YzExZA
 
 #EXTINF:-1 tvg-chno="19" tvg-id="Big.Ten.Network.HD.us2" tvg-name="Big Ten Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56783_dark_360w_270h.png" group-title="TV",Big Ten Network
 http://23.237.104.106:8080/USA_BTN/index.m3u8
@@ -80,7 +80,7 @@ https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043
 
 #EXTINF:-1 tvg-chno="26" tvg-id="WCBS-DT.us_locals1" tvg-name="CBS" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="TV",CBS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf91/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjkxOjE3OTMzNzc4MDI3MTE6Y2RubGl2ZXR2LnR2OjMyNjhlMzAwMDkyZTUwNzIuNWMyYzA5MDEyMTczZDdkNGFlYWI5NDlhZGJiYzg3MjJmMjc0MDJmMDEwODIxMTQ1YmM3ZDkxZjM1ZGViOGNjMg
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf91/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjkxOjE3OTMzODMyMDI4NDY6Y2RubGl2ZXR2LnR2OjVlYmRjZmViYzhlNjFkNGQuMzQ5YWE0OGRhMTlkNDQyNGQ2ZTk4YzFkNjU1OWRmZjg3YjI0YmE3ZjRhN2ZiM2MzOWI0Yzc2MjRhZDlkZGY5Zg
 
 #EXTINF:-1 tvg-chno="27" tvg-id="CBS.News.National.Stream.us2" tvg-name="CBS News 24/7" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s104846_dark_360w_270h.png" group-title="TV",CBS News 24/7
 https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
@@ -96,7 +96,7 @@ https://hls.livecdn.io/cheddar.com/cheddar/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="31" tvg-id="CHSN.Chicago.Sports.Network.us2" tvg-name="Chicago Sports Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s166708_dark_360w_270h.png" group-title="TV",Chicago Sports Network
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d280/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMjgwOjE3OTMzNzc4MDI5MjM6Y2RubGl2ZXR2LnR2OmQwMGE0OWM3MDAxYThiOTMuNWFjMTE1MzA3ZmQ2YjIyYTMwZTgyNzJjMWFkMWVkMGEwZWM5OTExMDY4ODRhNmE3MTVkMDQ4YWRlMzhmMmQ1MA
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d280/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMjgwOjE3OTMzODMyMDMwNTA6Y2RubGl2ZXR2LnR2OmVmZTViOGM5NzE1NmZjNmQuZDNiMzRhNGZiOWFkNzkyMmI2OTMzMmNlNDJjNDUyNzNlMzNkMTFmMmQyMzE0ZWU1NWYyZWY5NzBjYzUyYzFkMA
 
 #EXTINF:-1 tvg-chno="32" tvg-id="Cinemax.Classics.us2" tvg-name="Cinemax Classics" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/cinemax-classics-us.png" group-title="TV",Cinemax Classics
 http://23.237.104.106:8080/USA_5STARMAX/index.m3u8
@@ -170,7 +170,7 @@ http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
 
 #EXTINF:-1 tvg-chno="55" tvg-id="ESPNEWS.HD.us2" tvg-name="ESPNEWS" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16485_dark_360w_270h.png" group-title="TV",ESPNEWS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cefd/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWZkOjE3OTMzNzc4MDMxMjE6Y2RubGl2ZXR2LnR2OjVmZjEzZDk2Yjc1NWI5Y2UuN2FkMmMyNDdhZTRkNDYyMDk3M2Y5MmZjNTMyMGEyOWU2YTVjMjE5NjI4MDg1YzQwZTM1MDBhZDcwYmYzYTRiMQ
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cefd/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWZkOjE3OTMzODMyMDMyNTg6Y2RubGl2ZXR2LnR2OjFmOWI4NjM0MjUzNDkxMTguMjMwOGZkOTRkMzhjYjQ4ODVkMWIwM2Y0ZTI3YzU1NjYyZGY5YjkxZDRkYmY0OWFiMmE1MGE1ZTBiMDYwM2IxYw
 
 #EXTINF:-1 tvg-chno="56" tvg-id="ESPNU.HD.us2" tvg-name="ESPNU" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45654_dark_360w_270h.png" group-title="TV",ESPNU
 http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
@@ -202,7 +202,7 @@ http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
 
 #EXTINF:-1 tvg-chno="65" tvg-id="FS2.HD.us2" tvg-name="Fox Sports 2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33178_dark_360w_270h.png" group-title="TV",Fox Sports 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf26/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjI2OjE3OTMzNzc4MDMzMzM6Y2RubGl2ZXR2LnR2OmU5ZDYwOWIxYWQyZmZhZWYuMDJkZjIxZjE1NWM2MTlhODAyMmIzYmJlOTE3ZDg5MTJmNjc4NzBlNGIwZTU0ZWY0MDA4YWJiMzRlNGMxZTBjYw
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf26/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjI2OjE3OTMzODMyMDM0NjY6Y2RubGl2ZXR2LnR2OmE2Y2E1ZjU5NTUxMjM5MDUuYWI5YzgwMDYzNjAxYzhmMTI2ZTQ3ZjM3NTY2YjA0NzI3ZDJmYzFlNTY0Njk0NzhhYTQxODBlZTVmYzdlNzM5Zg
 
 #EXTINF:-1 tvg-chno="66" tvg-id="plex.tv.FOX.Weather.plex" tvg-name="Fox Weather" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG0029CYPP.png_dark_360w_270h.png" group-title="TV",Fox Weather
 https://247wlive.foxweather.com/stream/index.m3u8
@@ -224,7 +224,7 @@ https://a-cdn.klowdtv.com/live2/greattv_720p/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="72" tvg-id="Hallmark.Channel.HD.us2" tvg-name="Hallmark Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11221_dark_360w_270h.png" group-title="TV",Hallmark Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ce10/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZTEwOjE3OTMzNzc4MDM1Mjg6Y2RubGl2ZXR2LnR2OmQ1MjA4NTAwY2Y2Y2Q5ZmYuNDI5Y2RjNTJhZmY5MjBhNzliYTgxNGJhMGYyNmFhMDUxYWQ3YTRiODFjZjQxZmEyOTZhNGFmNjJkZDRlNjQ4Nw
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ce10/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZTEwOjE3OTMzODMyMDM2Njc6Y2RubGl2ZXR2LnR2Ojc4Njk3ZTA5NmQxMjgwMjIuZmYwYzVhZmU4M2E1MTEwYzQ4NTIxZjQ2MzEwNzc5NWRmOWY1NjM1MDk1Nzc3OTg5ZTkwM2VlNGE0OWEwNzQ5Yg
 
 #EXTINF:-1 tvg-chno="73" tvg-id="HBO.Hits.us2" tvg-name="HBO Hits" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0029BBSR.png?w=360&h=270" group-title="TV",HBO Hits
 https://tvsen3.aynaott.com/u3NjUrny/index.m3u8
@@ -261,14 +261,14 @@ https://a-cdn.klowdtv.com/live3/law_720p/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="84" tvg-id="Lifetime.HD.us2" tvg-name="Lifetime" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10918_dark_360w_270h.png" group-title="TV",Lifetime
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ceae/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWFlOjE3OTMzNzc4MDM3MzE6Y2RubGl2ZXR2LnR2OjhjMmFlM2NkODNlYjdjYjYuMTMyOGMwMmU5MzdiNDhjZTgzZGQzMTk5YThhZjNjZTZkODFjZTIxNjVlOWVhODVjYWY5YWYyZDJjNDQxMDViYQ
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ceae/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWFlOjE3OTMzODMyMDM5MDg6Y2RubGl2ZXR2LnR2OjQzYTgzNTM1MWI4YTI2YWYuYmMyOWFkNTMyYmQ3ZDg2ZjU3NzYzNzM3Mjk1ZDdhOGNmMmMwMmEwYzJkNjRiYWI4ZDMwYjhkMTMxYjViMDk1YQ
 
 #EXTINF:-1 tvg-chno="85" tvg-id="WLFG-DT.us_locals1" tvg-name="Living Faith TV" tvg-logo="https://i.gyazo.com/8e5d917941c538a7f1a7b056dffeb455.png" group-title="TV",Living Faith TV
 https://cdn-unified-hls.streamspot.com/ingest1/0b5c0f18e9/chunklist.m3u8?origin=1
 
 #EXTINF:-1 tvg-chno="86" tvg-id="Marquee.Sports.Network.HD.us2" tvg-name="Marquee Sports Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s113768_dark_360w_270h.png" group-title="TV",Marquee Sports Network
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf2f/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjJmOjE3OTMzNzc4MDM5MzY6Y2RubGl2ZXR2LnR2OjRiNzlkOTMyNjVmZDdiZTkuOGJjY2MyZTBiOTUyZjRlNjA4YzM5ZDEyOTY5MmU4Njg0OTc2NGZiM2JmYzA0OGVkOGUxZjNlYmU3YTBjNGVmNg
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf2f/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjJmOjE3OTMzODMyMDQwNzg6Y2RubGl2ZXR2LnR2OmNiNzQyNWMxNmYyYjllZTkuYmM4YjhiNTg2NTAyZDM3NWZmYmQ1OWZjZGVlYjg5MDBlMjViNmUyZGQyZmRjMjg4N2E0OWJkYmFhYjg1YTk0Mg
 
 #EXTINF:-1 tvg-chno="87" tvg-id="MGM+.HD.us2" tvg-name="MGM+" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s65669_dark_360w_270h.png" group-title="TV",MGM+
 https://tvsen3.aynaott.com/Ah3tLAfA/index.m3u8
@@ -280,7 +280,7 @@ https://frndly.keralive.workers.dev/v1/master/840a24ccd7c75076211d060179b3ad0c64
 
 #EXTINF:-1 tvg-chno="89" tvg-id="MLB.Network.HD.us2" tvg-name="MLB Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s62081_dark_360w_270h.png" group-title="TV",MLB Network
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf30/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMwOjE3OTMzNzc4MDQxNDg6Y2RubGl2ZXR2LnR2OjJiZjYxMTEwMzRjZmZjNzQuYTc3OWE3NmVmYWJhNWIxZjFlYzZhNTUyMGY0YTNkMzdiMmE1YmQyYjNiYWY3NTVhZjhmZmZkZjkwZGE4YTJjYQ
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf30/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMwOjE3OTMzODMyMDQyODk6Y2RubGl2ZXR2LnR2OjQzZTQzNGU0ZDVlYzkxNzIuYTM3NjVlZDNkYmY0ZjE0NWQyYjIwMTA3NzY5NjVlYWEwNDA4ZWUyMTIzMWFjZjgzZjkwMmM4NzJjMzYyNzFmOQ
 
 #EXTINF:-1 tvg-chno="90" tvg-id="MS.NOW.HD.us2" tvg-name="MS NOW" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002H5PTP.png_dark_360w_270h.png" group-title="TV",MS NOW
 #EXTVLCOPT:http-referrer=https://usnewson.com/watch/msnbc-live
@@ -288,7 +288,7 @@ https://p3.usnlive.com/stream/msnbc.m3u8
 
 #EXTINF:-1 tvg-chno="91" tvg-id="MSG.National.us2" tvg-name="MSG" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10979_dark_360w_270h.png" group-title="TV",MSG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf32/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMyOjE3OTMzNzc4MDQzNDk6Y2RubGl2ZXR2LnR2OmE0YTZkOGJiYjcxZDcyNDYuM2ZkMjk1NTRkMzI4ZTg2Yjc2YjBiNTRlNjI4M2VlYWQ5MDY5Y2MyODJlOTQwMmEwZjc2YmIxYTFhNmMyNDQ3Mg
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf32/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMyOjE3OTMzODMyMDQ0OTY6Y2RubGl2ZXR2LnR2OjhiMzUwNjhiZmRjYjk0NDcuZmFmNTVkZDFjYWVkMWZjNTExMGI0MDkyYmVmOGIyYWU2ZTgzMWEyZGE2OTdiNjk0N2I4Y2RjOWRlNWQ1Zjg3Mg
 
 #EXTINF:-1 tvg-chno="92" tvg-id="MTV.-.Music.Television.HD.us2" tvg-name="MTV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10986_dark_360w_270h.png" group-title="TV",MTV
 http://23.237.104.106:8080/USA_MTV/index.m3u8
@@ -304,11 +304,11 @@ http://23.237.104.106:8080/USA_NAT_GEO_WILD/index.m3u8
 
 #EXTINF:-1 tvg-chno="96" tvg-id="NBA.TV.HD.us2" tvg-name="NBA TV" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s32281_dark_360w_270h.png" group-title="TV",NBA TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf33/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMzOjE3OTMzNzc4MDQ3NjA6Y2RubGl2ZXR2LnR2OjhiZmI5ODNhOTAwMmRjZWMuMGJjMDQxZTE2N2FkZjM2OWYwNTFhMDlkZTA0NGQ3YTc2YTBhZjc0NWIyY2IxMzdlOGFkZjMzODg5NmY5NzViYg
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf33/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMzOjE3OTMzODMyMDQ5MTQ6Y2RubGl2ZXR2LnR2OjEyY2M3MjhjYWY0ZWEzNDQuYmZiY2I4OTk5YzIwMWE0Y2ZiYWVjODI3ZWU2OWIzMWJiNTlmZjRhMzM0MmE3NWIzZTk2NTM2ODEyMjAzNjAyZQ
 
 #EXTINF:-1 tvg-chno="97" tvg-id="WNBC-DT.us_locals1" tvg-name="NBC" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10991_dark_360w_270h.png" group-title="TV",NBC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cff6/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZmY2OjE3OTMzNzc4MDQ1NTU6Y2RubGl2ZXR2LnR2Ojg0ZDY3OGMzZDg1ZDYzMTcuODFiNjE5NjJjYjI0ZTBkZmVhN2JlMTcwN2MyYTFjNWY2MzYwMjg1OWI5Yjk3NTU3OWMxM2QzNmYyNWNlMDM4OQ
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cff6/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZmY2OjE3OTMzODMyMDQ2OTQ6Y2RubGl2ZXR2LnR2OmE0MWM1ZTVhZmI4MDA0MmIuZDhlODYzNDljMGE3N2M2N2EyMjUxNjAwYjczMDhjYzJiNTBkOTBkYzliZjFmYzU4ZTFkNTM0MWQ4MThhZWE2OQ
 
 #EXTINF:-1 tvg-chno="98" tvg-id="plex.tv.NBC.News.NOW.plex" tvg-name="NBC News NOW" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s114174_dark_360w_270h.png" group-title="TV",NBC News NOW
 https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master.m3u8
@@ -330,7 +330,7 @@ https://tvsen6.aynaott.com/nfl/index.m3u8
 
 #EXTINF:-1 tvg-chno="104" tvg-id="NHL.Network.HD.us2" tvg-name="NHL Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58570_dark_360w_270h.png" group-title="TV",NHL Network
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTMzNzc4MDQ5NjY6Y2RubGl2ZXR2LnR2OmE4MTJmZTk2OGMwNWJhZDguMDUwYThhNTAzMWNjYjQ2NjkzMGFjMGViY2QxOGEzY2ZjYTAyNjUzMjg3MzJmNjFkMzI5YjhhMzBiMTBlNGUzNg
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTMzODMyMDUxMTQ6Y2RubGl2ZXR2LnR2OmE4ZGZlYmY5MDBjN2ViMmUuYjQxN2M2YTEwOGZjYTI4MjUwZjJmNTQ1Mzk5NmE2ZDcxYzE3YzliM2YwOTUwMWE4OWViOTdlZWUzOGYyMjI3Yw
 
 #EXTINF:-1 tvg-chno="105" tvg-id="Nick.Jr.HD.us2" tvg-name="Nick Jr" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s19211_dark_360w_270h.png" group-title="TV",Nick Jr
 http://212.5.144.156:8080/nickjr/index.m3u8
@@ -373,7 +373,7 @@ http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
 
 #EXTINF:-1 tvg-chno="118" tvg-id="Showtime.Extreme.HD.us2" tvg-name="Showtime Extreme" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18086_dark_360w_270h.png" group-title="TV",Showtime Extreme
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d28c/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMjhjOjE3OTMzNzc4MDUxNzQ6Y2RubGl2ZXR2LnR2OjFhMWM1Y2M2MGIxNjlkOTguNzI3MTIzZjE0OTQwZjFjMTk0NTI5NmVlMzBjYTg4YmU3MzQ5ZmEzMWNjNWM4ZTY3MTJhZTcxODQ1MDM3NGRjMw
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d28c/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMjhjOjE3OTMzODMyMDUzMTg6Y2RubGl2ZXR2LnR2OmIyMDhmZjc5YzUxNTY0MWMuNmZjZjhlN2YwODZjMDIxNWQ3YTEyMzQzMGFkMzk1MDhmY2I0Mjc0NzhhMzhkYzBjMTM4NTg4NDcxOTM1YWI3Mg
 
 #EXTINF:-1 tvg-chno="119" tvg-id="Showtime.Familyzone.HD.us2" tvg-name="Showtime Family Zone" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25274_dark_360w_270h.png" group-title="TV",Showtime Family Zone
 http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8
@@ -386,48 +386,48 @@ http://stream.bottledesk.net/p/AQNASgYGemc/index.m3u8
 
 #EXTINF:-1 tvg-chno="122" tvg-id="SkySp.Cricket.uk" tvg-name="Sky Sports Cricket" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-cricket-icon-uk.png" group-title="TV",Sky Sports Cricket
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c860/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODYwOjE3OTMzNzc4MDUzNzE6Y2RubGl2ZXR2LnR2OjE5YjA3NzhhYmM0YTg4NWEuMWMxMWVlYmE1MGJiMjE0MDRkN2E1MjkxMjlkNzM0NWIxMjhkNTRhNmM0NzM2N2I0NmIwOThlNzY4NDc0NzQ1OA
+https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c860/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODYwOjE3OTMzODMyMDU1MTg6Y2RubGl2ZXR2LnR2OjNmZGMxNzdkYmJhNmI3YjkuMDMyN2M3NGM5NzdhNTQ4MzRlZDg5MDRmOGI0NWZlOThmOTQyOGU0NmU5ZTQ4ZGQ1MzhjZmVlMGU5MDg0Y2ExNQ
 
 #EXTINF:-1 tvg-chno="123" tvg-id="SkySp.F1.uk" tvg-name="Sky Sports F1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-f1-icon-uk.png" group-title="TV",Sky Sports F1
 http://stream.bottledesk.net/p/AwZGQwwEZA/index.m3u8
 
 #EXTINF:-1 tvg-chno="124" tvg-id="SkySp.Fball.uk" tvg-name="Sky Sports Football" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-football-icon-uk.png" group-title="TV",Sky Sports Football
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c88c/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODhjOjE3OTMzNzc4MDU1OTE6Y2RubGl2ZXR2LnR2OmQzOTVkNzhiNTY4OGNhZGIuNWZmMWYyY2RjNTg4YWQwN2I0NDAxNjkwYzEzZDE0NjY5YTM3M2ZiYWJlMTFjMzZkOGFlOWE5N2MxN2ZhODgyNg
+https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c88c/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODhjOjE3OTMzODMyMDU3MTk6Y2RubGl2ZXR2LnR2OjdkYWJlMDFiYjU2NTM1YjEuYTFjNDY1ZDczMTgxNDA4NTg0N2M2MDA1ZmNmYzMwYjFiMDM0ZjNlOWQ0MWM5NmE0N2Y5MGViMDJiZWZjMzZjNw
 
 #EXTINF:-1 tvg-chno="125" tvg-id="SkySp.Golf.uk" tvg-name="Sky Sports Golf" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-golf-icon-uk.png" group-title="TV",Sky Sports Golf
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c864/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODY0OjE3OTMzNzc4MDU3ODY6Y2RubGl2ZXR2LnR2OmU4MWFmNGE5Mjk3OTUwMjkuYmNkOWJiZjk3NWY2ZTQ2MTIzMzZhNWY1YjUyNzNjMGQ5MzRlNGNhZTdlMmQxNmIxYTUzNjViOTczMzIxYTQ2NA
+https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c864/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODY0OjE3OTMzODMyMDU5MTY6Y2RubGl2ZXR2LnR2OjZiNWJkNDdjMTcxNTQ5YmUuNjVlMjEwMDVhNDhmY2RkNGE2ZjA0M2M4ZmI1YWFjODQwNjJkNDRiNjkzYTE4YzcwOTc1ZjIwMDA3ZWI0ZDU2Nw
 
 #EXTINF:-1 tvg-chno="126" tvg-id="SkySpMainEvHD.uk" tvg-name="Sky Sports Main Event" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-main-event-icon-uk.png" group-title="TV",Sky Sports Main Event
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c855/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODU1OjE3OTMzNzc4MDU5MTg6Y2RubGl2ZXR2LnR2OjA0YmJiYWQ4OTAxZmNlODQuZjRlZWFlOGZhZDM1MDMxOWQ4NmM1ZWNhOTE5ZWY2ZmMxZTZiMWMyYTEzZmRmNTUyOWI5NTY1ZTk2Zjc3MmM1Yg
+https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c855/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODU1OjE3OTMzODMyMDYxMjE6Y2RubGl2ZXR2LnR2Ojc1YWVjNDRjNTk2NWY5YjYuNGRlYTlkZDI5MzMwNjAyZWQ0YzVjMjVjNDQ4OWI5MDlkNWE1YWYwOTczMDI1NWU4Y2E0Yzc3ODUyMmI3NzVlNA
 
 #EXTINF:-1 tvg-chno="127" tvg-id="SkySp.Mix.HD.uk" tvg-name="Sky Sports Mix" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-mix-icon-uk.png" group-title="TV",Sky Sports Mix
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c873/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODczOjE3OTMzNzc4MDYwNTY6Y2RubGl2ZXR2LnR2Ojk5MjgwN2JkNjIyNDdkYWEuZjVlMmNlYzZhMTQwOGI4OTU2Zjc4MDg3N2Y4ZjkwZjZmY2E4ZDhhODM0NmQ4NDZmMWNiNTJkZTE3YWQ3OTFlOQ
+https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c873/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODczOjE3OTMzODMyMDYzMjc6Y2RubGl2ZXR2LnR2OmY2NzRmOTc1ZjUwYjc4NjMuYzVkMWU4OGMyYzU2ZGNhMzMxN2M2ODRjYzhjZGJmYTM0ZjRhYjZhZTM4MjVkY2YyZGZmNDM2ODAzOWM1MjZkOQ
 
 #EXTINF:-1 tvg-chno="128" tvg-id="SkySp.PL.HD.uk" tvg-name="Sky Sports Premier League" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-premier-league-icon-uk.png" group-title="TV",Sky Sports Premier League
 http://stream.bottledesk.net/p/AAxBRQEBc2c/index.m3u8
 
 #EXTINF:-1 tvg-chno="129" tvg-id="SkySp.Racing.HD.uk" tvg-name="Sky Sports Racing" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-racing-icon-uk.png" group-title="TV",Sky Sports Racing
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c87b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODdiOjE3OTMzNzc4MDYyNTU6Y2RubGl2ZXR2LnR2OjBmN2JlZjZhZDA3YWVmZTcuNTMwYTA1YTRiNDYyMWI4NWM0OTdmOTI3ZmQwMjI5OGU4ZTEzOTBhODEzYWJjZDg2Y2QzY2Q2ZDUwOWI2NmJhZQ
+https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c87b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODdiOjE3OTMzODMyMDY1MzY6Y2RubGl2ZXR2LnR2OmE0NjBjYzhhMzk3MzcyMGQuMWExZDZjMTNmMzkyM2FjNjA4ZjU3NzU5ZDBiYzM1NjMyYzZiM2M2OTM5ZDI1MDEyY2ExNjNjMDNlOTJkNDM0Nw
 
 #EXTINF:-1 tvg-chno="130" tvg-id="SkySp.Tennis.HD.uk" tvg-name="Sky Sports Tennis" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-kingdom/sky-sports-tennis-icon-uk.png" group-title="TV",Sky Sports Tennis
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c867/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODY3OjE3OTMzNzc4MDYzODE6Y2RubGl2ZXR2LnR2OmRhYTJiNjA5MWY3NzAyMzEuMjQzYWQwMWFjYTE4ZGQ4ZmE5Y2NlNzA4YmI2MzA4YWRlOGE1ODUwN2Y0ZTA1YWJiM2Y3NzZiY2E5MTkyZTU0YQ
+https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c867/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODY3OjE3OTMzODMyMDY3Mzc6Y2RubGl2ZXR2LnR2OmM3ZjA0MTMwMzVkMzdkZDkuMGU3NWY5MjBkMTU2NGE0ZGM2ZDFhZjNjMGUwY2NhNDRlM2VjYjYxY2UwNTVkODViM2E0NjM3ZjAyOWMyMjFjNw
 
 #EXTINF:-1 tvg-chno="131" tvg-id="Space.City.Home.Network.HD.us2" tvg-name="Space City Home Network" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77744_dark_360w_270h.png" group-title="TV",Space City Home Network
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b1/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIxOjE3OTMzNzc4MDY2MTU6Y2RubGl2ZXR2LnR2OjE0NWZmM2YyMjMxYjA5NzUuNTBmMTQyNTc2ZGIyYjFmMTkxN2RmMDhjNmIwYTk3ZWQ4MTNkNDgwZjhiYmNmMTQxOTg5ODhkMzcwZjJmZTM1MA
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b1/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIxOjE3OTMzODMyMDY5NDA6Y2RubGl2ZXR2LnR2OjM2ZTJhNWU3YmY3MGZiZTQuYWZmZjQ2NTUzODlhNDRkYTU4MDExYWVjOTY1MmYzZWJiYjI0MjRlMzhiMDYxN2ZjNzJjNDkyYWY5MTE3YTdkYw
 
 #EXTINF:-1 tvg-chno="132" tvg-id="Spectrum.News+.us2" tvg-name="Spectrum News+" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s133897_dark_360w_270h.png" group-title="TV",Spectrum News+
 https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/589e9668-62d2-4ace-b695-14ea749d4ec0/2.m3u8
 
 #EXTINF:-1 tvg-chno="133" tvg-id="SNY.SportsNet.New.York.HD.us2" tvg-name="SportsNet New York" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50038_dark_360w_270h.png" group-title="TV",SportsNet New York
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b3/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIzOjE3OTMzNzc4MDY3NTc6Y2RubGl2ZXR2LnR2OjZlY2Y5OTc3MGVmYzgwYzIuMjNmYWRhZDk1MDIyZjBmNzczZDFkMmM0YWIwZjU1ZmZiNmViMDQ5MDYyZWUyYjY4NmVkOTdlYTFmMzIwNDljZA
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b3/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIzOjE3OTMzODMyMDcxNTM6Y2RubGl2ZXR2LnR2OmNhMzc2YzA0ZDYwMmExMzEuODM1NWExNjMyMmI3NTNhMWRjMTZlZjg0MzNkMzZiZWQ2NzJhODk1YzAxMDRjNmRmZDlmMGI0ZDFiMmI3NDkyNw
 
 #EXTINF:-1 tvg-chno="134" tvg-id="Starz.Comedy.HD.us2" tvg-name="Starz Comedy" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s34901_dark_360w_270h.png" group-title="TV",Starz Comedy
 http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8
@@ -464,19 +464,19 @@ https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_356
 
 #EXTINF:-1 tvg-chno="145" tvg-id="TNT.Sports.1.HD.uk" tvg-name="TNT Sports 1" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s97542_dark_360w_270h.png" group-title="TV",TNT Sports 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c88f/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODhmOjE3OTMzNzc4MDY5NTk6Y2RubGl2ZXR2LnR2OjY3Yzk2YTNkOTc0ZTJlNjUuMzZiNzgxY2ZiYjU1MzA4NDMyNjM3YjY5YmEyMWM4MzhhMzY3Njc4ODcxNmIwZTg4YzZlNzQyOWZmYTIzOTRkNQ
+https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c88f/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODhmOjE3OTMzODMyMDczNTc6Y2RubGl2ZXR2LnR2OmI0Njk3ZjcwZjM5NWM3YmUuZGI0ZWI5MTNhMzQ2YjQxMDA4NTU5ODZmMDFlMWQ1MmYyNmIwMGY2ODkzMjU4YmJiM2RiMDg3YTk2MDAxYmQ5MA
 
 #EXTINF:-1 tvg-chno="146" tvg-id="TNT.Sports.2.HD.uk" tvg-name="TNT Sports 2" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82449_dark_360w_270h.png" group-title="TV",TNT Sports 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c892/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODkyOjE3OTMzNzc4MDcxMDA6Y2RubGl2ZXR2LnR2OjJhM2FiY2Q4ZmJmNWY2ZGIuZWE0ZWZkYzRmMDM0ZDNlMzYwZTgzNmE1MjY3YzhhMDM2MTc2OTU0MTRiZjM2MTg3OGNmMDY1NjAzMTU2MTczNg
+https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c892/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODkyOjE3OTMzODMyMDc1NTY6Y2RubGl2ZXR2LnR2OjQ2MDEzNTBlMTk1Mjc1YmYuYTIyYjM4ZjZlOTI4ZDIyZDg5NDg4YzBkODljM2Q4MWJkNGNiZDAwYmVlYzgxMjY0ODI2OWE4NzBlMjRhMTkwYQ
 
 #EXTINF:-1 tvg-chno="147" tvg-id="TNT.Sports.3.HD.uk" tvg-name="TNT Sports 3" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117230_dark_360w_270h.png" group-title="TV",TNT Sports 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTMzNzc4MDczMTI6Y2RubGl2ZXR2LnR2OmEwMDk4ODRjNTEzMzc4NTkuNTQwNmY0OWRjNmJhMzc5NmU4ZGRhYTM4NzU3MTcyMzVhMzY5NWRjNTVmYzg0YjI0YTY3MjkyNmQ4YjkxYWZlMg
+https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTMzODMyMDc2OTQ6Y2RubGl2ZXR2LnR2OmRkNmJmMjA2MTVkMDgxN2EuOGI3YTUzNGNlNDU3OTA1MjVhNzBmMTYxZjBjYzgzMDk0MjAzMTNlZGMxYTNjYjExZTlmZGI0NjU1NjU0ODkyOA
 
 #EXTINF:-1 tvg-chno="148" tvg-id="TNT.Sports.4.HD.uk" tvg-name="TNT Sports 4" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s46594_dark_360w_270h.png" group-title="TV",TNT Sports 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTMzNzc4MDc0NTI6Y2RubGl2ZXR2LnR2OjExZmJhYWFhOTU0OTdjM2MuMTJlNzI5MzJhZTdmMjFjODIwODE2MjNiNzM0OTNhYjY0NDU0MDcxOGRlYTU4MjVkOThhNjY0M2ViYjk1OWUwNA
+https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTMzODMyMDc4NjM6Y2RubGl2ZXR2LnR2OmNiNTkwM2ExMjcxZjJjNzUuNzRlZGNiOGUzNDY3OWJiMDM5OGM3MWQ2ZWM2OWYwZGQ3ZmI1NmVhYzBlNmFlMGYwYzllYzRiOTQxYjRjZGU5Mw
 
 #EXTINF:-1 tvg-chno="149" tvg-id="TNT.HD.(Pacific).us2" tvg-name="TNT West" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11164_dark_360w_270h.png" group-title="TV",TNT West
 https://turnerlive.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_3564000.m3u8
@@ -501,11 +501,11 @@ https://tvsen5.aynaott.com/tsn3/index.m3u8
 
 #EXTINF:-1 tvg-chno="156" tvg-id="TSN.4.ca2" tvg-name="TSN 4" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s90122_dark_360w_270h.png" group-title="TV",TSN 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed3f/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDNmOjE3OTMzNzc4MDc2NzA6Y2RubGl2ZXR2LnR2OmIwZjEzNDZlOTczOTc0NGEuZjE2Y2YyNGNjMDQ0M2FhODJhMzk5ZjdlMjk3NjQ5MDlmOTBmY2U5ZjRiZTE4ODQ1M2E1MWVjMjNhZDhiNDM3Mg
+https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed3f/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDNmOjE3OTMzODMyMDgwNzU6Y2RubGl2ZXR2LnR2OjY5YzQ0YTA3ZTIyYTk3ZjAuOWVmMGI4ZjFjZjVhNzBlYjhjYzJiNjE3ZDIwYmIzODAyYmQwMDQ3OWY5Y2ZkYTE4ZDhhMzk2YWMwNDRhOGE5ZA
 
 #EXTINF:-1 tvg-chno="157" tvg-id="TSN.5.ca2" tvg-name="TSN 5" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s90124_dark_360w_270h.png" group-title="TV",TSN 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed42/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDQyOjE3OTMzNzc4MDc4MTM6Y2RubGl2ZXR2LnR2OmY5ZGU1ZGEyZjU0NDdmMTIuYTQyZTE2ZTUzM2U1NDQ0N2ZkMDc3ODlkYmIzNmU1MGRhZGYwYWRhYTRkMjMwMDgxNmU3ZWVjZDgyMGJjYzFiZA
+https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed42/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDQyOjE3OTMzODMyMDgyNzg6Y2RubGl2ZXR2LnR2OmM2YmI3ZmZmOGMxY2EyY2MuMGE2MTI0YTQzZGVhNDg1OTg2ODQ0MmJmNzg1OGI5ZDU5MTEwMTI1OTgwZDM2MGYyMWMxMWI1M2JlMDg1ODE4Mw
 
 #EXTINF:-1 tvg-chno="158" tvg-id="TUDN.us2" tvg-name="TUDN" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s75176_dark_360w_270h.png" group-title="TV",TUDN
 https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn.m3u8
@@ -515,7 +515,7 @@ https://turnerlive.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5
 
 #EXTINF:-1 tvg-chno="160" tvg-id="TV.ONE.HD.us2" tvg-name="TV One" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s35513_dark_360w_270h.png" group-title="TV",TV One
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d032/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMDMyOjE3OTMzNzc4MDgwMjE6Y2RubGl2ZXR2LnR2OjMxOWNmZTVkOTRjYjU3NTAuM2U0NDBjYmRmZDUwNDMwMjk1MDQ4YmJjMjBiYjY5MzZiZDk0MDk4ZTY1YTcwODg1NjE4ZTJmMDMxZjcwMzE5MQ
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d032/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMDMyOjE3OTMzODMyMDg0Nzg6Y2RubGl2ZXR2LnR2OmI5NTc1ZGU0ZDBhNGMwMDIuZTM4NmMzM2IzNjk5MzhhNzk3M2UyNDhkZThiZjAwMzIzN2NhZTdhOWZkYzM1ZDZmNDg0ZWMyYWJjNGM2M2Q2MQ
 
 #EXTINF:-1 tvg-chno="161" tvg-id="USA.Network.HD.us2" tvg-name="USA Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11207_dark_360w_270h.png" group-title="TV",USA Network
 https://tvsen3.aynaott.com/dbbcY6NG/index.m3u8
@@ -1716,342 +1716,347 @@ https://webcast-origin.b-cdn.net/bcdn_token=72O7kl823KtHE1vCbORKyTzf6hA8nNH0U_Jn
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://webcast-origin.b-cdn.net/bcdn_token=MSvjnhK4v4C1n9Ib6Tq57XM-jO_JCO35nm0axoDMeg4&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHjyqzVD3OO_O4bVu-oxuOW%2F&expires=1793361735/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhHjyqzVD3OO_O4bVu-oxuOW/91.m3u8
 
-#EXTINF:-1 tvg-chno="404" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #1 Femenina | ESPN 4 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #1 Femenina | ESPN 4 (TVF90)
+#EXTINF:-1 tvg-chno="404" tvg-id="Live.Event.us" tvg-name="[OFC] ONE Friday Fights 176: Khunsuk vs YodUdon (iSTRMEAST)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[OFC] ONE Friday Fights 176: Khunsuk vs YodUdon (iSTRMEAST)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/new-stream-embed/58874?ad=111
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/58874/load-playlist
+
+#EXTINF:-1 tvg-chno="405" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #1 Femenina | ESPN 4 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #1 Femenina | ESPN 4 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=espn4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://2.ftlly.com:443/espn4/mono.m3u8?token=139cdb036085417efa390fff267c2c64e3cb9542-3f-1793378713-1793360713
 
-#EXTINF:-1 tvg-chno="405" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #1 Femenina | ESPN 4 | HD (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #1 Femenina | ESPN 4 | HD (TVF90)
+#EXTINF:-1 tvg-chno="406" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #1 Femenina | ESPN 4 | HD (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #1 Femenina | ESPN 4 | HD (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=espn4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://4.ftlly.com:443/espn4/mono.m3u8?token=08456aec80d5f7d4fe69ccce6bf652cd6649c03a-60-1793378714-1793360714
 
-#EXTINF:-1 tvg-chno="406" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #1 Femenina | ESPN 4 | OP2 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #1 Femenina | ESPN 4 | OP2 (TVF90)
+#EXTINF:-1 tvg-chno="407" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #1 Femenina | ESPN 4 | OP2 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #1 Femenina | ESPN 4 | OP2 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/2.php?stream=espn4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://3.ftlly.com:443/espn4/mono.m3u8?token=89f0bc8e5bf2d5bd6de5dab111fa03cf2491b6c6-28-1793378713-1793360713
 
-#EXTINF:-1 tvg-chno="407" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #1 Femenina | ESPN 4 | OP3 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #1 Femenina | ESPN 4 | OP3 (TVF90)
+#EXTINF:-1 tvg-chno="408" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #1 Femenina | ESPN 4 | OP3 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #1 Femenina | ESPN 4 | OP3 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/3.php?stream=espn4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://3.ftlly.com:443/espn4/mono.m3u8?token=a213eb73ebfd54c0f7c574d2c0729f4fbbcb0193-75-1793378714-1793360714
 
-#EXTINF:-1 tvg-chno="408" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #1 Masculina | ESPN 4 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #1 Masculina | ESPN 4 (TVF90)
+#EXTINF:-1 tvg-chno="409" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #1 Masculina | ESPN 4 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #1 Masculina | ESPN 4 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=espn4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://9.ftlly.com:443/espn4/mono.m3u8?token=3f1918cb574e642810b60a4492f25b71c4cc23bb-4e-1793378734-1793360734
 
-#EXTINF:-1 tvg-chno="409" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #1 Masculina | ESPN 4 | HD (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #1 Masculina | ESPN 4 | HD (TVF90)
+#EXTINF:-1 tvg-chno="410" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #1 Masculina | ESPN 4 | HD (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #1 Masculina | ESPN 4 | HD (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=espn4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://7.ftlly.com:443/espn4/mono.m3u8?token=2704accdce45353b71f754ca890077bd6da1336b-7-1793378735-1793360735
 
-#EXTINF:-1 tvg-chno="410" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #1 Masculina | ESPN 4 | OP2 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #1 Masculina | ESPN 4 | OP2 (TVF90)
+#EXTINF:-1 tvg-chno="411" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #1 Masculina | ESPN 4 | OP2 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #1 Masculina | ESPN 4 | OP2 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/2.php?stream=espn4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://7.ftlly.com:443/espn4/mono.m3u8?token=63a0a8528fe992f0f540a9fd3ddc96720c4839da-16-1793378734-1793360734
 
-#EXTINF:-1 tvg-chno="411" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #1 Masculina | ESPN 4 | OP3 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #1 Masculina | ESPN 4 | OP3 (TVF90)
+#EXTINF:-1 tvg-chno="412" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #1 Masculina | ESPN 4 | OP3 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #1 Masculina | ESPN 4 | OP3 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/3.php?stream=espn4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://3.ftlly.com:443/espn4/mono.m3u8?token=5f0249ae4b6ffd80f71a8723ce97cca04d3ccefc-e7-1793378735-1793360735
 
-#EXTINF:-1 tvg-chno="412" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #2 Femenina | ESPN 4 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #2 Femenina | ESPN 4 (TVF90)
+#EXTINF:-1 tvg-chno="413" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #2 Femenina | ESPN 4 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #2 Femenina | ESPN 4 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=espn4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://7.ftlly.com:443/espn4/mono.m3u8?token=5b3a33502bc0418a2d8673d741ed78cde556a5f5-56-1793378714-1793360714
 
-#EXTINF:-1 tvg-chno="413" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #2 Femenina | ESPN 4 | HD (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #2 Femenina | ESPN 4 | HD (TVF90)
+#EXTINF:-1 tvg-chno="414" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #2 Femenina | ESPN 4 | HD (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #2 Femenina | ESPN 4 | HD (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=espn4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://11.ftlly.com:443/espn4/mono.m3u8?token=109023f71f5f6a8e69083088d2b8aa6c0dea0637-66-1793378715-1793360715
 
-#EXTINF:-1 tvg-chno="414" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #2 Femenina | ESPN 4 | OP2 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #2 Femenina | ESPN 4 | OP2 (TVF90)
+#EXTINF:-1 tvg-chno="415" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #2 Femenina | ESPN 4 | OP2 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #2 Femenina | ESPN 4 | OP2 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/2.php?stream=espn4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://11.ftlly.com:443/espn4/mono.m3u8?token=6ce993f34864a77e924e58d8f09d902355c629b5-45-1793378714-1793360714
 
-#EXTINF:-1 tvg-chno="415" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #2 Femenina | ESPN 4 | OP3 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #2 Femenina | ESPN 4 | OP3 (TVF90)
+#EXTINF:-1 tvg-chno="416" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #2 Femenina | ESPN 4 | OP3 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #2 Femenina | ESPN 4 | OP3 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/3.php?stream=espn4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://7.ftlly.com:443/espn4/mono.m3u8?token=57eabbf84e7ab7d89d6e30a3a8493879b64f9b20-bb-1793378714-1793360714
 
-#EXTINF:-1 tvg-chno="416" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #2 Masculina | ESPN 4 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #2 Masculina | ESPN 4 (TVF90)
+#EXTINF:-1 tvg-chno="417" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #2 Masculina | ESPN 4 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #2 Masculina | ESPN 4 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=espn4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://7.ftlly.com:443/espn4/mono.m3u8?token=79a4fd77f8bea199721ca75b7699fb5211a4987a-e3-1793378715-1793360715
 
-#EXTINF:-1 tvg-chno="417" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #2 Masculina | ESPN 4 | HD (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #2 Masculina | ESPN 4 | HD (TVF90)
+#EXTINF:-1 tvg-chno="418" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #2 Masculina | ESPN 4 | HD (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #2 Masculina | ESPN 4 | HD (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=espn4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://7.ftlly.com:443/espn4/mono.m3u8?token=7fbca46e50b172af07698d6ab1d71494e8c606a7-b8-1793378716-1793360716
 
-#EXTINF:-1 tvg-chno="418" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #2 Masculina | ESPN 4 | OP2 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #2 Masculina | ESPN 4 | OP2 (TVF90)
+#EXTINF:-1 tvg-chno="419" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #2 Masculina | ESPN 4 | OP2 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #2 Masculina | ESPN 4 | OP2 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/2.php?stream=espn4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://3.ftlly.com:443/espn4/mono.m3u8?token=9ec82e4cb4c0f8e5eadb35b03e20b1a93ed31b36-3-1793378716-1793360716
 
-#EXTINF:-1 tvg-chno="419" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #2 Masculina | ESPN 4 | OP3 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #2 Masculina | ESPN 4 | OP3 (TVF90)
+#EXTINF:-1 tvg-chno="420" tvg-id="Live.Event.us" tvg-name="[Premier Padel Kuwait Major] Semifinal #2 Masculina | ESPN 4 | OP3 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Premier Padel Kuwait Major] Semifinal #2 Masculina | ESPN 4 | OP3 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/3.php?stream=espn4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://8.ftlly.com:443/espn4/mono.m3u8?token=ad2f150649ae03684389d7131b7f2308c04d8fb6-4-1793378716-1793360716
 
-#EXTINF:-1 tvg-chno="420" tvg-id="Soccer.Dummy.us" tvg-name="[Primeira Liga] Casa Pia vs Sporting CP 1 (STP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/14.png" group-title="Live Events",[Primeira Liga] Casa Pia vs Sporting CP 1 (STP)
+#EXTINF:-1 tvg-chno="421" tvg-id="Soccer.Dummy.us" tvg-name="[Primeira Liga] Casa Pia vs Sporting CP 1 (STP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/14.png" group-title="Live Events",[Primeira Liga] Casa Pia vs Sporting CP 1 (STP)
 #EXTVLCOPT:http-referrer=https://streamx723.sbs/global1.php?channel=dsports2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://98.envivosenhd.beer:443/global/dsports2/mono.m3u8?token=e82f28397750c26e70e368976a71b3cfba4df178-cf-1793382306-1793364306
 
-#EXTINF:-1 tvg-chno="421" tvg-id="Soccer.Dummy.us" tvg-name="[Primeira Liga] Casa Pia vs Sporting CP | DSports 2 (STRMXHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/14.png" group-title="Live Events",[Primeira Liga] Casa Pia vs Sporting CP | DSports 2 (STRMXHD)
+#EXTINF:-1 tvg-chno="422" tvg-id="Soccer.Dummy.us" tvg-name="[Primeira Liga] Casa Pia vs Sporting CP | DSports 2 (STRMXHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/14.png" group-title="Live Events",[Primeira Liga] Casa Pia vs Sporting CP | DSports 2 (STRMXHD)
 #EXTVLCOPT:http-referrer=https://streamxhd.sbs/live1.php?stream=dsports2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://khala.futlivehd.com/global/dsports2/index.m3u8?token=2f8e898c5443cf04f4875c5857452d3c4c6ee6d1-68-1793406613-1793352613
 
-#EXTINF:-1 tvg-chno="422" tvg-id="Soccer.Dummy.us" tvg-name="[Primera A] Atlético Bucaramanga vs Deportivo Pasto | Win Sports + (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Primera A] Atlético Bucaramanga vs Deportivo Pasto | Win Sports + (TVF90)
+#EXTINF:-1 tvg-chno="423" tvg-id="Soccer.Dummy.us" tvg-name="[Primera A] Atlético Bucaramanga vs Deportivo Pasto | Win Sports + (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Primera A] Atlético Bucaramanga vs Deportivo Pasto | Win Sports + (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=winsports2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://2.ftlly.com:443/winsports2/mono.m3u8?token=0884c01ac840bceefebe7348b1c2050977444994-f5-1793378709-1793360709
 
-#EXTINF:-1 tvg-chno="423" tvg-id="Soccer.Dummy.us" tvg-name="[Primera A] Atlético Bucaramanga vs Deportivo Pasto | Win Sports + | HD (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Primera A] Atlético Bucaramanga vs Deportivo Pasto | Win Sports + | HD (TVF90)
+#EXTINF:-1 tvg-chno="424" tvg-id="Soccer.Dummy.us" tvg-name="[Primera A] Atlético Bucaramanga vs Deportivo Pasto | Win Sports + | HD (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Primera A] Atlético Bucaramanga vs Deportivo Pasto | Win Sports + | HD (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/hd.php?stream=winsports2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://8.ftlly.com:443/winsports2/mono.m3u8?token=2cd0db07c732bb2f2a54c98339eeff0060054bc7-aa-1793378710-1793360710
 
-#EXTINF:-1 tvg-chno="424" tvg-id="Soccer.Dummy.us" tvg-name="[Primera A] Atlético Bucaramanga vs Deportivo Pasto | Win Sports + | OP2 (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Primera A] Atlético Bucaramanga vs Deportivo Pasto | Win Sports + | OP2 (TVF90)
+#EXTINF:-1 tvg-chno="425" tvg-id="Soccer.Dummy.us" tvg-name="[Primera A] Atlético Bucaramanga vs Deportivo Pasto | Win Sports + | OP2 (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Primera A] Atlético Bucaramanga vs Deportivo Pasto | Win Sports + | OP2 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/2.php?stream=winsports2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://5.ftlly.com:443/winsports2/mono.m3u8?token=5947af96f21c56a8a522c757cdc47584ec290ed8-9e-1793378710-1793360710
 
-#EXTINF:-1 tvg-chno="425" tvg-id="Soccer.Dummy.us" tvg-name="[Primera A] Atlético Bucaramanga vs Deportivo Pasto | Win Sports + | OP3 (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Primera A] Atlético Bucaramanga vs Deportivo Pasto | Win Sports + | OP3 (TVF90)
+#EXTINF:-1 tvg-chno="426" tvg-id="Soccer.Dummy.us" tvg-name="[Primera A] Atlético Bucaramanga vs Deportivo Pasto | Win Sports + | OP3 (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Primera A] Atlético Bucaramanga vs Deportivo Pasto | Win Sports + | OP3 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/3.php?stream=winsports2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://4.ftlly.com:443/winsports2/mono.m3u8?token=46d5fae1df9ed7fd039cfc30f3b15bb3eced0f7a-5c-1793378710-1793360710
 
-#EXTINF:-1 tvg-chno="426" tvg-id="Soccer.Dummy.us" tvg-name="[Primera A] Deportivo Pereira vs Jaguares de Córdoba | Win Sports + (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Primera A] Deportivo Pereira vs Jaguares de Córdoba | Win Sports + (TVF90)
+#EXTINF:-1 tvg-chno="427" tvg-id="Soccer.Dummy.us" tvg-name="[Primera A] Deportivo Pereira vs Jaguares de Córdoba | Win Sports + (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Primera A] Deportivo Pereira vs Jaguares de Córdoba | Win Sports + (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=winsports2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://3.ftlly.com:443/winsports2/mono.m3u8?token=50080df98cf6726d93ca08f524b0439ca9fe4875-6c-1793378708-1793360708
 
-#EXTINF:-1 tvg-chno="427" tvg-id="Soccer.Dummy.us" tvg-name="[Primera A] Deportivo Pereira vs Jaguares de Córdoba | Win Sports + | HD (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Primera A] Deportivo Pereira vs Jaguares de Córdoba | Win Sports + | HD (TVF90)
+#EXTINF:-1 tvg-chno="428" tvg-id="Soccer.Dummy.us" tvg-name="[Primera A] Deportivo Pereira vs Jaguares de Córdoba | Win Sports + | HD (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Primera A] Deportivo Pereira vs Jaguares de Córdoba | Win Sports + | HD (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/hd.php?stream=winsports2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://6.ftlly.com:443/winsports2/mono.m3u8?token=9e566accc512744133739e60017016d8d0bb78b3-dc-1793378709-1793360709
 
-#EXTINF:-1 tvg-chno="428" tvg-id="Soccer.Dummy.us" tvg-name="[Primera A] Deportivo Pereira vs Jaguares de Córdoba | Win Sports + | OP2 (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Primera A] Deportivo Pereira vs Jaguares de Córdoba | Win Sports + | OP2 (TVF90)
+#EXTINF:-1 tvg-chno="429" tvg-id="Soccer.Dummy.us" tvg-name="[Primera A] Deportivo Pereira vs Jaguares de Córdoba | Win Sports + | OP2 (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Primera A] Deportivo Pereira vs Jaguares de Córdoba | Win Sports + | OP2 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/2.php?stream=winsports2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://6.ftlly.com:443/winsports2/mono.m3u8?token=b61bbc6709e05b266e28bbaa2a1e789e69ae39c1-2f-1793378709-1793360709
 
-#EXTINF:-1 tvg-chno="429" tvg-id="Soccer.Dummy.us" tvg-name="[Primera A] Deportivo Pereira vs Jaguares de Córdoba | Win Sports + | OP3 (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Primera A] Deportivo Pereira vs Jaguares de Córdoba | Win Sports + | OP3 (TVF90)
+#EXTINF:-1 tvg-chno="430" tvg-id="Soccer.Dummy.us" tvg-name="[Primera A] Deportivo Pereira vs Jaguares de Córdoba | Win Sports + | OP3 (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1543.png" group-title="Live Events",[Primera A] Deportivo Pereira vs Jaguares de Córdoba | Win Sports + | OP3 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/3.php?stream=winsports2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://9.ftlly.com:443/winsports2/mono.m3u8?token=8c23c1046b599c255b4c45e7ccc1ba7e9a68a921-af-1793378709-1793360709
 
-#EXTINF:-1 tvg-chno="430" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Colo-Colo vs Univ. Concepción 1 (STP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Colo-Colo vs Univ. Concepción 1 (STP)
+#EXTINF:-1 tvg-chno="431" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Colo-Colo vs Univ. Concepción 1 (STP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Colo-Colo vs Univ. Concepción 1 (STP)
 #EXTVLCOPT:http-referrer=https://streamx723.sbs/global1.php?channel=tntsportscl
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://99.envivosenhd.beer:443/global/tntsportscl/mono.m3u8?token=56d55812c0ef6b9df3551c84ab3c084f6a8a59a6-f8-1793382306-1793364306
 
-#EXTINF:-1 tvg-chno="431" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Colo-Colo vs Univ. Concepción | TNT Sports Premiun CL (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Colo-Colo vs Univ. Concepción | TNT Sports Premiun CL (TVF90)
+#EXTINF:-1 tvg-chno="432" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Colo-Colo vs Univ. Concepción | TNT Sports Premiun CL (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Colo-Colo vs Univ. Concepción | TNT Sports Premiun CL (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=tntsportschile
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://10.ftlly.com:443/tntsportschile/mono.m3u8?token=aa78a3367ce1a469710d85d95d8d4952dd079836-ee-1793378727-1793360727
 
-#EXTINF:-1 tvg-chno="432" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Colo-Colo vs Univ. Concepción | TNT Sports Premiun CL HD (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Colo-Colo vs Univ. Concepción | TNT Sports Premiun CL HD (TVF90)
+#EXTINF:-1 tvg-chno="433" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Colo-Colo vs Univ. Concepción | TNT Sports Premiun CL HD (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Colo-Colo vs Univ. Concepción | TNT Sports Premiun CL HD (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/hd.php?stream=tntsportschile
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://4.ftlly.com:443/tntsportschile/mono.m3u8?token=b11159289093149fbdf77c0bc7ee4d25116c7f48-cd-1793378728-1793360728
 
-#EXTINF:-1 tvg-chno="433" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Colo-Colo vs Univ. Concepción | TNT Sports Premiun CL OP2 (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Colo-Colo vs Univ. Concepción | TNT Sports Premiun CL OP2 (TVF90)
+#EXTINF:-1 tvg-chno="434" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Colo-Colo vs Univ. Concepción | TNT Sports Premiun CL OP2 (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Colo-Colo vs Univ. Concepción | TNT Sports Premiun CL OP2 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/2.php?stream=tntsportschile
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://3.ftlly.com:443/tntsportschile/mono.m3u8?token=61d8c5d8bf503f920d2a6ec53d9302edf2eded4c-87-1793378728-1793360728
 
-#EXTINF:-1 tvg-chno="434" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Coquimbo Unido vs Unión La Calera 1 (STP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Coquimbo Unido vs Unión La Calera 1 (STP)
+#EXTINF:-1 tvg-chno="435" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Coquimbo Unido vs Unión La Calera 1 (STP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Coquimbo Unido vs Unión La Calera 1 (STP)
 #EXTVLCOPT:http-referrer=https://streamx723.sbs/global1.php?channel=tntsports
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://99.envivosenhd.beer:443/global/tntsports/mono.m3u8?token=688b55d0ada107e7c4b4a43b6c87caad5bf777a9-3c-1793382306-1793364306
 
-#EXTINF:-1 tvg-chno="435" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Coquimbo Unido vs Unión La Calera | TNT Sports Premiun CL (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Coquimbo Unido vs Unión La Calera | TNT Sports Premiun CL (TVF90)
+#EXTINF:-1 tvg-chno="436" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Coquimbo Unido vs Unión La Calera | TNT Sports Premiun CL (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Coquimbo Unido vs Unión La Calera | TNT Sports Premiun CL (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=tntsportschile
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://11.ftlly.com:443/tntsportschile/mono.m3u8?token=c0f5c8f7f6af9d14e66a9395ac27dca5bfec6a33-8-1793378708-1793360708
 
-#EXTINF:-1 tvg-chno="436" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Coquimbo Unido vs Unión La Calera | TNT Sports Premiun CL HD (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Coquimbo Unido vs Unión La Calera | TNT Sports Premiun CL HD (TVF90)
+#EXTINF:-1 tvg-chno="437" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Coquimbo Unido vs Unión La Calera | TNT Sports Premiun CL HD (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Coquimbo Unido vs Unión La Calera | TNT Sports Premiun CL HD (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/hd.php?stream=tntsportschile
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://9.ftlly.com:443/tntsportschile/mono.m3u8?token=998f14e05e2922dc3ac3045a601abc111f79a50b-f2-1793378708-1793360708
 
-#EXTINF:-1 tvg-chno="437" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Coquimbo Unido vs Unión La Calera | TNT Sports Premiun CL OP2 (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Coquimbo Unido vs Unión La Calera | TNT Sports Premiun CL OP2 (TVF90)
+#EXTINF:-1 tvg-chno="438" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Coquimbo Unido vs Unión La Calera | TNT Sports Premiun CL OP2 (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Coquimbo Unido vs Unión La Calera | TNT Sports Premiun CL OP2 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/2.php?stream=tntsportschile
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://5.ftlly.com:443/tntsportschile/mono.m3u8?token=7da6fb7493a9d13e05bcc683f29959c2c614011f-c0-1793378708-1793360708
 
-#EXTINF:-1 tvg-chno="438" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Inter San Carlos vs Escorpiones Belén | FUTV (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Inter San Carlos vs Escorpiones Belén | FUTV (TVF90)
+#EXTINF:-1 tvg-chno="439" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Inter San Carlos vs Escorpiones Belén | FUTV (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Inter San Carlos vs Escorpiones Belén | FUTV (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=futv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://2.ftlly.com:443/futv/mono.m3u8?token=695e8b7be17a20d75e21edfef7562f571ebe365c-fb-1793378712-1793360712
 
-#EXTINF:-1 tvg-chno="439" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Oriente Petrolero vs Aurora | Entel TV PLUS+ (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Oriente Petrolero vs Aurora | Entel TV PLUS+ (TVF90)
+#EXTINF:-1 tvg-chno="440" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Oriente Petrolero vs Aurora | Entel TV PLUS+ (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Oriente Petrolero vs Aurora | Entel TV PLUS+ (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/plus1.php?stream=even1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://5.ftlly.com:443/even1/mono.m3u8?token=2cef0560575b1cc58cf35b47acce09211ff21896-cc-1793378708-1793360708
 
-#EXTINF:-1 tvg-chno="440" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Pérez Zeledón vs Puntarenas | FUTV (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Pérez Zeledón vs Puntarenas | FUTV (TVF90)
+#EXTINF:-1 tvg-chno="441" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Pérez Zeledón vs Puntarenas | FUTV (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Pérez Zeledón vs Puntarenas | FUTV (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=futv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://4.ftlly.com:443/futv/mono.m3u8?token=922a6f7291903d11134dd2c121eb9f72015e432e-2b-1793378712-1793360712
 
-#EXTINF:-1 tvg-chno="441" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Real Potosí vs Independiente Petrolero | Entel TV PLUS+ (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Real Potosí vs Independiente Petrolero | Entel TV PLUS+ (TVF90)
+#EXTINF:-1 tvg-chno="442" tvg-id="Soccer.Dummy.us" tvg-name="[Primera División] Real Potosí vs Independiente Petrolero | Entel TV PLUS+ (TVF90)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/15.png" group-title="Live Events",[Primera División] Real Potosí vs Independiente Petrolero | Entel TV PLUS+ (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/plus1.php?stream=even1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://10.ftlly.com:443/even1/mono.m3u8?token=a92e7cd10fcf946d8f0ef2f636e7eb3602eb9ae7-f5-1793378707-1793360707
 
-#EXTINF:-1 tvg-chno="442" tvg-id="Live.Event.us" tvg-name="[Pro League] Abha vs Al Ittihad | FOX Deportes (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Pro League] Abha vs Al Ittihad | FOX Deportes (TVF90)
+#EXTINF:-1 tvg-chno="443" tvg-id="Live.Event.us" tvg-name="[Pro League] Abha vs Al Ittihad | FOX Deportes (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Pro League] Abha vs Al Ittihad | FOX Deportes (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=foxdeportes
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://3.ftlly.com:443/foxdeportes/mono.m3u8?token=bd0d913648dee9cfe76624350405afe4a7acff13-2a-1793378712-1793360712
 
-#EXTINF:-1 tvg-chno="443" tvg-id="Live.Event.us" tvg-name="[Pro League] Abha vs Al Ittihad | FOX Deportes | HD (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Pro League] Abha vs Al Ittihad | FOX Deportes | HD (TVF90)
+#EXTINF:-1 tvg-chno="444" tvg-id="Live.Event.us" tvg-name="[Pro League] Abha vs Al Ittihad | FOX Deportes | HD (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Pro League] Abha vs Al Ittihad | FOX Deportes | HD (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/hd.php?stream=foxdeportes
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://11.ftlly.com:443/foxdeportes/mono.m3u8?token=f81a233810862787396cceb00bdf1bdb34a399fe-79-1793378713-1793360713
 
-#EXTINF:-1 tvg-chno="444" tvg-id="Live.Event.us" tvg-name="[Pro League] Abha vs Al Ittihad | FOX Deportes | OP2 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Pro League] Abha vs Al Ittihad | FOX Deportes | OP2 (TVF90)
+#EXTINF:-1 tvg-chno="445" tvg-id="Live.Event.us" tvg-name="[Pro League] Abha vs Al Ittihad | FOX Deportes | OP2 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Pro League] Abha vs Al Ittihad | FOX Deportes | OP2 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/2.php?stream=foxdeportes
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://8.ftlly.com:443/foxdeportes/mono.m3u8?token=ed3cd2ffee891e6c4fb4c225dee0d6aa442ce2f7-33-1793378712-1793360712
 
-#EXTINF:-1 tvg-chno="445" tvg-id="Live.Event.us" tvg-name="[Pro League] Abha vs Al Ittihad | FOX Deportes | OP3 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Pro League] Abha vs Al Ittihad | FOX Deportes | OP3 (TVF90)
+#EXTINF:-1 tvg-chno="446" tvg-id="Live.Event.us" tvg-name="[Pro League] Abha vs Al Ittihad | FOX Deportes | OP3 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Pro League] Abha vs Al Ittihad | FOX Deportes | OP3 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/3.php?stream=foxdeportes
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://5.ftlly.com:443/foxdeportes/mono.m3u8?token=c588b8fee57bac2c59fa2baea66c85ff55d4c7cc-fb-1793378713-1793360713
 
-#EXTINF:-1 tvg-chno="446" tvg-id="Live.Event.us" tvg-name="[Pro League] Abha vs Al Ittihad | Sportv 3 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Pro League] Abha vs Al Ittihad | Sportv 3 (TVF90)
+#EXTINF:-1 tvg-chno="447" tvg-id="Live.Event.us" tvg-name="[Pro League] Abha vs Al Ittihad | Sportv 3 (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Pro League] Abha vs Al Ittihad | Sportv 3 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=sportv3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://2.ftlly.com:443/sportv3/mono.m3u8?token=3eb39db0a811f5e83db39d4cb023064081fe064e-7b-1793378713-1793360713
 
-#EXTINF:-1 tvg-chno="447" tvg-id="Live.Event.us" tvg-name="[Pro League] Abha vs Al-Ittihad FC | Español 1 (PLIBRE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Pro League] Abha vs Al-Ittihad FC | Español 1 (PLIBRE)
+#EXTINF:-1 tvg-chno="448" tvg-id="Live.Event.us" tvg-name="[Pro League] Abha vs Al-Ittihad FC | Español 1 (PLIBRE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Pro League] Abha vs Al-Ittihad FC | Español 1 (PLIBRE)
 #EXTVLCOPT:http-referrer=https://la18hd.su/vivo/canales.php?stream=foxdeportes
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://eWVz.fubo18.com:443/foxdeportes/mono.m3u8?token=2856c0635fe73b775e0ea3ca3459956a20198a9f-4b-1793378708-1793360708
 
-#EXTINF:-1 tvg-chno="448" tvg-id="Live.Event.us" tvg-name="[Pro League] Abha vs Al-Ittihad FC | Portugués 1 (PLIBRE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Pro League] Abha vs Al-Ittihad FC | Portugués 1 (PLIBRE)
+#EXTINF:-1 tvg-chno="449" tvg-id="Live.Event.us" tvg-name="[Pro League] Abha vs Al-Ittihad FC | Portugués 1 (PLIBRE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Pro League] Abha vs Al-Ittihad FC | Portugués 1 (PLIBRE)
 #EXTVLCOPT:http-referrer=https://la18hd.su/vivo/canales.php?stream=sportv3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://dglvz29s.fubo18.com:443/sportv3/mono.m3u8?token=f4d0982e6beb8f7fb727ee387d4eb64b7c1c88dc-6e-1793378708-1793360708
 
-#EXTINF:-1 tvg-chno="449" tvg-id="Live.Event.us" tvg-name="[Pro League] Al Shabab vs Al-Ahli | Fox Soccer Plus (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Pro League] Al Shabab vs Al-Ahli | Fox Soccer Plus (TVF90)
+#EXTINF:-1 tvg-chno="450" tvg-id="Live.Event.us" tvg-name="[Pro League] Al Shabab vs Al-Ahli | Fox Soccer Plus (TVF90)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[Pro League] Al Shabab vs Al-Ahli | Fox Soccer Plus (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=foxsoccerplus
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://11.ftlly.com:443/foxsoccerplus/mono.m3u8?token=9961af06a7f531c3f2ec366d2dbd037bb61576ab-c2-1793378734-1793360734
 
-#EXTINF:-1 tvg-chno="450" tvg-id="Soccer.Dummy.us" tvg-name="[Qatar QSL] Al Shahaniya vs Al Ahli Doha (FAWA)" tvg-logo="https://www.qsl.qa/sites/default/files/2021-09/QSL_Logo_Port_CMYK3.png" group-title="Live Events",[Qatar QSL] Al Shahaniya vs Al Ahli Doha (FAWA)
+#EXTINF:-1 tvg-chno="451" tvg-id="Soccer.Dummy.us" tvg-name="[Qatar QSL] Al Shahaniya vs Al Ahli Doha (FAWA)" tvg-logo="https://www.qsl.qa/sites/default/files/2021-09/QSL_Logo_Port_CMYK3.png" group-title="Live Events",[Qatar QSL] Al Shahaniya vs Al Ahli Doha (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.44/hls/RRRRQQ.m3u8
 
-#EXTINF:-1 tvg-chno="451" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi Premier League] Abha vs Al Ittihad (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Premier League] Abha vs Al Ittihad (FAWA)
+#EXTINF:-1 tvg-chno="452" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi Premier League] Abha vs Al Ittihad (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Premier League] Abha vs Al Ittihad (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.41/hls/KMMMAAAAA.m3u8
 
-#EXTINF:-1 tvg-chno="452" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi Premier League] Al Diriyah vs Neom SC (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Premier League] Al Diriyah vs Neom SC (FAWA)
+#EXTINF:-1 tvg-chno="453" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi Premier League] Al Diriyah vs Neom SC (FAWA)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Premier League] Al Diriyah vs Neom SC (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.44/hls/RRRRQQQQ.m3u8
 
-#EXTINF:-1 tvg-chno="453" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi Pro League] Abha vs Al Ittihad | Fox Deportes USA (STRMXHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Pro League] Abha vs Al Ittihad | Fox Deportes USA (STRMXHD)
+#EXTINF:-1 tvg-chno="454" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi Pro League] Abha vs Al Ittihad | Fox Deportes USA (STRMXHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Pro League] Abha vs Al Ittihad | Fox Deportes USA (STRMXHD)
 #EXTVLCOPT:http-referrer=https://streamxhd.sbs/live1.php?stream=fox_deportes_usa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://khala.futlivehd.com/global/fox_deportes_usa/index.m3u8?token=cc31ee9e399912df1d7561dc1911b8d09fda6fce-fa-1793406610-1793352610
 
-#EXTINF:-1 tvg-chno="454" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi Pro League] Abha vs Al Ittihad | SporTV 3 (STRMXHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Pro League] Abha vs Al Ittihad | SporTV 3 (STRMXHD)
+#EXTINF:-1 tvg-chno="455" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi Pro League] Abha vs Al Ittihad | SporTV 3 (STRMXHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Pro League] Abha vs Al Ittihad | SporTV 3 (STRMXHD)
 #EXTVLCOPT:http-referrer=https://streamxhd.sbs/live1.php?stream=sporttvbr3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://khala.futlivehd.com/global/sporttvbr3/index.m3u8?token=a88df418932fa70419cac009938e2e1c33d91b7c-d8-1793406610-1793352610
 
-#EXTINF:-1 tvg-chno="455" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi Pro League] Al Shabab vs Al-Ahli | M Liga Campeones (STRMXHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Pro League] Al Shabab vs Al-Ahli | M Liga Campeones (STRMXHD)
+#EXTINF:-1 tvg-chno="456" tvg-id="Soccer.Dummy.us" tvg-name="[Saudi Pro League] Al Shabab vs Al-Ahli | M Liga Campeones (STRMXHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2488.png" group-title="Live Events",[Saudi Pro League] Al Shabab vs Al-Ahli | M Liga Campeones (STRMXHD)
 #EXTVLCOPT:http-referrer=https://streamxhd.sbs/live1.php?stream=mligacampeones
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://khala.futlivehd.com/global/mligacampeones/index.m3u8?token=e4f31aa7396918ddb2b9a55e5fa1c05930e116d5-f0-1793406610-1793352610
 
-#EXTINF:-1 tvg-chno="456" tvg-id="Soccer.Dummy.us" tvg-name="[Singapore Premier League] Tanjong Pagar vs FC Jurong (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/singapore/700x700/singapore-premier-league.ee82460c.png" group-title="Live Events",[Singapore Premier League] Tanjong Pagar vs FC Jurong (FAWA)
+#EXTINF:-1 tvg-chno="457" tvg-id="Soccer.Dummy.us" tvg-name="[Singapore Premier League] Tanjong Pagar vs FC Jurong (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/singapore/700x700/singapore-premier-league.ee82460c.png" group-title="Live Events",[Singapore Premier League] Tanjong Pagar vs FC Jurong (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.41/hls/KMMMAA.m3u8
 
-#EXTINF:-1 tvg-chno="457" tvg-id="Soccer.Dummy.us" tvg-name="[Super Lig] Konyaspor vs Galatasaray 1 (STP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/18.png" group-title="Live Events",[Super Lig] Konyaspor vs Galatasaray 1 (STP)
+#EXTINF:-1 tvg-chno="458" tvg-id="Soccer.Dummy.us" tvg-name="[Super Lig] Konyaspor vs Galatasaray 1 (STP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/18.png" group-title="Live Events",[Super Lig] Konyaspor vs Galatasaray 1 (STP)
 #EXTVLCOPT:http-referrer=https://streamx723.sbs/global1.php?channel=disney1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://98.envivosenhd.beer:443/global/disney1/mono.m3u8?token=c2c7c377399f25e7bc2700f612708878d6065b67-9a-1793382305-1793364305
 
-#EXTINF:-1 tvg-chno="458" tvg-id="Soccer.Dummy.us" tvg-name="[Super Lig] Konyaspor vs Galatasaray | Disney + (STRMXHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/18.png" group-title="Live Events",[Super Lig] Konyaspor vs Galatasaray | Disney + (STRMXHD)
+#EXTINF:-1 tvg-chno="459" tvg-id="Soccer.Dummy.us" tvg-name="[Super Lig] Konyaspor vs Galatasaray | Disney + (STRMXHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/18.png" group-title="Live Events",[Super Lig] Konyaspor vs Galatasaray | Disney + (STRMXHD)
 #EXTVLCOPT:http-referrer=https://streamxhd.sbs/live1.php?stream=disney1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://khala.futlivehd.com/global/disney1/index.m3u8?token=b3d7187f3f087afb912c6e5cfbfa93c3eb1b937a-12-1793406610-1793352610
 
-#EXTINF:-1 tvg-chno="459" tvg-id="Tennis.Dummy.us" tvg-name="[Tenis] ATP 500 Viena y ATP 500 Basilea – Cuartos de final | ESPN 7 (TVF90)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tenis] ATP 500 Viena y ATP 500 Basilea – Cuartos de final | ESPN 7 (TVF90)
+#EXTINF:-1 tvg-chno="460" tvg-id="Tennis.Dummy.us" tvg-name="[Tenis] ATP 500 Viena y ATP 500 Basilea – Cuartos de final | ESPN 7 (TVF90)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tenis] ATP 500 Viena y ATP 500 Basilea – Cuartos de final | ESPN 7 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/1.php?stream=espn7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://11.ftlly.com:443/espn7/mono.m3u8?token=90e6462a76414b5b1cbf64651c236258acfb73d2-89-1793378715-1793360715
 
-#EXTINF:-1 tvg-chno="460" tvg-id="Tennis.Dummy.us" tvg-name="[Tenis] ATP 500 Viena y ATP 500 Basilea – Cuartos de final | ESPN 7 | OP2 (TVF90)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tenis] ATP 500 Viena y ATP 500 Basilea – Cuartos de final | ESPN 7 | OP2 (TVF90)
+#EXTINF:-1 tvg-chno="461" tvg-id="Tennis.Dummy.us" tvg-name="[Tenis] ATP 500 Viena y ATP 500 Basilea – Cuartos de final | ESPN 7 | OP2 (TVF90)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tenis] ATP 500 Viena y ATP 500 Basilea – Cuartos de final | ESPN 7 | OP2 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/2.php?stream=espn7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://3.ftlly.com:443/espn7/mono.m3u8?token=fc5edcd723a856a6e4a4e1e53ae87bce084b19f9-39-1793378715-1793360715
 
-#EXTINF:-1 tvg-chno="461" tvg-id="Tennis.Dummy.us" tvg-name="[Tenis] ATP 500 Viena y ATP 500 Basilea – Cuartos de final | ESPN 7 | OP3 (TVF90)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tenis] ATP 500 Viena y ATP 500 Basilea – Cuartos de final | ESPN 7 | OP3 (TVF90)
+#EXTINF:-1 tvg-chno="462" tvg-id="Tennis.Dummy.us" tvg-name="[Tenis] ATP 500 Viena y ATP 500 Basilea – Cuartos de final | ESPN 7 | OP3 (TVF90)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tenis] ATP 500 Viena y ATP 500 Basilea – Cuartos de final | ESPN 7 | OP3 (TVF90)
 #EXTVLCOPT:http-referrer=https://tvf90.com/3.php?stream=espn7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://4.ftlly.com:443/espn7/mono.m3u8?token=8a8f3a66d11102273039eac28662e07d90b35e2f-9-1793378715-1793360715
 
-#EXTINF:-1 tvg-chno="462" tvg-id="Tennis.Dummy.us" tvg-name="[Tennis ATP] Tennis ATP Basel (FAWA)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tennis ATP] Tennis ATP Basel (FAWA)
+#EXTINF:-1 tvg-chno="463" tvg-id="Tennis.Dummy.us" tvg-name="[Tennis ATP] Tennis ATP Basel (FAWA)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tennis ATP] Tennis ATP Basel (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.44/hls/EJJJAA.m3u8
 
-#EXTINF:-1 tvg-chno="463" tvg-id="Tennis.Dummy.us" tvg-name="[Tennis ATP] Tennis ATP Vienna (FAWA)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tennis ATP] Tennis ATP Vienna (FAWA)
+#EXTINF:-1 tvg-chno="464" tvg-id="Tennis.Dummy.us" tvg-name="[Tennis ATP] Tennis ATP Vienna (FAWA)" tvg-logo="https://files.catbox.moe/q8ljra.png" group-title="Live Events",[Tennis ATP] Tennis ATP Vienna (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.44/hls/EJJJA.m3u8
 
-#EXTINF:-1 tvg-chno="464" tvg-id="Soccer.Dummy.us" tvg-name="[Thailand Thai league 1] Sisaket United vs Ratchaburi (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/thailand/1500x1500/thai-league-1.3069b0a9.png" group-title="Live Events",[Thailand Thai league 1] Sisaket United vs Ratchaburi (FAWA)
+#EXTINF:-1 tvg-chno="465" tvg-id="Soccer.Dummy.us" tvg-name="[Thailand Thai league 1] Sisaket United vs Ratchaburi (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/thailand/1500x1500/thai-league-1.3069b0a9.png" group-title="Live Events",[Thailand Thai league 1] Sisaket United vs Ratchaburi (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.41/hls/KMMMAAA.m3u8
 
-#EXTINF:-1 tvg-chno="465" tvg-id="Soccer.Dummy.us" tvg-name="[Uzbekistan Super League] Kokand 1912 vs Qizilqum (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/uzbekistan/1500x1500/uzbekistan-super-league.d56222d2.png" group-title="Live Events",[Uzbekistan Super League] Kokand 1912 vs Qizilqum (FAWA)
+#EXTINF:-1 tvg-chno="466" tvg-id="Soccer.Dummy.us" tvg-name="[Uzbekistan Super League] Kokand 1912 vs Qizilqum (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/uzbekistan/1500x1500/uzbekistan-super-league.d56222d2.png" group-title="Live Events",[Uzbekistan Super League] Kokand 1912 vs Qizilqum (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.41/hls/KMMMAAAAAQ.m3u8
 
-#EXTINF:-1 tvg-chno="466" tvg-id="Soccer.Dummy.us" tvg-name="[Uzbekistan Super League] Sogdiana vs Buxoro (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/uzbekistan/1500x1500/uzbekistan-super-league.d56222d2.png" group-title="Live Events",[Uzbekistan Super League] Sogdiana vs Buxoro (FAWA)
+#EXTINF:-1 tvg-chno="467" tvg-id="Soccer.Dummy.us" tvg-name="[Uzbekistan Super League] Sogdiana vs Buxoro (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/uzbekistan/1500x1500/uzbekistan-super-league.d56222d2.png" group-title="Live Events",[Uzbekistan Super League] Sogdiana vs Buxoro (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.41/hls/KMMMAAAAAQQ.m3u8
 
-#EXTINF:-1 tvg-chno="467" tvg-id="Soccer.Dummy.us" tvg-name="[Uzbekistan Super League] Xorazm Urganch vs Pakhtakor (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/uzbekistan/1500x1500/uzbekistan-super-league.d56222d2.png" group-title="Live Events",[Uzbekistan Super League] Xorazm Urganch vs Pakhtakor (FAWA)
+#EXTINF:-1 tvg-chno="468" tvg-id="Soccer.Dummy.us" tvg-name="[Uzbekistan Super League] Xorazm Urganch vs Pakhtakor (FAWA)" tvg-logo="https://assets.football-logos.cc/logos/uzbekistan/1500x1500/uzbekistan-super-league.d56222d2.png" group-title="Live Events",[Uzbekistan Super League] Xorazm Urganch vs Pakhtakor (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.41/hls/KMMMAAAAAQQQ.m3u8
 
-#EXTINF:-1 tvg-chno="468" tvg-id="Soccer.Dummy.us" tvg-name="[Vietnam V League] Bac Ninh vs Gia Lai (FAWA)" tvg-logo="https://files.catbox.moe/gvdiyr.png" group-title="Live Events",[Vietnam V League] Bac Ninh vs Gia Lai (FAWA)
+#EXTINF:-1 tvg-chno="469" tvg-id="Soccer.Dummy.us" tvg-name="[Vietnam V League] Bac Ninh vs Gia Lai (FAWA)" tvg-logo="https://files.catbox.moe/gvdiyr.png" group-title="Live Events",[Vietnam V League] Bac Ninh vs Gia Lai (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.41/hls/KMMM.m3u8
 
-#EXTINF:-1 tvg-chno="469" tvg-id="Soccer.Dummy.us" tvg-name="[Vietnam V League] Hanoi FC vs Phu Dong Ninh Binh (FAWA)" tvg-logo="https://files.catbox.moe/gvdiyr.png" group-title="Live Events",[Vietnam V League] Hanoi FC vs Phu Dong Ninh Binh (FAWA)
+#EXTINF:-1 tvg-chno="470" tvg-id="Soccer.Dummy.us" tvg-name="[Vietnam V League] Hanoi FC vs Phu Dong Ninh Binh (FAWA)" tvg-logo="https://files.catbox.moe/gvdiyr.png" group-title="Live Events",[Vietnam V League] Hanoi FC vs Phu Dong Ninh Binh (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.41/hls/KMMMAAAA.m3u8
 
-#EXTINF:-1 tvg-chno="470" tvg-id="Soccer.Dummy.us" tvg-name="[Vietnam V League] Thanh Hoa vs Hong Linh Ha Tinh (FAWA)" tvg-logo="https://files.catbox.moe/gvdiyr.png" group-title="Live Events",[Vietnam V League] Thanh Hoa vs Hong Linh Ha Tinh (FAWA)
+#EXTINF:-1 tvg-chno="471" tvg-id="Soccer.Dummy.us" tvg-name="[Vietnam V League] Thanh Hoa vs Hong Linh Ha Tinh (FAWA)" tvg-logo="https://files.catbox.moe/gvdiyr.png" group-title="Live Events",[Vietnam V League] Thanh Hoa vs Hong Linh Ha Tinh (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.41/hls/VAVAVA.m3u8
 
-#EXTINF:-1 tvg-chno="471" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTBOLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTBOLX)
+#EXTINF:-1 tvg-chno="472" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[WWE] WWE: Smackdown | Main Feed (FUTBOLX)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[WWE] WWE: Smackdown | Main Feed (FUTBOLX)
 #EXTVLCOPT:http-referrer=https://www.futbol-x.top
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://g.futbolx.ryzn.pro/sma/index.m3u8
