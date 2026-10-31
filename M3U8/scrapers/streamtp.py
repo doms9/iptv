@@ -1,3 +1,5 @@
+import ast
+import base64
 import re
 from collections import defaultdict
 from functools import partial
@@ -32,13 +34,34 @@ async def process_event(url: str, url_num: int) -> str | None:
     ):
         return
 
-    valid_m3u8 = re.compile(r'"src"\s?:"([^"]*)"', re.I)
+    digit_func_ptrn = re.compile(r"{return\s+(\d*);}", re.I)
 
-    if not (match := valid_m3u8.search(event_data.text)):
-        log.warning(f"URL {url_num}) No M3U8 found")
+    if not (digit_list := digit_func_ptrn.findall(event_data.text)):
+        log.warning(f"URL {url_num}) Unable to decode url.")
         return
 
-    splits = urlsplit(match[1])
+    embed_list_ptrn = re.compile(
+        r"(\w+)\s*=\s*(\[\[.*?\]\])\s*;(?=\s*\1\.sort\()",
+        re.S,
+    )
+
+    if not (match := embed_list_ptrn.search(event_data.text)):
+        log.warning(f"URL {url_num}) Unable to decode url.")
+        return
+
+    embed_list_str = match[0].split("=", 1)[-1].strip(";")
+
+    embed_list: list[tuple[int, str]] = ast.literal_eval(embed_list_str)
+
+    m3u8 = "".join(
+        chr(
+            int("".join(c for c in base64.b64decode(v).decode("utf-8") if c.isdigit()))
+            - sum(map(int, digit_list[:2]))
+        )
+        for _, v in sorted(embed_list, key=lambda i: i[0])
+    )
+
+    splits = urlsplit(m3u8)
 
     params = [(k, v) for k, v in parse_qsl(splits.query) if k.lower() != "ip"]
 
