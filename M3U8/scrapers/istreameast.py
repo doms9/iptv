@@ -71,17 +71,14 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
                 li_item.css_first(x)
                 for x in (
                     ".f1-podium--rank",
-                    ".SaatZamanBilgisi",
+                    ".card-live-pill",
                     ".f1-podium--driver",
                 )
             ]
         ):
             continue
 
-        rank_elem, time_elem, driver_elem = values
-
-        if time_elem.text(strip=True).lower() != "live":
-            continue
+        rank_elem, _, driver_elem = values
 
         sport = rank_elem.text(strip=True)
 
@@ -89,6 +86,8 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
 
         if inner_span := driver_elem.css_first("span.d-md-inline"):
             event_name = inner_span.text(strip=True)
+
+        event_name = " ".join(event_name.split())
 
         if f"[{sport}] {event_name} ({TAG})" in cached_keys:
             continue
