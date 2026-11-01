@@ -6,29 +6,16 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-11-01 09:36 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-11-01 19:06 UTC
 
-<h3>✅ Working Streams: 180<br>❌ Dead Streams: 18</h3>
+<h3>✅ Working Streams: 189<br>❌ Dead Streams: 5</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
-<tr><td><a href='https://tvsen3.aynaott.com/5fUWDMxZ/index.m3u8'>Comedy Central</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://tvsen5.aynaott.com/disney/index.m3u8'>Disney Jr</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://tvsen6.aynaott.com/fox5/index.m3u8'>Fox</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://tvsen6.aynaott.com/foxbusiness/index.m3u8'>Fox Business</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://tvsen3.aynaott.com/jTqkTE8W/index.m3u8'>FX</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://tvsen6.aynaott.com/golfchannel/index.m3u8'>Golf Channel</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://tvsen3.aynaott.com/u3NjUrny/index.m3u8'>HBO Hits</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://tvsen3.aynaott.com/Ge23xfY5/index.m3u8'>HGTV</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://tvsen3.aynaott.com/np3JstRE/index.m3u8'>History Channel (Alt)</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://tvsen3.aynaott.com/Ah3tLAfA/index.m3u8'>MGM+</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://frndly.keralive.workers.dev/v1/manifest/840a24ccd7c75076211d060179b3ad0c64fdc6ca/militaryhistory_live_nr/b5743b11-8438-4785-9975-0ad41f09c0cd/1.m3u8'>Military History</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://tvsen6.aynaott.com/nfl/index.m3u8'>NFL Network</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c855/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODU1OjE3OTM1MzQ0MDQ3ODA6Y2RubGl2ZXR2LnR2OjVmODM1NDgzYzM5M2U1NGUuODQ5NWM1OTY0NDVlNWQ1M2Q3MzY4Y2NlZTgwYzVkOGNhYzNhN2MxNWRhZmM1MTY2ZGMzZGYwNzVmNjY0ODg3Yw'>Sky Sports Main Event</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://tvsen3.aynaott.com/sFwCR6Fu/index.m3u8'>Travel Channel</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://tvsen5.aynaott.com/tsn1/index.m3u8'>TSN 1</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://tvsen5.aynaott.com/tsn2/index.m3u8'>TSN 2</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://tvsen5.aynaott.com/tsn3/index.m3u8'>TSN 3</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://tvsen3.aynaott.com/dbbcY6NG/index.m3u8'>USA Network</a></td><td>HTTP Error (404)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0auxff509zda3k1x9tqd3/master.m3u8'>NFL Network</a></td><td>HTTP Error (403)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c855/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODU1OjE3OTM1NzIyMDQ1MTQ6Y2RubGl2ZXR2LnR2OjlmMjFmYTFhNDMzODk2NzguYTgyODRlZmI4YmFlZjY1NmZkNzExOThhZjg4OGM5ZTRkNWIwZWY1Zjc3MGUwMDYwNTUxOTI2NDZjYmFiZjMzOA'>Sky Sports Main Event</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTM1NzIyMDU3NDY6Y2RubGl2ZXR2LnR2OmQzMGE3OGI0M2U0NmNjM2IuNDQ2ZTllYzk3NDQ3NzMyYTExYTFlNmU0OWFhNWRiZmFlMjliMjE2MWNlYmJmYTM0NTY3MDI4YjViZjk5MzY3Mw'>TNT Sports 3</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTM1NzIyMDU5NTA6Y2RubGl2ZXR2LnR2OmQ3MWE5NTk1MDczZDU2ZWQuMDk1MTEyOGI4NDgzNjc0N2JiZDgwZDVkOTJiNDE0ZmE2NTA5NzRiMDM2MTFkZjFmZWQ5YjliNDQzODRhYzJiMQ'>TNT Sports 4</a></td><td>HTTP Error (503)</td></tr>
 </table>
 </div>
 
