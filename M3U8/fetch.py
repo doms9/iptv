@@ -110,7 +110,7 @@ async def main() -> None:
             # xtrnl_brwsr = await network.browser(p, external=True)
 
             pw_tasks = [
-                asyncio.create_task(flyembed.scrape(hdl_brwsr)),
+                # asyncio.create_task(flyembed.scrape(hdl_brwsr)),
                 asyncio.create_task(sportspass.scrape(hdl_brwsr)),
             ]
 
