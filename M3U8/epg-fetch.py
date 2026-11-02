@@ -23,7 +23,7 @@ EPG_URLS = [
         # "ES1",
         "FANDUEL1",
         # "FR1",
-        "IE1",
+        # "IE1",
         # "PEACOCK1",
         "PLEX1",
         "UK1",
