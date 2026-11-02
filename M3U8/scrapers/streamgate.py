@@ -180,6 +180,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
             for lang, url in stream_urls.items()
             if url
             if f"[{sport}] {name} | {lang} ({TAG})" not in cached_keys
+            if lang.lower() != "hd"
         )
 
     return events
