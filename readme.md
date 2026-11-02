@@ -6,17 +6,20 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-11-01 23:49 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-11-02 09:51 UTC
 
-<h3>✅ Working Streams: 191<br>❌ Dead Streams: 6</h3>
+<h3>✅ Working Streams: 188<br>❌ Dead Streams: 9</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
+<tr><td><a href='http://176.65.153.4:4001/play/a08e/index.m3u8'>BBC One</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='http://212.5.144.156:8080/discovery/index.m3u8'>Discovery Channel</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='http://212.5.144.156:8080/disney/index.m3u8'>Disney Channel</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='http://212.5.144.156:8080/history/index.m3u8'>History Channel</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='http://212.5.144.156:8080/id/index.m3u8'>Investigation Discovery</a></td><td>HTTP Error (403)</td></tr>
+<tr><td><a href='http://176.65.153.4:4004/play/a07n/index.m3u8'>ITV1</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='https://frndly.keralive.workers.dev/v1/manifest/840a24ccd7c75076211d060179b3ad0c64fdc6ca/militaryhistory_live_nr/b5743b11-8438-4785-9975-0ad41f09c0cd/1.m3u8'>Military History</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='http://212.5.144.156:8080/nickjr/index.m3u8'>Nick Jr</a></td><td>HTTP Error (403)</td></tr>
+<tr><td><a href='http://176.65.153.4:4007/play/a073/index.m3u8'>STV</a></td><td>HTTP Error (404)</td></tr>
 </table>
 </div>
 
