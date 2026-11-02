@@ -35,14 +35,14 @@ EPG_URLS = [
 
 DUMMIES = {
     "Live.Event.us": leagues.live_img,
-    "WNBA.dummy.us": None,
+    # "WNBA.dummy.us": None,
     **{
         f"{tvg}.Dummy.us": f"https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/{league}.png"
         for tvg, league in [
             ("NBA.Basketball", "nba"),
             ("NFL", "nfl"),
             ("NHL.Hockey", "nhl"),
-            ("MLB.Baseball", "mlb"),
+            # ("MLB.Baseball", "mlb"),
         ]
     },
     **{

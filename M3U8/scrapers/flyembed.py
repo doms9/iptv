@@ -18,7 +18,7 @@ API_FILE = Cache(f"{TAG}-api", exp=19_800)
 
 BASE_URL = "https://flyembed.cfd/"
 
-API_URL = "https://ovogoal.cyou/api/v2/flyembed2.json"
+API_URL = "https://ovogoal.pages.dev/api/v2/flyembed2.json"
 
 
 def cleanup(s: str) -> str:
