@@ -6,26 +6,25 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-11-03 09:57 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-11-03 20:36 UTC
 
-<h3>✅ Working Streams: 186<br>❌ Dead Streams: 15</h3>
+<h3>✅ Working Streams: 187<br>❌ Dead Streams: 14</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
-<tr><td><a href='https://tvsen3.aynaott.com/5fUWDMxZ/index.m3u8'>Comedy Central</a></td><td>cURL Error (28)</td></tr>
+<tr><td><a href='http://23.239.31.26:8989/amc/index.m3u8'>AMC</a></td><td>cURL Error (28)</td></tr>
+<tr><td><a href='http://23.239.31.26:8989/axstv/index.m3u8'>AXS TV</a></td><td>cURL Error (28)</td></tr>
+<tr><td><a href='http://23.239.31.26:8989/aande/index.m3u8'>A&E</a></td><td>cURL Error (28)</td></tr>
+<tr><td><a href='http://41.205.93.154/BRAVO/index.m3u8'>Bravo</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='http://212.5.144.156:8080/discovery/index.m3u8'>Discovery Channel</a></td><td>HTTP Error (403)</td></tr>
 <tr><td><a href='http://212.5.144.156:8080/disney/index.m3u8'>Disney Channel</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://tvsen3.aynaott.com/jTqkTE8W/index.m3u8'>FX</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='https://tvsen3.aynaott.com/u3NjUrny/index.m3u8'>HBO Hits</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='https://tvsen3.aynaott.com/Ge23xfY5/index.m3u8'>HGTV</a></td><td>cURL Error (28)</td></tr>
 <tr><td><a href='http://212.5.144.156:8080/history/index.m3u8'>History Channel</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://tvsen3.aynaott.com/np3JstRE/index.m3u8'>History Channel (Alt)</a></td><td>cURL Error (28)</td></tr>
 <tr><td><a href='http://212.5.144.156:8080/id/index.m3u8'>Investigation Discovery</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://tvsen3.aynaott.com/Ah3tLAfA/index.m3u8'>MGM+</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='https://p4.usnlive.com/stream/msnbc.m3u8'>MS NOW</a></td><td>HTTP Error (404)</td></tr>
+<tr><td><a href='https://cdn-unified-hls.streamspot.com/ingest1/0b5c0f18e9/chunklist.m3u8?origin=1'>Living Faith TV</a></td><td>HTTP Error (404)</td></tr>
+<tr><td><a href='http://198.58.104.90:8989/natgeo/index.m3u8'>Nat Geo</a></td><td>cURL Error (28)</td></tr>
+<tr><td><a href='http://198.58.104.90:8989/nickelodeon/index.m3u8'>Nickelodeon</a></td><td>cURL Error (28)</td></tr>
+<tr><td><a href='http://41.205.93.154/NICKTOONS/index.m3u8'>Nicktoons</a></td><td>HTTP Error (404)</td></tr>
 <tr><td><a href='http://212.5.144.156:8080/nickjr/index.m3u8'>Nick Jr</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c864/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODY0OjE3OTM3MDcyMDQ0NTg6Y2RubGl2ZXR2LnR2OmM1NmY0YmE2YzlmNGJkYjQuY2UzYWRhZWE2ZDhmMzYxZDBhZjU3YTFiYTZmZDQ4MjZhZmU3YzNmZDlkODRmNWE2YzZjZDI2OGUzZDgzZThkNw'>Sky Sports Golf</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://tvsen3.aynaott.com/sFwCR6Fu/index.m3u8'>The Travel Channel</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='https://tvsen3.aynaott.com/dbbcY6NG/index.m3u8'>USA Network</a></td><td>cURL Error (28)</td></tr>
+<tr><td><a href='http://41.205.93.154/TLC/index.m3u8'>TLC</a></td><td>HTTP Error (404)</td></tr>
 </table>
 </div>
 
