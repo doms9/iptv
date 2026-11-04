@@ -18,6 +18,37 @@ CACHE_FILE = Cache(TAG, exp=19_800)
 BASE_URL = "https://streamx723.sbs"
 
 
+async def alt_process(url: str, url_num: int) -> str | None:
+    if not (
+        event_data := await network.request(
+            url,
+            url_num,
+            headers={
+                "Referer": BASE_URL,
+                "Sec-Fetch-Dest": "iframe",
+                "Sec-Fetch-Mode": "navigate",
+                "Sec-Fetch-Site": "same-origin",
+            },
+            log=log,
+        )
+    ):
+        return
+
+    valid_m3u8 = re.compile(r'"src"\s?:"([^"]*)"', re.I)
+
+    if not (match := valid_m3u8.search(event_data.text)):
+        log.warning(f"URL {url_num}) No M3U8 found")
+        return
+
+    splits = urlsplit(match[1])
+
+    params = [(k, v) for k, v in parse_qsl(splits.query) if k.lower() != "ip"]
+
+    log.info(f"URL {url_num}) Captured M3U8")
+
+    return urlunsplit(splits._replace(query=urlencode(params)))
+
+
 async def process_event(url: str, url_num: int) -> str | None:
     if not (
         event_data := await network.request(
@@ -37,8 +68,7 @@ async def process_event(url: str, url_num: int) -> str | None:
     digit_func_ptrn = re.compile(r"{return\s+(\d*);}", re.I)
 
     if not (digit_list := digit_func_ptrn.findall(event_data.text)):
-        log.warning(f"URL {url_num}) Unable to decode url.")
-        return
+        return await alt_process(url, url_num)
 
     embed_list_ptrn = re.compile(
         r"(\w+)\s*=\s*(\[\[.*?\]\])\s*;(?=\s*\1\.sort\()",
