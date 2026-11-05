@@ -6,14 +6,9 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-11-05 09:46 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-11-05 21:10 UTC
 
-<h3>✅ Working Streams: 196<br>❌ Dead Streams: 2</h3>
-<table>
-<tr><th>Channel</th><th>Error (Code)</th></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_BBC_AMERICA/index.m3u8'>BBC America</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='http://198.58.104.90:8989/natgeo/index.m3u8'>Nat Geo</a></td><td>cURL Error (28)</td></tr>
-</table>
+<h3>✅ Working Streams: 198<br>❌ Dead Streams: 0</h3>
 </div>
 
 ---
