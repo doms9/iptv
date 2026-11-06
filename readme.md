@@ -6,9 +6,15 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-11-05 21:10 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-11-06 09:45 UTC
 
-<h3>✅ Working Streams: 198<br>❌ Dead Streams: 0</h3>
+<h3>✅ Working Streams: 195<br>❌ Dead Streams: 3</h3>
+<table>
+<tr><th>Channel</th><th>Error (Code)</th></tr>
+<tr><td><a href='http://41.205.93.154/BRAVO/index.m3u8'>Bravo</a></td><td>HTTP Error (404)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c88c/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODhjOjE3OTM5NjgyMDQyMDU6Y2RubGl2ZXR2LnR2OjNmZjI3MjljYjg1ZmVhMDAuMjg3OTI2YTgwYjQ5ZGQ2YWM3M2VmNDgxMjE3Zjg5M2VkYTYxYjYwOGUyN2U5MTdlNDY4ZTAxNDkzNWE4M2ExZQ'>Sky Sports Football</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTM5NjgyMDYwMzk6Y2RubGl2ZXR2LnR2OjUyZDI2MGQzNjQyYTRlYTkuNTNhNTFmMWU4NGY4ZGVjZDk1ZTAzMzMzYjM4Y2UyMzZhNGQ0ZTJiNmE3NGNjMmJkMzc5MWI4YzRkMTZhYTlmNA'>TNT Sports 4</a></td><td>HTTP Error (503)</td></tr>
+</table>
 </div>
 
 ---
