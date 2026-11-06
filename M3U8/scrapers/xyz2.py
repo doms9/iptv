@@ -123,6 +123,8 @@ async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
     if not (html_data := await network.request(urljoin(BASE_URL, "cbb"), log=log)):
         return events
 
+    sport = "College Basketball"
+
     soup = HTMLParser(html_data.content)
 
     for game in soup.css("ul.schedule-list > a"):
@@ -151,10 +153,10 @@ async def refresh_html_cache(now: Time) -> dict[str, dict[str, str | float]]:
             tz_name="EST",
         )
 
-        key = f"[College Basketball] {event_name} ({TAG})"
+        key = f"[{sport}] {event_name} ({TAG})"
 
         events[key] = {
-            "sport": "College Basketball",
+            "sport": sport,
             "name": event_name,
             "link": urljoin(BASE_URL, href),
             "event_ts": event_dt.timestamp(),
@@ -174,7 +176,7 @@ async def get_events(cached_keys: KeysView[str]) -> list[Event]:
 
         HTML_FILE.write(events)
 
-    start_ts = now.delta(minutes=-90).timestamp()
+    start_ts = now.delta(minutes=-30).timestamp()
     end_ts = now.delta(minutes=30).timestamp()
 
     return [
