@@ -13,7 +13,6 @@ from scrapers import (
     istreameast,
     mainportal,
     pelotalibre,
-    reedstreams,
     sportspass,
     streamcenter,
     streamfree,
@@ -120,7 +119,6 @@ async def main() -> None:
                 asyncio.create_task(istreameast.scrape()),
                 asyncio.create_task(mainportal.scrape()),
                 asyncio.create_task(pelotalibre.scrape()),
-                # asyncio.create_task(reedstreams.scrape()),
                 # asyncio.create_task(streamcenter.scrape()),
                 asyncio.create_task(streamfree.scrape()),
                 asyncio.create_task(streamgate.scrape()),
@@ -149,7 +147,6 @@ async def main() -> None:
         | istreameast.urls
         | mainportal.urls
         | pelotalibre.urls
-        | reedstreams.urls
         | sportspass.urls
         | streamcenter.urls
         | streamfree.urls
