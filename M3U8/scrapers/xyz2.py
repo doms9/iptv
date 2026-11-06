@@ -32,7 +32,7 @@ SERVERS = [
     # "https://hlss2.b-cdn.net/",
     # "https://us2-hlss2.b-cdn.net/",
     # "https://hls.fancy-shark151.workers.dev/",
-    "https://eu-4605069466.duckdns.org",
+    # "https://eu-4605069466.duckdns.org",
     # "https://ierewaw2.b-cdn.net",
     "https://hls.kozow.com",
     # "https://xyzstream.duckdns.org",
