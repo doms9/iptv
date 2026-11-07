@@ -6,16 +6,49 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-11-06 20:30 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-11-07 09:08 UTC
 
-<h3>✅ Working Streams: 193<br>❌ Dead Streams: 5</h3>
+<h3>✅ Working Streams: 160<br>❌ Dead Streams: 38</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
-<tr><td><a href='http://41.205.93.154/BRAVO/index.m3u8'>Bravo</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8'>MTV Live</a></td><td>HTTP Error (404)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c87b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODdiOjE3OTQwMDQyMDQ4ODM6Y2RubGl2ZXR2LnR2OjIwYTQ0ODVlNTQ2YmY5ZmQuOTRmNzgwZGI1MjUwMDE2NDkzZmRiY2EwNTA1ODc0NzQxZWRhOTZiNjU1ZjM4YjI4Yjg3OTliZmY1Yzg5NDNlMg'>Sky Sports Racing</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTQwMDQyMDU3MTg6Y2RubGl2ZXR2LnR2OmRhNmM5MzIwMzIzNzRjMDkuODQ0Y2Q4YzZkMDAwOGE3MGY5ZjlkNDNjOTIzN2JlZDRkMzliMGM0YzAxMmM1OGEyODUyMmQzZWZkN2U2MTE1Zg'>TNT Sports 3</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTQwMDQyMDU5MTQ6Y2RubGl2ZXR2LnR2OmFmM2E1NDFhYTBmZWJjNTEuOGUzNzQ4YWIyOWI3MTI3NWY0MTdkMGU5N2Y1Y2E0NzNhYmNlYjFjZjc2MWFmY2M0NjBkNWYyYmNmMDBkNzQ4Zg'>TNT Sports 4</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/178232v17z1k5v1nckt35/master.m3u8'>ABC</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0jzj42b0vbut7i12bel3a/master.m3u8'>Altitude Sports</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='http://23.237.104.106:8080/USA_BBC_AMERICA/index.m3u8'>BBC America</a></td><td>HTTP Error (404)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/1a3of01189opd41qnda9f/master.m3u8'>BET</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0ep1hzl0v8amlb1wuy8hu/master.m3u8'>Bravo</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/162nn8p18ljgc71v5dou4/master.m3u8'>Cartoon Network</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0x8kufu0m609fs0hv3gqj/master.m3u8'>CBS</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/1bt9bn80g1n8wl09axhtz/master.m3u8'>Chicago Sports Network</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0m0yysq155l4ml0wmil1i/master.m3u8'>Cinemax</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0sw6uxy1c6ro7z0wmk5ex/master.m3u8'>Disney XD</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/1iihbgf0gp1z3m0kzyxf8/master.m3u8'>FETV</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/1mf2ifp0pj7j7u0c383rl/master.m3u8'>Freeform TV</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/110fynw1a68kro18sxusr/master.m3u8'>FXX</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0ci3u9o0q5y25d0b0p7rp/master.m3u8'>FX Movie Channel</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0ydh0qu1ty0jxl15lx991/master.m3u8'>FYI Channel</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/091cvyx0d5ekhm1kkjtwa/master.m3u8'>Grit</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/06cs2qs180xxhr0ebtptz/master.m3u8'>Hallmark Mystery</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0vyvl7y1gwwplb0m12enw/master.m3u8'>HBO</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/1t9dc2w00br9sx13nldbm/master.m3u8'>Lifetime Movie Network</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0fw1ltm1y185qp02gtx24/master.m3u8'>Marquee Sports Network</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0lmxu4h1n7licd169kp82/master.m3u8'>MeTV</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/00g9qgg133gtja13nq2hs/master.m3u8'>MSG</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='http://23.237.104.106:8080/USA_MTV/index.m3u8'>MTV</a></td><td>cURL Error (28)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/108kde90atgxpe1b70g4o/master.m3u8'>NBC</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/1l1gsxk1pvtxv00kuywhx/master.m3u8'>NBC Sports Bay Area</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0fpm15a0k4ux2g1tx7fhe/master.m3u8'>NBC Sports Boston</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0iexaqu0xs8ukv01awmpa/master.m3u8'>NBC Sports California</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0nkruul0d8pahi1pz4sjc/master.m3u8'>NHL Network</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/1ewxgzu023dos60vlh62k/master.m3u8'>Nickelodeon</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/1az2pv01wqk8zi11yns1c/master.m3u8'>Paramount+ with Showtime</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/18onfhu0tcnd770f8j724/master.m3u8'>Showtime 2</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0vczpii0ydyb4i1t922r4/master.m3u8'>Showtime Extreme</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/034yveq0x3b43c1q0ycfa/master.m3u8'>Space City Home Network</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0rwqr121hh9q861eel783/master.m3u8'>Spectrum SportsNet Lakers</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0hiq6c61a1o18r1kmwr4v/master.m3u8'>SportsNet New York</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/16fgsju1pnic1t0n4pa9a/master.m3u8'>Starz</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/1d9d5fm15shhb30dnkvt0/master.m3u8'>TV Land</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/1oxx3bw1uf3t3s0datpdp/master.m3u8'>TV ONE</a></td><td>HTTP Error (502)</td></tr>
 </table>
 </div>
 
