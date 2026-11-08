@@ -16,7 +16,7 @@ CACHE_FILE = Cache(TAG, exp=7_200)
 
 API_FILE = Cache(f"{TAG}-api", exp=19_800)
 
-BASE_URL = "https://flyembed.cfd/"
+BASE_URL = "https://flyembed.sbs/"
 
 API_URL = "https://ovogoal.pages.dev/api/v2/flyembed2.json"
 

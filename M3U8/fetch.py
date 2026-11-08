@@ -114,10 +114,10 @@ async def main() -> None:
             httpx_tasks = [
                 asyncio.create_task(dami.scrape()),
                 asyncio.create_task(fawa.scrape()),
-                # asyncio.create_task(flyembed.scrape()),
+                asyncio.create_task(flyembed.scrape()),
                 asyncio.create_task(futbolx.scrape()),
                 asyncio.create_task(istreameast.scrape()),
-                # asyncio.create_task(mainportal.scrape()),
+                asyncio.create_task(mainportal.scrape()),
                 asyncio.create_task(pelotalibre.scrape()),
                 # asyncio.create_task(streamcenter.scrape()),
                 asyncio.create_task(streamfree.scrape()),
