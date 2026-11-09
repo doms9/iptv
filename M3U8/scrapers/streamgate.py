@@ -5,7 +5,7 @@ from collections.abc import KeysView
 from functools import partial
 from itertools import chain
 from typing import Any
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit, urlunsplit
 
 import httpx
 from selectolax.lexbor import LexborHTMLParser as HTMLParser
@@ -82,8 +82,19 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
         log.warning(f"URL {url_num}) No source found.")
         return nones
 
+    source: str = json.loads(f'"{match[2]}"')
+
+    splits = urlsplit(source)
+
+    source = (
+        urlunsplit(splits._replace(netloc="instreams.live"))
+        if "gate" in splits.netloc
+        else source
+    )
+
     log.info(f"URL {url_num}) Captured M3U8")
-    return json.loads(f'"{match[2]}"'), ifr_src
+
+    return source, ifr_src
 
 
 async def refresh_api_cache(now: Time) -> list[dict[str, Any]]:
