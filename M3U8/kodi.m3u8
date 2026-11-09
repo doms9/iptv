@@ -103,7 +103,7 @@ http://23.237.104.106:8080/USA_CMT/index.m3u8
 https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="35" tvg-id="CNN.HD.us2" tvg-name="CNN" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58646_dark_360w_270h.png" group-title="TV",CNN
-https://p12.usnlive.com/stream/cnn.m3u8|Referer=https%3A//usnewson.com/
+https://p9.usnlive.com/stream/cnn.m3u8|Referer=https%3A//usnewson.com/
 
 #EXTINF:-1 tvg-chno="36" tvg-id="plex.tv.CNN.Headlines.plex" tvg-name="CNN Headlines" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s138109_dark_360w_270h.png" group-title="TV",CNN Headlines
 https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/90541a38-680a-49bd-b338-b360726f0422/3.m3u8
@@ -181,7 +181,7 @@ https://tvsen6.aynaott.com/foxbusiness/index.m3u8
 https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-chno="61" tvg-id="Fox.News.Channel.HD.us2" tvg-name="Fox News" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16374_dark_360w_270h.png" group-title="TV",Fox News
-https://p12.usnlive.com/stream/foxnews.m3u8|Referer=https%3A//usnewson.com/
+https://p9.usnlive.com/stream/foxnews.m3u8|Referer=https%3A//usnewson.com/
 
 #EXTINF:-1 tvg-chno="62" tvg-id="FS1.HD.us2" tvg-name="Fox Sports 1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82541_dark_360w_270h.png" group-title="TV",Fox Sports 1
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
@@ -271,7 +271,7 @@ https://tvsen3.aynaott.com/Ah3tLAfA/index.m3u8
 https://frndly.keralive.workers.dev/v1/manifest/840a24ccd7c75076211d060179b3ad0c64fdc6ca/militaryhistory_live_nr/b5743b11-8438-4785-9975-0ad41f09c0cd/1.m3u8|Referer=http%3A//bhoomtv.org/
 
 #EXTINF:-1 tvg-chno="91" tvg-id="MS.NOW.HD.us2" tvg-name="MS NOW" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002H5PTP.png_dark_360w_270h.png" group-title="TV",MS NOW
-https://p12.usnlive.com/stream/msnbc.m3u8|Referer=https%3A//usnewson.com/
+https://p9.usnlive.com/stream/msnbc.m3u8|Referer=https%3A//usnewson.com/
 
 #EXTINF:-1 tvg-chno="92" tvg-id="MSG.National.us2" tvg-name="MSG" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10979_dark_360w_270h.png" group-title="TV",MSG
 https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf32/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMyOjE3OTQyNjcwMDY1NTM6Y2RubGl2ZXR2LnR2OjljMDQ5MzA4MTI5Y2ZlZWMuNTdjYTYyNDJlOTUyZTkwNzU3ZjAxY2I1NGQ0NzE2OTMyYjRhNGI2MzVhOTNlYjNlOTM3MGI3YjI5MmJhNTI3NQ|User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
@@ -665,7 +665,7 @@ https://khala.futlivehd.com/global/nba4/index.m3u8?token=e3e744c75851d41d0ee1406
 https://99.envivosenhd.beer:443/global/max1/mono.m3u8?token=cab3cea5ebe0b0e98e4de0e1276074c13a131b5e-39-1794269713-1794251713|Referer=https%3A//streamx723.sbs/global1.php%3Fchannel%3Dmax1&Origin=https%3A//streamx723.sbs/global1.php%3Fchannel%3Dmax1&User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
 
 #EXTINF:-1 tvg-chno="222" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Bills vs Vikings (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Bills vs Vikings (WEBCAST)
-https://webcast-origin.b-cdn.net/bcdn_token=37yudVJrwafpUa3NcSC_I2Z-gP3-tiJY5PHEcRnwCaU&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhEw-3Ghuy719EwUps0fBbs_%2F&expires=1794243732/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhEw-3Ghuy719EwUps0fBbs_/79.m3u8|Referer=https%3A//nflwebcast.com&Origin=https%3A//nflwebcast.com&User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
+https://webcast-origin.b-cdn.net/bcdn_token=XIME5lEHjTX_nVTbn35a7LFDIxKvkqAc0GG1s3x5_yE&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhEw-3Ghuy719EwUps0fBbs_%2F&expires=1794256328/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhEw-3Ghuy719EwUps0fBbs_/79.m3u8|Referer=https%3A//nflwebcast.com&Origin=https%3A//nflwebcast.com&User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
 
 #EXTINF:-1 tvg-chno="223" tvg-id="NFL.Dummy.us" tvg-name="[NFL] Bills vs Vikings 1 (STP)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png" group-title="Live Events",[NFL] Bills vs Vikings 1 (STP)
 https://99.envivosenhd.beer:443/global/espn2/mono.m3u8?token=802fd5a56e215cbcc087775da7b1f912e2938cbb-e2-1794269713-1794251713|Referer=https%3A//streamx723.sbs/global1.php%3Fchannel%3Despn2&Origin=https%3A//streamx723.sbs/global1.php%3Fchannel%3Despn2&User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
@@ -686,10 +686,10 @@ https://YXdlc29tZQ.fubo18.com:443/disney2/mono.m3u8?token=b5961c626a06754263b10d
 https://bgvnzw5k.fubo18.com:443/disney3/mono.m3u8?token=20bd9900e079a0935e7fe949d603a1d94269bd48-3e-1794266113-1794248113|Referer=https%3A//la18hd.su/vivo/canales.php%3Fstream%3Ddisney3&Origin=https%3A//la18hd.su/vivo/canales.php%3Fstream%3Ddisney3&User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
 
 #EXTINF:-1 tvg-chno="229" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Flyers vs Canucks (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Flyers vs Canucks (WEBCAST)
-https://webcast-origin.b-cdn.net/bcdn_token=VckrDfqCnvqhOlQidFYl8PbZiOrLW2BTTZmyUhkqpBc&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhEDgb7MlFEdOtBGWGKxpzO4%2F&expires=1794243733/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhEDgb7MlFEdOtBGWGKxpzO4/88.m3u8|Referer=https%3A//slapstreams.com&Origin=https%3A//slapstreams.com&User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
+https://webcast-origin.b-cdn.net/bcdn_token=UrdgU0XuhJn-iin4L0mV0VtkauprBu8639JwEfTfTsg&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhEDgb7MlFEdOtBGWGKxpzO4%2F&expires=1794256329/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhEDgb7MlFEdOtBGWGKxpzO4/88.m3u8|Referer=https%3A//slapstreams.com&Origin=https%3A//slapstreams.com&User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
 
 #EXTINF:-1 tvg-chno="230" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Islanders vs Sharks (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Islanders vs Sharks (WEBCAST)
-https://webcast-origin.b-cdn.net/bcdn_token=YYWs2Nzvt4p2iAEHAon4L-Ru4FmZv_vwCzrdUdSpjqw&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGfDhVDA-nZk44I-shtei40%2F&expires=1794243733/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGfDhVDA-nZk44I-shtei40/103.m3u8|Referer=https%3A//slapstreams.com&Origin=https%3A//slapstreams.com&User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
+https://webcast-origin.b-cdn.net/bcdn_token=GcdydkS-TesGdk3-9SapIrTw2v7FruZvd2DIcjdpegA&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGfDhVDA-nZk44I-shtei40%2F&expires=1794256329/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGfDhVDA-nZk44I-shtei40/103.m3u8|Referer=https%3A//slapstreams.com&Origin=https%3A//slapstreams.com&User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
 
 #EXTINF:-1 tvg-chno="231" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] New York Islanders vs San Jose Sharks | Disney + (STRMXHD)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] New York Islanders vs San Jose Sharks | Disney + (STRMXHD)
 https://khala.futlivehd.com/global/disney4/index.m3u8?token=7d3e4d9a637550aaa413a79e1db7fa80f0c63105-a1-1794294019-1794240019|Referer=https%3A//streamxhd.sbs/live1.php%3Fstream%3Ddisney4&Origin=https%3A//streamxhd.sbs/live1.php%3Fstream%3Ddisney4&User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
@@ -701,7 +701,7 @@ https://khala.futlivehd.com/global/disney2/index.m3u8?token=f5b474001d10fc76794c
 https://khala.futlivehd.com/global/disney3/index.m3u8?token=c8860b77fb77ab7dda134e5de91f04fad5ff9613-d6-1794294018-1794240018|Referer=https%3A//streamxhd.sbs/live1.php%3Fstream%3Ddisney3&Origin=https%3A//streamxhd.sbs/live1.php%3Fstream%3Ddisney3&User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
 
 #EXTINF:-1 tvg-chno="234" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] Rangers vs Oilers (WEBCAST)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] Rangers vs Oilers (WEBCAST)
-https://webcast-origin.b-cdn.net/bcdn_token=wIHPSxsxZYUstZqc26Do8TpY9RT2d1NRqNldqd93o_w&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhEBq9y1XrFWWHFSmQ_geFL9%2F&expires=1794243732/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhEBq9y1XrFWWHFSmQ_geFL9/98.m3u8|Referer=https%3A//slapstreams.com&Origin=https%3A//slapstreams.com&User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
+https://webcast-origin.b-cdn.net/bcdn_token=uTKWgCbKwYhYvvQPgvKmtGDR1ykuqb7rs6Rq4ZZgQy4&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhEBq9y1XrFWWHFSmQ_geFL9%2F&expires=1794256329/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhEBq9y1XrFWWHFSmQ_geFL9/98.m3u8|Referer=https%3A//slapstreams.com&Origin=https%3A//slapstreams.com&User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
 
 #EXTINF:-1 tvg-chno="235" tvg-id="NHL.Hockey.Dummy.us" tvg-name="[NHL] San Jose Sharks vs New York Islanders | Español 1 (PLIBRE)" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nhl.png" group-title="Live Events",[NHL] San Jose Sharks vs New York Islanders | Español 1 (PLIBRE)
 https://eWVz.fubo18.com:443/disney5/mono.m3u8?token=ec1020c1db7b5991344894b3bef86002ec903120-2f-1794266116-1794248116|Referer=https%3A//la18hd.su/vivo/canales.php%3Fstream%3Ddisney5&Origin=https%3A//la18hd.su/vivo/canales.php%3Fstream%3Ddisney5&User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
