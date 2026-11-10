@@ -579,3 +579,13 @@ https://7.ftlly.com:443/espn/mono.m3u8?token=67ab3159c922666099ea59c6078c9de1f6a
 #EXTVLCOPT:http-referrer=https://streamx723.sbs/global1.php?channel=disney2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://99.envivosenhd.beer:443/global/disney2/mono.m3u8?token=ed475c703283936a80f8786940c1e409d9a1f178-30-1794332713-1794314713
+
+#EXTINF:-1 tvg-chno="117" tvg-id="Live.Event.us" tvg-name="[World Championship Women] Czechia vs Germany (iSTRMEAST)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Championship Women] Czechia vs Germany (iSTRMEAST)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/new-stream-embed/59751?ad=111
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/59751/load-playlist
+
+#EXTINF:-1 tvg-chno="118" tvg-id="Live.Event.us" tvg-name="[World Championship Women] Finland vs Japan (iSTRMEAST)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Championship Women] Finland vs Japan (iSTRMEAST)
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net/new-stream-embed/59752?ad=111
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://chatgpt.hereisman.net/playlist/59752/load-playlist
