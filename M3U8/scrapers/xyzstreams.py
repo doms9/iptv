@@ -27,17 +27,8 @@ HTML_FILE = Cache(f"{TAG}-html", exp=19_800)
 BASE_URL = "https://xyzstreams.st"
 
 SERVERS = [
-    # "https://xyzstreams.blog/1/",
-    # "https://tokenized.b-cdn.net/",
-    # "https://xyzstreams.space/",
-    # "https://eu-hlss2.b-cdn.net/",
-    # "https://hlss2.b-cdn.net/",
-    # "https://us2-hlss2.b-cdn.net/",
-    # "https://hls.fancy-shark151.workers.dev/",
-    # "https://eu-4605069466.duckdns.org",
-    # "https://ierewaw2.b-cdn.net",
+    "https://404found.it.com",
     "https://hls.kozow.com",
-    # "https://xyzstream.duckdns.org",
     "https://us-xyz.work.gd",
 ]
 
