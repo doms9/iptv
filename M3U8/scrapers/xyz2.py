@@ -193,8 +193,6 @@ async def scrape() -> None:
     if events := await get_events(cached_sources.keys()):
         log.info(f"Processing {len(events)} new URL(s)")
 
-        now = Time.rn()
-
         for i, ev in enumerate(events, start=1):
             handler = partial(
                 process_event,
@@ -217,7 +215,7 @@ async def scrape() -> None:
                 "source": source,
                 "logo": logo,
                 "refer": ev.link,
-                "timestamp": now.timestamp(),
+                "timestamp": ev.event_ts,
                 "tvg-id": tvg_id or "Live.Event.us",
             }
 
