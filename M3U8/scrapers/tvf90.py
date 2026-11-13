@@ -56,7 +56,7 @@ async def process_event(url: str, url_num: int) -> str | None:
     ):
         return
 
-    valid_m3u8 = re.compile(r'var\s+playbackURL\s+=\s+"([^"]*)"', re.I)
+    valid_m3u8 = re.compile(r'"src"\s?:"([^"]*)"', re.I)
 
     if not (match := valid_m3u8.search(ifr_src_data.text)):
         log.warning(f"URL {url_num}) No M3U8 found")
