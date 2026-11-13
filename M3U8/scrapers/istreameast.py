@@ -1,3 +1,4 @@
+import json
 import re
 from collections.abc import KeysView
 from functools import partial
@@ -51,7 +52,7 @@ async def process_event(url: str, url_num: int) -> tuple[str | None, str | None]
 
     log.info(f"URL {url_num}) Captured M3U8")
 
-    return match[1], iframe_src
+    return json.loads(f'"{match[1]}"'), iframe_src
 
 
 async def get_events(cached_keys: KeysView[str]) -> list[Event]:
