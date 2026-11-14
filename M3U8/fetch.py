@@ -200,7 +200,7 @@ async def main() -> None:
             vlc_block.insert(1, f"#EXTVLCOPT:http-origin={origin}")
 
         kodi_block: list[str] = [
-            f"{source}|Referer={quote(refer)}&Origin={quote(refer)}&User-Agent={quote(ua)}"
+            f"{source}|Referer={quote(refer)}&Origin={quote(origin) if (origin := event_info.get('origin')) else quote(refer)}&User-Agent={quote(ua)}"
         ]
 
         combined_channels.extend(["\n" + extinf_all, *vlc_block])
