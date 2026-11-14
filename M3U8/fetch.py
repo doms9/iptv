@@ -9,6 +9,7 @@ from scrapers import (
     dami,
     fawa,
     futbolx,
+    gsports,
     istreameast,
     mainportal,
     pelotalibre,
@@ -108,6 +109,7 @@ async def main() -> None:
             # xtrnl_brwsr = await network.browser(p, external=True)
 
             pw_tasks = [
+                asyncio.create_task(gsports.scrape(hdl_brwsr)),
                 asyncio.create_task(sportspass.scrape(hdl_brwsr)),
             ]
 
@@ -141,6 +143,7 @@ async def main() -> None:
         dami.urls
         | fawa.urls
         | futbolx.urls
+        | gsports.urls
         | istreameast.urls
         | mainportal.urls
         | pelotalibre.urls
@@ -192,6 +195,9 @@ async def main() -> None:
             f"#EXTVLCOPT:http-user-agent={ua}",
             source,
         ]
+
+        if origin := event_info.get("origin"):
+            vlc_block.insert(1, f"#EXTVLCOPT:http-origin={origin}")
 
         kodi_block: list[str] = [
             f"{source}|Referer={quote(refer)}&Origin={quote(refer)}&User-Agent={quote(ua)}"
