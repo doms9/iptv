@@ -22,7 +22,7 @@ CACHE_FILE = Cache(TAG, exp=10_800)
 
 HTML_FILE = Cache(f"{TAG}-html", exp=19_800)
 
-BASE_URL = "https://xyzstreams.st"
+BASE_URL = "https://xyzstreams.space"
 
 SERVERS = [
     "https://404found.it.com",
