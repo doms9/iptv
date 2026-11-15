@@ -6,13 +6,12 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-11-14 19:24 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-11-15 00:08 UTC
 
-<h3>✅ Working Streams: 185<br>❌ Dead Streams: 2</h3>
+<h3>✅ Working Streams: 189<br>❌ Dead Streams: 1</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTQ2OTAwMDcwMjE6Y2RubGl2ZXR2LnR2OmNmYTA4ZDllMzA4ZWYyMDYuNTljYjYyZTJhMTNmMGIyNjA3MzFjZDRkZWJjMzkyYzQ4OGJjZDQ4MjJiMDA0ZDEwMjZjZjYyNzdjNjBhYTgzZA'>TNT Sports 3</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTQ2OTAwMDcyNjI6Y2RubGl2ZXR2LnR2Ojc1NzMxZTY0MjQ5YzFjZWQuZmI3NDQxYmU3M2FmNzhmZjNjN2Y3NDU4M2U0ODhhMGUwMzRkYzk5YjhlNmRjODcwMTFlOGU4MWM0MzEwYzIwMw'>TNT Sports 4</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTQ3MDgwMDc3MDY6Y2RubGl2ZXR2LnR2OjVjODBjMzVkNTM0YThjZGUuZDcwZDBiZDg0NDJkYTY3ZmM0OTkyNzc0OTIyYjFhMWJkYjBjZDRiYWI3ZmJkMzJmNmM2ZDUwYzhhNGM3YThmMQ'>TNT Sports 4</a></td><td>HTTP Error (503)</td></tr>
 </table>
 </div>
 
