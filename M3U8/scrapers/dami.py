@@ -4,6 +4,8 @@ from functools import partial
 from typing import Any
 from urllib.parse import urljoin
 
+import httpx
+
 from .utils import Cache, Event, Time, get_logger, leagues, network
 
 log = get_logger(__name__)
@@ -38,6 +40,7 @@ async def process_event(
             urljoin(BASE_URL, f"papi/extract-url/{ppv_id}"),
             url_num,
             headers={"Referer": urljoin(BASE_URL, f"embed/?id={stream_id}")},
+            timeout=httpx.Timeout(25.0),
             log=log,
         )
     ):
