@@ -6,12 +6,16 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-11-15 00:08 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-11-15 09:48 UTC
 
-<h3>✅ Working Streams: 189<br>❌ Dead Streams: 1</h3>
+<h3>✅ Working Streams: 185<br>❌ Dead Streams: 5</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTQ3MDgwMDc3MDY6Y2RubGl2ZXR2LnR2OjVjODBjMzVkNTM0YThjZGUuZDcwZDBiZDg0NDJkYTY3ZmM0OTkyNzc0OTIyYjFhMWJkYjBjZDRiYWI3ZmJkMzJmNmM2ZDUwYzhhNGM3YThmMQ'>TNT Sports 4</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ced8/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWQ4OjE3OTQ3NDQwMDQ4ODg6Y2RubGl2ZXR2LnR2OjljZWEwNDcwNWQ5YWM5ZDUuYzgyNmJkMWQwYjg0MjhmY2UxZTlhNTljNTQ0MmNiZGRjOWU4ZjdlNjZhYWU4ZGY3YzMxOWNhNzQ5NmM3YWY2NQ'>Altitude Sports</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/1iihbgf0gp1z3m0kzyxf8/master.m3u8'>FETV</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/108kde90atgxpe1b70g4o/master.m3u8'>NBC</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/0hiq6c61a1o18r1kmwr4v/master.m3u8'>SportsNet New York</a></td><td>HTTP Error (502)</td></tr>
+<tr><td><a href='https://cache0.wonvt.st/live/1sfof101ifqzke0fuw3tz/master.m3u8'>The Travel Channel</a></td><td>HTTP Error (502)</td></tr>
 </table>
 </div>
 
