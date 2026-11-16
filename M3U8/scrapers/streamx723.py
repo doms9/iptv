@@ -1,3 +1,5 @@
+import ast
+import base64
 import re
 from collections import defaultdict
 from functools import partial
@@ -9,14 +11,14 @@ log = get_logger(__name__)
 
 urls: dict[str, dict[str, str | float]] = {}
 
-TAG = "PLIBRE"
+TAG = "STRMX723"
 
 CACHE_FILE = Cache(TAG, exp=19_800)
 
-BASE_URL = "https://la18hd.su"
+BASE_URL = "https://streamx723.sbs"
 
 
-async def process_event(url: str, url_num: int) -> str | None:
+async def alt_process(url: str, url_num: int) -> str | None:
     if not (
         event_data := await network.request(
             url,
@@ -47,20 +49,73 @@ async def process_event(url: str, url_num: int) -> str | None:
     return urlunsplit(splits._replace(query=urlencode(params)))
 
 
+async def process_event(url: str, url_num: int) -> str | None:
+    if not (
+        event_data := await network.request(
+            url,
+            url_num,
+            headers={
+                "Referer": BASE_URL,
+                "Sec-Fetch-Dest": "iframe",
+                "Sec-Fetch-Mode": "navigate",
+                "Sec-Fetch-Site": "same-origin",
+            },
+            log=log,
+        )
+    ):
+        return
+
+    digit_func_ptrn = re.compile(r"{return\s+(\d*);}", re.I)
+
+    if not (digit_list := digit_func_ptrn.findall(event_data.text)):
+        return await alt_process(url, url_num)
+
+    embed_list_ptrn = re.compile(
+        r"(\w+)\s*=\s*(\[\[.*?\]\])\s*;(?=\s*\1\.sort\()",
+        re.S,
+    )
+
+    if not (match := embed_list_ptrn.search(event_data.text)):
+        log.warning(f"URL {url_num}) Unable to decode url.")
+        return
+
+    embed_list_str = match[0].split("=", 1)[-1].strip(";")
+
+    embed_list: list[tuple[int, str]] = ast.literal_eval(embed_list_str)
+
+    m3u8 = "".join(
+        chr(
+            int("".join(c for c in base64.b64decode(v).decode("utf-8") if c.isdigit()))
+            - sum(map(int, digit_list[:2]))
+        )
+        for _, v in sorted(embed_list, key=lambda i: i[0])
+    )
+
+    splits = urlsplit(m3u8)
+
+    params = [(k, v) for k, v in parse_qsl(splits.query) if k.lower() != "ip"]
+
+    log.info(f"URL {url_num}) Captured M3U8")
+
+    return urlunsplit(splits._replace(query=urlencode(params)))
+
+
 async def get_events() -> list[Event]:
+    now = Time.rn()
+
     events: list[Event] = []
 
     if not (
         api_req := await network.request(
-            urljoin(BASE_URL, "eventos/json/agenda123.json"),
+            urljoin(BASE_URL, "json/agenda888.json"),
             log=log,
         )
     ):
         return events
 
-    api_data: list[dict[str, str]] = api_req.json()
-
     counter: dict[str, int] = defaultdict(int)
+
+    api_data: list[dict[str, str]] = api_req.json()
 
     for event_info in api_data:
         if not all(
@@ -68,14 +123,17 @@ async def get_events() -> list[Event]:
                 event_info.get(x)
                 for x in (
                     "title",
-                    "category",
                     "link",
+                    "date",
                 )
             ]
         ):
             continue
 
-        title, sport, link = values
+        title, link, event_date = values
+
+        if event_date != f"{now.date()}":
+            continue
 
         try:
             sport, name = (
@@ -89,14 +147,11 @@ async def get_events() -> list[Event]:
         except ValueError:
             sport, name = "Live Event", title
 
-        if not (url_splits := urlsplit(link)).query:
-            continue
+        # if not (url_splits := urlsplit(link)).query:
+        #     continue
 
-        elif not dict(parse_qsl(url_splits.query)).get("stream"):
-            continue
-
-        if not link.startswith(BASE_URL):
-            link: str = urlunsplit(url_splits._replace(netloc=BASE_URL.split("/")[-1]))
+        # elif not dict(parse_qsl(url_splits.query)).get("stream"):
+        #     continue
 
         name = (
             f"{name.split("|")[0].strip()} | {lang}"
@@ -110,7 +165,8 @@ async def get_events() -> list[Event]:
             Event(
                 sport=sport,
                 name=f"{name} {counter[name]}",
-                link=link.strip(),
+                link=link,
+                timestamp=now.timestamp(),
             )
         )
 
@@ -129,8 +185,6 @@ async def scrape() -> None:
 
     if events := await get_events():
         log.info(f"Processing {len(events)} URL(s)")
-
-        now = Time.rn()
 
         for i, ev in enumerate(events, start=1):
             handler = partial(
@@ -154,7 +208,7 @@ async def scrape() -> None:
                 "source": source,
                 "logo": logo,
                 "refer": ev.link,
-                "timestamp": now.timestamp(),
+                "timestamp": ev.timestamp,
                 "tvg-id": tvg_id or "Live.Event.us",
             }
 

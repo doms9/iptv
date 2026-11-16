@@ -11,12 +11,13 @@ from scrapers import (
     futbolx,
     gsports,
     istreameast,
+    la18hd,
     mainportal,
-    pelotalibre,
     sportspass,
     streamfree,
     streamgate,
     streamtp,
+    streamx723,
     streamxhd,
     tvf90,
     webcast,
@@ -118,11 +119,12 @@ async def main() -> None:
                 asyncio.create_task(fawa.scrape()),
                 asyncio.create_task(futbolx.scrape()),
                 asyncio.create_task(istreameast.scrape()),
+                asyncio.create_task(la18hd.scrape()),
                 asyncio.create_task(mainportal.scrape()),
-                asyncio.create_task(pelotalibre.scrape()),
                 asyncio.create_task(streamfree.scrape()),
                 asyncio.create_task(streamgate.scrape()),
                 asyncio.create_task(streamtp.scrape()),
+                asyncio.create_task(streamx723.scrape()),
                 asyncio.create_task(streamxhd.scrape()),
                 asyncio.create_task(tvf90.scrape()),
                 asyncio.create_task(webcast.scrape()),
@@ -145,12 +147,13 @@ async def main() -> None:
         | futbolx.urls
         | gsports.urls
         | istreameast.urls
+        | la18hd.urls
         | mainportal.urls
-        | pelotalibre.urls
         | sportspass.urls
         | streamfree.urls
         | streamgate.urls
         | streamtp.urls
+        | streamx723.urls
         | streamxhd.urls
         | tvf90.urls
         | webcast.urls
