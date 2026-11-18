@@ -84,6 +84,8 @@ async def get_events() -> list[Event]:
             else f"{name.split("|")[0].strip()}"
         )
 
+        sport = sport.replace("\\", "")
+
         counter[name] += 1
 
         events.append(
