@@ -115,13 +115,13 @@ async def main() -> None:
             ]
 
             httpx_tasks = [
-                asyncio.create_task(dami.scrape()),
+                # asyncio.create_task(dami.scrape()),
                 asyncio.create_task(fawa.scrape()),
                 asyncio.create_task(futbolx.scrape()),
                 asyncio.create_task(istreameast.scrape()),
                 asyncio.create_task(la18hd.scrape()),
                 asyncio.create_task(mainportal.scrape()),
-                asyncio.create_task(streamfree.scrape()),
+                # asyncio.create_task(streamfree.scrape()),
                 asyncio.create_task(streamgate.scrape()),
                 asyncio.create_task(streamtp.scrape()),
                 asyncio.create_task(streamx723.scrape()),
@@ -129,7 +129,7 @@ async def main() -> None:
                 asyncio.create_task(tvf90.scrape()),
                 asyncio.create_task(webcast.scrape()),
                 # asyncio.create_task(xyz2.scrape()),
-                asyncio.create_task(xyzstreams.scrape()),
+                # asyncio.create_task(xyzstreams.scrape()),
             ]
 
             await asyncio.gather(*(pw_tasks + httpx_tasks))
