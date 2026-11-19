@@ -1529,7 +1529,12 @@ http://193.47.62.44/hls/FYYY.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.44/hls/FYYYS.m3u8
 
-#EXTINF:-1 tvg-chno="370" tvg-id="Live.Event.us" tvg-name="[World Cup U17] South Korea U17 vs Uganda U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] South Korea U17 vs Uganda U17 (FAWA)
+#EXTINF:-1 tvg-chno="370" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Saudi Arabia U17 vs Uruguay U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Saudi Arabia U17 vs Uruguay U17 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.44/hls/KKKKK.m3u8
+
+#EXTINF:-1 tvg-chno="371" tvg-id="Live.Event.us" tvg-name="[World Cup U17] South Korea U17 vs Uganda U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] South Korea U17 vs Uganda U17 (FAWA)
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 http://193.47.62.44/hls/FYYYSS.m3u8
