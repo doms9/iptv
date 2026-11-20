@@ -364,7 +364,7 @@ http://23.237.104.106:8080/USA_REVOLT/index.m3u8
 https://fast-channels.sinclairstoryline.com/TBD/index.m3u8
 
 #EXTINF:-1 tvg-chno="122" tvg-id="SEC.Network.HD.us2" tvg-name="SEC Network" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89535_dark_360w_270h.png" group-title="TV",SEC Network
-http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d2cc/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMmNjOjE3OTUxNzA2NzQ3ODM6Y2RubGl2ZXR2LnR2OjFhOWU3ZWYyMDcyNGYzZDguOThjZmI0Mzg2YzMzYjVkY2IzMTNhZDIwOTJmZTdiNzIzMWU0ZDA5YmQ5ZTk4YjRlM2NhZjU1NDMyY2RlODllNw|User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
 
 #EXTINF:-1 tvg-chno="123" tvg-id="Showtime.Extreme.HD.us2" tvg-name="Showtime Extreme" tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18086_dark_360w_270h.png" group-title="TV",Showtime Extreme
 https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d28c/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMjhjOjE3OTUxNjg4MDUzODE6Y2RubGl2ZXR2LnR2OjM0NDQyMzhiMjQyYmQxMzEuZmZjNWVkMjE1Y2I3OWRhZDY1ZWYwOWJiMThkODI0M2ZkMzQ0YzFhMTAyZTVhNzlmM2FlNGJhMDM1MGUxZmY3Mw|User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
@@ -442,7 +442,7 @@ https://streamer1.nexgen.bz/TELEMUNDO/index.m3u8
 http://45.70.168.162:80/play/a01k/index.m3u8
 
 #EXTINF:-1 tvg-chno="148" tvg-id="Tennis.Channel.HD.us2" tvg-name="Tennis Channel" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60316_dark_360w_270h.png" group-title="TV",Tennis Channel
-http://23.237.104.106:8080/USA_TENNIS/index.m3u8
+https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf53/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjUzOjE3OTUxNzA4MTMyOTM6Y2RubGl2ZXR2LnR2OjBlOGYyY2RkODEwZjExNjkuZjc3NTQ2NjhhMWU1NTJmZTMyYmU2YWIxZTZmNzZmMWE0ZjI3MTM4NTIyMTAzY2NlMDkxNjM4MjczMDBmZTA3Mw|User-Agent=Mozilla/5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit/537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome/111.0.0.0%20Safari/537.36
 
 #EXTINF:-1 tvg-chno="149" tvg-id="plex.tv.Tennis.Channel.2.plex" tvg-name="Tennis Channel 2" tvg-logo="https://image.xumo.com/v1/channels/channel/99951389/500x500.webp?type=color_onBlack" group-title="TV",Tennis Channel 2
 https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/c7dbf944-ca35-4a39-a52a-5ecfbcc83dda/4.m3u8
