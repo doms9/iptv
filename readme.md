@@ -6,62 +6,20 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-11-21 10:06 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-11-21 16:30 UTC
 
-<h3>✅ Working Streams: 127<br>❌ Dead Streams: 51</h3>
+<h3>✅ Working Streams: 145<br>❌ Dead Streams: 9</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_ACCN/index.m3u8'>ACC Network</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ced8/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWQ4OjE3OTUyNjc4MDQwNDk6Y2RubGl2ZXR2LnR2OmI5MGU2ZDNlNDU1MWNmMzkuYzllMWY0YzExMmVkMDE4MmI5MmFkN2ZkYWVmYTJmNzRkNDRkZmE0NTlhNzVmODEyNjZkMTgyMDhmNzY0MTdlNA'>Altitude Sports</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_AMERICAN_HEROES/index.m3u8'>American Heroes Channel</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8'>Animal Planet</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_BBC_AMERICA/index.m3u8'>BBC America</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_BTN/index.m3u8'>Big Ten Network</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8'>Boomerang</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_CMT/index.m3u8'>CMT</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_WGN/index.m3u8'>CW</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_5STARMAX/index.m3u8'>Cinemax Classics</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_MOREMAX/index.m3u8'>Cinemax Hits</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_CINEMAX_WEST/index.m3u8'>Cinemax West</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_COOKING/index.m3u8'>Cooking Channel</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_CRIME_INVESTIGATION/index.m3u8'>Crime & Investigation Network</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_DESTINATION_AMERICA/index.m3u8'>Destination America</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://212.5.144.156:8080/discovery/index.m3u8'>Discovery Channel</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='http://212.5.144.156:8080/disney/index.m3u8'>Disney Channel</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_E/index.m3u8'>E! Entertainment</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8'>Food Network</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_FUSE/index.m3u8'>Fuse</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_HLN/index.m3u8'>HLN</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://212.5.144.156:8080/history/index.m3u8'>History Channel</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_IFC/index.m3u8'>IFC</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://212.5.144.156:8080/id/index.m3u8'>Investigation Discovery</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf32/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMyOjE3OTUyNjc4MDU0ODE6Y2RubGl2ZXR2LnR2OmY2YmRhZjFlOTRlOGIzZDguMzVjYjYzYzE4ZTI1ZmNmYTBmNDFlNDAxMzhjY2E4YzY2YmRhOTgyNDAzMGNjNDhjMjdjY2RjMTIxZmI0NjQ1ZA'>MSG</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_MTV/index.m3u8'>MTV</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8'>MTV Live</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_NBA/index.m3u8'>NBA TV</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTUyNjc4MDU4ODk6Y2RubGl2ZXR2LnR2OmQ1YmEyM2M5MmJkYjdkYmQuMzI1ZDI3MGUwN2RkMWE0NDgxNjJkZmJlMjM3OWQwOWQ3MDgwYzRmMTVmZTVhYTMzNmQ3ZGE5ZGQ1ZGI2NzkzNQ'>NHL Network</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='http://212.5.144.156:8080/natgeo/index.m3u8'>Nat Geo</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_NAT_GEO_WILD/index.m3u8'>Nat Geo Wild</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://212.5.144.156:8080/nickjr/index.m3u8'>Nick Jr</a></td><td>HTTP Error (403)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_OWN/index.m3u8'>Oprah Winfrey Network</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8'>Paramount Network</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_REVOLT/index.m3u8'>Revolt</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8'>SEC Network</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8'>Showtime FamilyZone</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b1/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIxOjE3OTUyNjc4MDc5MzQ6Y2RubGl2ZXR2LnR2OjAwNTQyMjNjZmNkNzdiYjcuYmI4ZGM5N2RhYjY5N2MwNzIzNDQyMmMwMzdmZDA2YjE3Y2Q0ZjU4OGZiZjc1OTI3OTkyMjJkZTZkZjJjZjMyMw'>Space City Home Network</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b3/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIzOjE3OTUyNjc4MDgxMzc6Y2RubGl2ZXR2LnR2OjUzMjFjZDI3ZWQ0NDZjZTguOTEyYjRlYWJkNDI2YmRiOWMzZmNmYWU5NTc3MTJjNTExNzUwYmU3YTY0YjZlYjQwYjkwZDg2NjAwMDJlODlhYg'>SportsNet New York</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8'>Starz Comedy</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8'>Starz Encore Family</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_SYFY/index.m3u8'>Syfy</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTUyNjc4MDg3NDk6Y2RubGl2ZXR2LnR2OjI4Y2I4MmQyOGRjMTk3OWQuMTc0NmUxMDU1ZTQxNmQ0YzIxZWVjNWQyNTc1NjJmYmRmYTc3MzI4ODgzY2EzZDNiZmRhYjljNjhkMjdhMzc0MA'>TNT Sports 3</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTUyNjc4MDg5NTg6Y2RubGl2ZXR2LnR2OjgzYTliNTQ1ZTZiNDM5NzYuZjg2M2VkNGQzN2Q1YWM4YWRiMjZhOTk4N2NkZjgyMGY4MDE3ODZkYWZkNjQ5MDFlMDI5ODY3MGU4MjU3OGFiZg'>TNT Sports 4</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed42/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDQyOjE3OTUyNjc4MDk1ODM6Y2RubGl2ZXR2LnR2OmRkZWMyMjBhODM1ZWQ0YzcuODgyYzIzMDg1YTc4YWVlODg1NmFkNDQ4YjM1NTBhOGZiZjYyYzhmNWNkMzA4NjQxNDY3NWYxYjBmYjc0Y2JmYw'>TSN 5</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_TENNIS/index.m3u8'>Tennis Channel</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_VH1/index.m3u8'>VH1</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_VICETV/index.m3u8'>VICE TV</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_WE_TV/index.m3u8'>WE tv</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8'>YES Network</a></td><td>cURL Error (28)</td></tr>
-<tr><td><a href='http://23.237.104.106:8080/USA_TRUTV/index.m3u8'>truTV</a></td><td>cURL Error (28)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ced8/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWQ4OjE3OTUyOTI4MzQ1NTM6Y2RubGl2ZXR2LnR2OjZhZDdiZGFlZDk2ZjIyZWMuM2E0YzgzYTFkODQ1ZDY3ZDhjMmY1OTZkOTMzMDM3MGFiMWYwNTVkYjJmMTk4NTU1YzljNGY1MzhmNjE4MWVkMg'>Altitude Sports</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf32/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMyOjE3OTUyOTI4MzU2MTk6Y2RubGl2ZXR2LnR2OjVkYTcyMmRlNjQyMzdlMWUuZWMxZmQ4NDA0ZDhiNjc0MzBkYTU3OGYzMjQwOWIxZGZiNzQ4NjU4MWE4NmZhMmJmNGY1NzA2Njk4M2Q5MzhjMg'>MSG</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTUyOTI4MzYwMjQ6Y2RubGl2ZXR2LnR2Ojc4NjFjMWY2MzAzN2RlM2IuMzAxMzM4Y2RiOTMyOWE2MWQyMWI2ZWYyMDEwOTJkYjczMDRjYmQzNjg1ZDBjYWE0MTE5NDYwZjYzMzdlNzcyNA'>NHL Network</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b1/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIxOjE3OTUyOTI4Mzc2MTQ6Y2RubGl2ZXR2LnR2OjlhMzU2ZjQyY2U5YjcwNDMuOTA1MjgzMzlmMWNjNmRkODUyZGY0MGY3MDEzMmRmOGYyNWJkZTUwZmVkY2M0NjA3NTc5ZDhhNDY4YmQzNzJjZQ'>Space City Home Network</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b3/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIzOjE3OTUyOTI4Mzc3ODU6Y2RubGl2ZXR2LnR2OmFkMTEwODg4NjEyYWQwODIuYjZmMzUxYjcwZDIyNjkxYzNmYzNmZmIzZjBlMzY0NDZiYWU0OTc4MmNkMjczZTA0MDA3ZDliYTk5YzJiODFlYQ'>SportsNet New York</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf53/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjUzOjE3OTUyMjI4MDg3NzU6Y2RubGl2ZXR2LnR2OmE1NjUyMjNhNzA4NTc5YTcuYzhjMWM0MTdkODViZTdkMzg3NmM5NjBmNjI3ZTg3NDliM2U5M2Q3MjQ2ZTFjMzZmZjMyOGI1NmE0YzZjMTY4MQ'>Tennis Channel</a></td><td>HTTP Error (403)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTUyOTI4MzgxOTY6Y2RubGl2ZXR2LnR2OmE3M2ZhYTgyNTFjZGFlYzIuOGY4Y2RkMzI5MTM4ZjYxZDhlYzEwYTYxN2ZiZGM3MGNjYzU1YThiODBlYzQ2YTdmZmYwMjYwMzExNzczMDRlMA'>TNT Sports 3</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTUyOTI4MzgzMjc6Y2RubGl2ZXR2LnR2OjI2OTZiNDBlOTBiZGVhMTAuMjM1ZDljNzRhNDRmYTlkZmIzMWI3NzJjOWEyNzZiZThmMjk5YzJkMTNjOWEyMTVlNjc3MWMyMWZmZTdjNzhhYQ'>TNT Sports 4</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ce72/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZTcyOjE3OTUyOTI4MzkwMzM6Y2RubGl2ZXR2LnR2OmJmZWJkNzIxZjM5ZDNlZjMuYzdmN2ZmNGI0MjNlNDY0OWI4ZWYxYzZmMzgwNDM0MjNjNDFmNTA0OTZjMDc1MWVhMzk2MDI3NzI2NGE5MzM5Nw'>YES Network</a></td><td>HTTP Error (503)</td></tr>
 </table>
 </div>
 
