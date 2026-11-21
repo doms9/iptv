@@ -14,6 +14,7 @@ from scrapers import (
     kingdome,
     la18hd,
     mainportal,
+    sportsbite,
     sportspass,
     streamfree,
     streamgate,
@@ -123,6 +124,7 @@ async def main() -> None:
                 asyncio.create_task(istreameast.scrape()),
                 asyncio.create_task(la18hd.scrape()),
                 asyncio.create_task(mainportal.scrape()),
+                asyncio.create_task(sportsbite.scrape()),
                 # asyncio.create_task(streamfree.scrape()),
                 asyncio.create_task(streamgate.scrape()),
                 asyncio.create_task(streamtp.scrape()),
@@ -152,6 +154,7 @@ async def main() -> None:
         | kingdome.urls
         | la18hd.urls
         | mainportal.urls
+        | sportsbite.urls
         | sportspass.urls
         | streamfree.urls
         | streamgate.urls

@@ -104,7 +104,7 @@ async def process_event(
         log.warning(f"URL {url_num}) Unable to find stream information.")
         return
 
-    m3u_info: dict[str, dict[str, Any]] = json.loads(match[1])[qual]
+    m3u_info: dict[str, dict[str, Any]] = json.loads(match[1])[f"{stream_key}{qual}"]
 
     query = urlencode(m3u_info)
 
