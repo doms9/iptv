@@ -11,6 +11,7 @@ from scrapers import (
     futbolx,
     gsports,
     istreameast,
+    kingdome,
     la18hd,
     mainportal,
     sportspass,
@@ -112,6 +113,7 @@ async def main() -> None:
             pw_tasks = [
                 asyncio.create_task(gsports.scrape(hdl_brwsr)),
                 asyncio.create_task(sportspass.scrape(hdl_brwsr)),
+                asyncio.create_task(kingdome.scrape(hdl_brwsr)),
             ]
 
             httpx_tasks = [
@@ -147,6 +149,7 @@ async def main() -> None:
         | futbolx.urls
         | gsports.urls
         | istreameast.urls
+        | kingdome.urls
         | la18hd.urls
         | mainportal.urls
         | sportspass.urls
