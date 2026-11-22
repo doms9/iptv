@@ -114,13 +114,13 @@ async def main() -> None:
             pw_tasks = [
                 # asyncio.create_task(gsports.scrape(hdl_brwsr)),
                 asyncio.create_task(sportspass.scrape(hdl_brwsr)),
-                asyncio.create_task(kingdome.scrape(hdl_brwsr)),
+                # asyncio.create_task(kingdome.scrape(hdl_brwsr)),
             ]
 
             httpx_tasks = [
                 # asyncio.create_task(dami.scrape()),
                 asyncio.create_task(fawa.scrape()),
-                asyncio.create_task(futbolx.scrape()),
+                # asyncio.create_task(futbolx.scrape()),
                 asyncio.create_task(istreameast.scrape()),
                 asyncio.create_task(la18hd.scrape()),
                 asyncio.create_task(mainportal.scrape()),

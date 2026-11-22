@@ -26,7 +26,7 @@ def capture_req(
 
     pattern = re.compile(r"^https?://avalin.sytes.net")
 
-    if pattern.search(req.url):
+    if pattern.search(req.url) and not req.url.endswith(".js"):
         captured.append(req.url)
         got_one.set()
 
