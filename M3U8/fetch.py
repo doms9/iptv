@@ -112,7 +112,7 @@ async def main() -> None:
             # xtrnl_brwsr = await network.browser(p, external=True)
 
             pw_tasks = [
-                asyncio.create_task(gsports.scrape(hdl_brwsr)),
+                # asyncio.create_task(gsports.scrape(hdl_brwsr)),
                 asyncio.create_task(sportspass.scrape(hdl_brwsr)),
                 asyncio.create_task(kingdome.scrape(hdl_brwsr)),
             ]
