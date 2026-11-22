@@ -113,7 +113,7 @@ async def main() -> None:
 
             pw_tasks = [
                 asyncio.create_task(gsports.scrape(hdl_brwsr)),
-                # asyncio.create_task(sportspass.scrape(hdl_brwsr)),
+                asyncio.create_task(sportspass.scrape(hdl_brwsr)),
                 asyncio.create_task(kingdome.scrape(hdl_brwsr)),
             ]
 
