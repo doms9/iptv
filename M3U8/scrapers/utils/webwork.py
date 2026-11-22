@@ -57,11 +57,11 @@ class Network:
 
         easylist = easylist_file.read_text(encoding="utf-8")
 
-        if Time.rn().timestamp() - easylist_file.stat().st_mtime > 172_800:
+        if Time.rn().timestamp() - easylist_file.stat().st_mtime >= 345_600:
             logger.info("Updating EasyList file")
 
             if r := await self.request(
-                "https://easylist-downloads.adblockplus.org/easylist.txt"
+                "https://easylist.to/easylist/easylist.txt"
             ):
                 easylist_file.write_bytes(r.content)
                 easylist = r.text
