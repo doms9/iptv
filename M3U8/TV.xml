@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv><channel id="CBC.News.Network.HD.ca2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s124721_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s124721_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s75971_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">CBC News Network HD</display-name>
   </channel>
@@ -5567,7 +5567,7 @@
   </programme>
   <channel id="Telemundo.co">
     <display-name lang="es">Telemundo</display-name>
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s64835_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s64835_dark_360w_270h.png" />
     <icon src="http://media.gvp.telefonica.com/storagearea0/IMAGES/00/06/52/6523670_1160A8714A70955D.png" />
     </channel>
   <programme start="20261122174000 +0000" stop="20261122183500 +0000" channel="Telemundo.co">
@@ -6434,7 +6434,7 @@
     </channel>
     <channel id="Flo.Events.Dummy.us">
         <display-name lang="en">Flo Events</display-name>
-        <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002D2HJP.png_white_360w_270h.png" />
+        <icon src="https://logos.json.schedulesdirect.org/stationLogos/GNLZZGG002D2HJP.png_white_360w_270h.png" />
     </channel>
     <channel id="Live.Event.us">
         <display-name lang="en">Live Event</display-name>
@@ -12586,7 +12586,7 @@
     </programme>
     <channel id="Fanduel.Racing.us">
     <display-name lang="en">Fanduel Racing</display-name>
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s32258_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s32258_dark_360w_270h.png" />
     <icon src="https://cdn.tvpassport.com/image/station/240x135/v2/s32258_h15_ab.png" />
     </channel>
   <programme start="20261122000000 -0500" stop="20261122120000 -0500" channel="Fanduel.Racing.us">
@@ -12751,7 +12751,7 @@
   </programme>
   <channel id="plex.tv.ION.plex">
     <display-name lang="en">ION</display-name>
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18633_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s18633_dark_360w_270h.png" />
     <icon src="https://metadata-static.plex.tv/4/gracenote/4f6cabbb59dd109d439e0051eebca7bb.jpg" />
     </channel>
   <channel id="plex.tv.Hallmark.Movies.&amp;.More.plex">
@@ -12761,12 +12761,12 @@
     </channel>
   <channel id="plex.tv.Game.Show.Central.plex">
     <display-name lang="en">Game Show Central</display-name>
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s116474_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s116474_dark_360w_270h.png" />
     <icon src="https://dki01q1l7yn3y.cloudfront.net/thumbnails-platform-prod/assets/cs::content::shows/1155-3203/2365595-VIZIO-Episode-Portrait_v1.png" />
     </channel>
   <channel id="plex.tv.NBC.Sports.NOW.plex">
     <display-name lang="en">NBC Sports NOW</display-name>
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s114140_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s114140_dark_360w_270h.png" />
     <icon src="https://metadata-static.plex.tv/0/gracenote/04e16a3a54102369935c27dc93d53df0.jpg" />
     </channel>
   <channel id="plex.tv.Tennis.Channel.2.plex">
@@ -12776,12 +12776,12 @@
     </channel>
   <channel id="plex.tv.Bounce.XL.plex">
     <display-name lang="en">Bounce XL</display-name>
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s120372_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s120372_dark_360w_270h.png" />
     <icon src="https://metadata-static.plex.tv/3/gracenote/3e30a9b01a0c68c6354e5ef9ea4a38e5.jpg" />
     </channel>
   <channel id="plex.tv.NBC.News.NOW.plex">
     <display-name lang="en">NBC News NOW</display-name>
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s114174_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s114174_dark_360w_270h.png" />
     <icon src="https://metadata-static.plex.tv/9/gracenote/9d8afa2f4ad1e131fe022f1260171f3b.jpg" />
     </channel>
   <channel id="plex.tv.LiveNOW.from.FOX.plex">
@@ -12791,27 +12791,27 @@
     </channel>
   <channel id="plex.tv.CNN.Headlines.plex">
     <display-name lang="en">CNN Headlines</display-name>
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s138109_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s138109_dark_360w_270h.png" />
     <icon src="https://provider-static.plex.tv/epg/cms/production/de4a79b7-f316-4598-969c-7861c34d769a/CNN_Headlines_ChannelImagery_2000x3000_2025_-_Grace_Hartwig.jpg" />
     </channel>
   <channel id="plex.tv.BBC.News.(North.America).plex">
     <display-name lang="en">BBC News (North America)</display-name>
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89542_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s89542_dark_360w_270h.png" />
     <icon src="https://metadata-static.plex.tv/7/gracenote/705eae959497186ffef9dfdc2fc7bc54.jpg" />
     </channel>
   <channel id="plex.tv.beIN.SPORTS.XTRA.plex">
     <display-name lang="en">beIN SPORTS XTRA</display-name>
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s113143_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s113143_dark_360w_270h.png" />
     <icon src="https://provider-static.plex.tv/epg/cms/production/07107054-f04d-4a9d-a044-503b4406ef80/CLAIM_-_XTRA_Evergreen_2000x3000.jpg" />
     </channel>
   <channel id="plex.tv.Willow.Sports.plex">
     <display-name lang="en">Willow Sports</display-name>
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s164602_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s164602_dark_360w_270h.png" />
     <icon src="http://tmsimg.com/assets/p8853139_b_v8_aa.jpg?w=960&amp;h=1440" />
     </channel>
   <channel id="plex.tv.Newsmax2.plex">
     <display-name lang="en">Newsmax2</display-name>
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s121162_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s121162_dark_360w_270h.png" />
     <icon src="https://provider-static.plex.tv/epg/cms/production/4c01bf97-f13c-44f6-ac42-a662bb97cd43/N2_Vertical_Cover_Art_RDX_VERT.jpg" />
     </channel>
   <channel id="plex.tv.The.Reuters.60.plex">
@@ -12826,17 +12826,17 @@
     </channel>
   <channel id="plex.tv.AccuWeather.NOW.plex">
     <display-name lang="en">AccuWeather NOW</display-name>
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s120551_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s120551_dark_360w_270h.png" />
     <icon src="https://metadata-static.plex.tv/3/gracenote/328837fc1dd49d67e074406a22c12355.jpg" />
     </channel>
   <channel id="plex.tv.Yahoo.Finance.plex">
     <display-name lang="en">Yahoo Finance</display-name>
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s147894_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s147894_dark_360w_270h.png" />
     <icon src="https://provider-static.plex.tv/epg/images/thumbnails/yahoo-finance.jpg" />
     </channel>
   <channel id="plex.tv.ACCDN.plex">
     <display-name lang="en">ACCDN</display-name>
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s124806_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s124806_dark_360w_270h.png" />
     <icon src="https://provider-static.plex.tv/epg/cms/production/ced871ba-6f6c-4595-8709-10c7802c8f32/ACCDN-Logo-2000x3000_-_Mathew_Carstens.jpg" />
     </channel>
   <programme start="20261123000000 +0000" stop="20261123010000 +0000" channel="plex.tv.ION.plex">
@@ -30773,7 +30773,7 @@
     <display-name lang="en">SkySp Action</display-name>
   </channel>
   <channel id="STV.HD.uk">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21830_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s21830_dark_360w_270h.png" />
     <icon src="https://tv.assets.pressassociation.io/89eedcf9-78ac-568a-9a48-5d5c2c6dbd23.png" />
     <display-name lang="en">STV HD</display-name>
   </channel>
@@ -30798,12 +30798,12 @@
     <display-name lang="en">TNT Sports 3 HD</display-name>
   </channel>
   <channel id="ITV1.HD.uk">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s24292_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s24292_dark_360w_270h.png" />
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb6504.png" />
     <display-name lang="en">ITV1 HD</display-name>
   </channel>
   <channel id="BBC.One.Lon.HD.uk">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s67081_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s67081_dark_360w_270h.png" />
     <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3000.png" />
     <display-name lang="en">BBC One Lon HD</display-name>
   </channel>
@@ -46841,7 +46841,7 @@
     </rating>
   </programme>
   <channel id="Boomerang.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21883_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s21883_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s21883_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">Boomerang</display-name>
   </channel>
@@ -46851,17 +46851,17 @@
     <display-name lang="en">The Weather Channel HD</display-name>
   </channel>
   <channel id="MTV.-.Music.Television.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10986_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s10986_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s60964_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">MTV - Music Television HD</display-name>
   </channel>
   <channel id="Animal.Planet.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16331_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s16331_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s57394_ll_h9_ad.png?w=360&amp;h=270" />
     <display-name lang="en">Animal Planet HD</display-name>
   </channel>
   <channel id="Nick.Jr.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s19211_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s19211_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s82649_ll_h15_ad.png?w=360&amp;h=270" />
     <display-name lang="en">Nick Jr HD</display-name>
   </channel>
@@ -46871,22 +46871,22 @@
     <display-name lang="en">CNBC World</display-name>
   </channel>
   <channel id="ESPNEWS.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16485_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s16485_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s59976_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">ESPNEWS HD</display-name>
   </channel>
   <channel id="One.America.News.Network.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83953_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s83953_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s83953_ll_h9_aa.png?w=360&amp;h=270" />
     <display-name lang="en">One America News Network HD</display-name>
   </channel>
   <channel id="ESPN2.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12444_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s12444_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s45507_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">ESPN2 HD</display-name>
   </channel>
   <channel id="Game.Show.Network.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14909_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s14909_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s68827_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">Game Show Network HD</display-name>
   </channel>
@@ -46896,57 +46896,57 @@
     <display-name lang="en">Cinemax Classics</display-name>
   </channel>
   <channel id="ESPN.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10179_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s10179_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s32645_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">ESPN HD</display-name>
   </channel>
   <channel id="MS.NOW.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/GNLZZGG002H5PTP.png_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/GNLZZGG002H5PTP.png_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/GNLZZGG002H5PTL.png?w=360&amp;h=270" />
     <display-name lang="en">MS NOW HD</display-name>
   </channel>
   <channel id="MSG.National.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10979_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s10979_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s10979_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">MSG National</display-name>
   </channel>
   <channel id="CNN.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58646_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s58646_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s58646_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">CNN HD</display-name>
   </channel>
   <channel id="Comet.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s97051_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s97051_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s97051_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">Comet</display-name>
   </channel>
   <channel id="CNN.International.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10146_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s10146_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s10146_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">CNN International</display-name>
   </channel>
   <channel id="Hallmark.Channel.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11221_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s11221_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s66268_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">Hallmark Channel HD</display-name>
   </channel>
   <channel id="CHARGE!.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s102148_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s102148_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s102148_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">CHARGE!</display-name>
   </channel>
   <channel id="Crime.and.Investigation.Network.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s61469_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s61469_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s61469_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">Crime and Investigation Network HD</display-name>
   </channel>
   <channel id="AMC.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10021_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s10021_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s59337_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">AMC HD</display-name>
   </channel>
   <channel id="SNY.SportsNet.New.York.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s50038_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s50038_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s50038_ll_h9_aa.png?w=360&amp;h=270" />
     <display-name lang="en">SNY SportsNet New York HD</display-name>
   </channel>
@@ -46956,34 +46956,34 @@
     <display-name lang="en">The Nest</display-name>
   </channel>
   <channel id="Vice.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18822_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s18822_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s18822_ll_h15_ac.png?w=360&amp;h=270" />
     <icon src="http://dtil.tmsimg.com/assets/s18822_ll_h15_ac.png?w=360&amp;h=270" />
     <icon src="http://dtil.tmsimg.com/assets/s18822_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">Vice HD</display-name>
   </channel>
   <channel id="Nicktoons.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30420_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s30420_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s30420_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">Nicktoons</display-name>
   </channel>
   <channel id="FX.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73681_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s73681_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s58574_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">FX HD</display-name>
   </channel>
   <channel id="Court.TV.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s117160_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s117160_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s111043_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">Court TV</display-name>
   </channel>
   <channel id="truTV.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10153_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s10153_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s64490_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">truTV HD</display-name>
   </channel>
   <channel id="ACC.Network.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s111871_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s111871_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s111871_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">ACC Network</display-name>
   </channel>
@@ -46993,32 +46993,32 @@
     <display-name lang="en">ROAR TV</display-name>
   </channel>
   <channel id="VH1.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11218_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s11218_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s60046_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">VH1 HD</display-name>
   </channel>
   <channel id="ABC.News.Live.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s113380_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s113380_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s113380_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">ABC News Live</display-name>
   </channel>
   <channel id="TUDN.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s75176_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s75176_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s75176_ll_h15_ae.png?w=360&amp;h=270" />
     <display-name lang="en">TUDN</display-name>
   </channel>
   <channel id="History.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s87679_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s87679_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s57708_ll_h15_ad.png?w=360&amp;h=270" />
     <display-name lang="en">History HD</display-name>
   </channel>
   <channel id="Showtime.Extreme.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18086_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s18086_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s60947_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">Showtime Extreme HD</display-name>
   </channel>
   <channel id="Nickelodeon.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11006_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s11006_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s59432_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">Nickelodeon HD</display-name>
   </channel>
@@ -47029,14 +47029,14 @@
   </channel>
   <channel id="TBS.HD.us2">
     <display-name lang="en">TBS HD</display-name>
-  <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11867_dark_360w_270h.png" /></channel>
+  <icon src="https://logos.json.schedulesdirect.org/stationLogos/s11867_dark_360w_270h.png" /></channel>
   <channel id="PBS.KIDS.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s101364_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s101364_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s101364_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">PBS KIDS HD</display-name>
   </channel>
   <channel id="Circle.Country.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s116338_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s116338_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s116338_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">Circle Country</display-name>
   </channel>
@@ -47051,42 +47051,42 @@
     <display-name lang="en">Laff</display-name>
   </channel>
   <channel id="Disney.Channel.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10171_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s10171_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s59684_ll_h15_ae.png?w=360&amp;h=270" />
     <display-name lang="en">Disney Channel HD</display-name>
   </channel>
   <channel id="Investigation.Discovery.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16615_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s16615_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s65342_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">Investigation Discovery HD</display-name>
   </channel>
   <channel id="Food.Network.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44718_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s44718_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s50747_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">Food Network HD</display-name>
   </channel>
   <channel id="FS2.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s33178_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s33178_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s59305_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">FS2 HD</display-name>
   </channel>
   <channel id="Oprah.Winfrey.Network.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s70387_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s70387_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s70388_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">Oprah Winfrey Network HD</display-name>
   </channel>
   <channel id="Starz.Comedy.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s34901_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s34901_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s57569_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">Starz Comedy HD</display-name>
   </channel>
   <channel id="ESPN.Deportes.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25595_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s25595_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s71914_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">ESPN Deportes HD</display-name>
   </channel>
   <channel id="truTV.HD.(Pacific).us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10153_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s10153_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s64490_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">truTV HD (Pacific)</display-name>
   </channel>
@@ -47096,7 +47096,7 @@
     <display-name lang="en">Golf Channel HD</display-name>
   </channel>
   <channel id="NFL.Network.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s34710_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s34710_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s45399_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">NFL Network HD</display-name>
   </channel>
@@ -47106,49 +47106,49 @@
     <display-name lang="en">ReelzChannel HD</display-name>
   </channel>
   <channel id="TNT.HD.(Pacific).us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11164_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s11164_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s42642_ll_h15_ac.png?w=360&amp;h=270" />
     <icon src="http://dtil.tmsimg.com/assets/s42642_ll_h15_ac.png?w=360&amp;h=270" />
     <icon src="http://dtil.tmsimg.com/assets/s42642_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">TNT HD (Pacific)</display-name>
   </channel>
   <channel id="E!.Entertainment.Television.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10989_dark_360w_270h.npg" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s10989_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s61812_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">E! Entertainment Television HD</display-name>
   </channel>
   <channel id="HLN.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s64549_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s64549_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s64549_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">HLN HD</display-name>
   </channel>
   <channel id="CBS.Sports.Golazo.Network.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s133691_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s133691_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s133691_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">CBS Sports Golazo Network</display-name>
   </channel>
   <channel id="NBA.TV.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s32281_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s32281_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s45526_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">NBA TV HD</display-name>
   </channel>
   <channel id="Discovery.Channel.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11150_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s11150_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s56905_ll_h15_ad.png?w=360&amp;h=270" />
     <display-name lang="en">Discovery Channel HD</display-name>
   </channel>
   <channel id="National.Geographic.Wild.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s86880_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s86880_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s67331_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">National Geographic Wild HD</display-name>
   </channel>
   <channel id="Weather.Nation.TV.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s72413_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s72413_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s72422_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">Weather Nation TV HD</display-name>
   </channel>
   <channel id="IFC.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14873_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s14873_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s59444_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">IFC HD</display-name>
   </channel>
@@ -47158,67 +47158,67 @@
     <display-name lang="en">Law and Crime</display-name>
   </channel>
   <channel id="beIN.Sports.USA.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s91308_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s91308_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s76950_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">beIN Sports USA HD</display-name>
   </channel>
   <channel id="Newsmax.TV.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s87925_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s87925_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s97163_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">Newsmax TV HD</display-name>
   </channel>
   <channel id="Cheddar.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s109346_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s109346_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s109333_ll_h15_ae.png?w=360&amp;h=270" />
     <display-name lang="en">Cheddar</display-name>
   </channel>
   <channel id="WE.tv.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s59296_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s59296_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s59296_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">WE tv HD</display-name>
   </channel>
   <channel id="Me.TV.Network.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s70436_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s70436_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s70436_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">Me TV Network</display-name>
   </channel>
   <channel id="Starz.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12719_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s12719_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s34941_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">Starz HD</display-name>
   </channel>
   <channel id="American.Heroes.Channel.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18284_white_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s18284_white_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s78808_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">American Heroes Channel HD</display-name>
   </channel>
   <channel id="MTVLIVE.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s74635_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s74635_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s49141_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">MTVLIVE</display-name>
   </channel>
   <channel id="NewsNation.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s91096_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s91096_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s91096_ll_h15_af.png?w=360&amp;h=270" />
     <display-name lang="en">NewsNation</display-name>
   </channel>
   <channel id="Showtime.Familyzone.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s25274_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s25274_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s25274_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">Showtime Familyzone HD</display-name>
   </channel>
   <channel id="Spectrum.News+.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s133897_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s133897_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s133897_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">Spectrum News+</display-name>
   </channel>
   <channel id="TV.ONE.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s35513_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s35513_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s61960_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">TV ONE HD</display-name>
   </channel>
   <channel id="Revolt.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s83097_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s83097_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s83098_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">Revolt HD</display-name>
   </channel>
@@ -47228,12 +47228,12 @@
     <display-name lang="en">AXS TV</display-name>
   </channel>
   <channel id="Altitude.Sports.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s44263_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s44263_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s44263_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">Altitude Sports</display-name>
   </channel>
   <channel id="USA.Network.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11207_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s11207_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s58452_ll_h15_af.png?w=360&amp;h=270" />
     <display-name lang="en">USA Network HD</display-name>
   </channel>
@@ -47243,27 +47243,27 @@
     <display-name lang="en">Create</display-name>
   </channel>
   <channel id="Space.City.Home.Network.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s77744_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s77744_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s77744_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">Space City Home Network HD</display-name>
   </channel>
   <channel id="Fuse.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s14929_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s14929_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s59116_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">Fuse HD</display-name>
   </channel>
   <channel id="Home.and.Garden.Television.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s21257_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s21257_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s49788_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">Home and Garden Television HD</display-name>
   </channel>
   <channel id="FXX.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s17927_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s17927_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s66379_ll_h9_aa.png?w=360&amp;h=270" />
     <display-name lang="en">FXX HD</display-name>
   </channel>
   <channel id="FS1.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82541_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s82541_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s82547_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">FS1 HD</display-name>
   </channel>
@@ -47273,22 +47273,22 @@
     <display-name lang="en">Cinemax HD (Pacific)</display-name>
   </channel>
   <channel id="ACE.TV.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s137151_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s137151_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s137151_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">ACE TV</display-name>
   </channel>
   <channel id="Real.Americas.Voice.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s116186_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s116186_dark_360w_270h.png" />
     <icon src="https://cdn.tvpassport.com/image/station/240x135/v2/s117378_h15_aa.png" />
     <display-name lang="en">Real Americas Voice</display-name>
   </channel>
   <channel id="BET.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10051_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s10051_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s63236_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">BET HD</display-name>
   </channel>
   <channel id="MeTV.Toons.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s159817_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s159817_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s159817_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">MeTV Toons</display-name>
   </channel>
@@ -47298,97 +47298,97 @@
     <display-name lang="en">Cinemax Hits</display-name>
   </channel>
   <channel id="INSP.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11066_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s11066_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s82773_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">INSP HD</display-name>
   </channel>
   <channel id="TBS.HD.(Pacific).us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11867_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s11867_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s58515_ll_h15_ac.png?w=360&amp;h=270" />
     <icon src="http://dtil.tmsimg.com/assets/s58515_ll_h15_ac.png?w=360&amp;h=270" />
     <icon src="http://dtil.tmsimg.com/assets/s58515_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">TBS HD (Pacific)</display-name>
   </channel>
   <channel id="Turner.Classic.Movies.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12852_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s12852_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s64312_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">Turner Classic Movies HD</display-name>
   </channel>
   <channel id="Bravo.(Pacific).us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10057_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s10057_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s10057_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">Bravo (Pacific)</display-name>
   </channel>
   <channel id="Syfy.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11097_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s11097_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s58623_ll_h15_ae.png?w=360&amp;h=270" />
     <display-name lang="en">Syfy HD</display-name>
   </channel>
   <channel id="Military.History.Channel.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s48999_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s48999_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s48999_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">Military History Channel</display-name>
   </channel>
   <channel id="Family.Entertainment.Television.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s73413_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s73413_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s73413_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">Family Entertainment Television</display-name>
   </channel>
   <channel id="Bloomberg.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s71799_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s71799_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s71799_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">Bloomberg HD</display-name>
   </channel>
   <channel id="Disney.XD.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18279_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s18279_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s60006_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">Disney XD HD</display-name>
   </channel>
   <channel id="The.Travel.Channel.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11180_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s11180_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s59303_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">The Travel Channel HD</display-name>
   </channel>
   <channel id="Yes.Network.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30017_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s30017_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s30017_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">Yes Network</display-name>
   </channel>
   <channel id="Destination.America.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16617_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s16617_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s60468_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">Destination America HD</display-name>
   </channel>
   <channel id="National.Geographic.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s49438_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s49438_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s49438_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">National Geographic HD</display-name>
   </channel>
   <channel id="Disney.Junior.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s74796_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s74796_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s74885_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">Disney Junior HD</display-name>
   </channel>
   <channel id="Tennis.Channel.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s60316_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s60316_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s60316_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">Tennis Channel HD</display-name>
   </channel>
   <channel id="Paramount.Network.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11163_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s11163_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s59186_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">Paramount Network HD</display-name>
   </channel>
   <channel id="BBC.America.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s64492_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s64492_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s64492_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">BBC America HD</display-name>
   </channel>
   <channel id="TNT.HD.us2">
     <display-name lang="en">TNT HD</display-name>
-  <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11164_dark_360w_270h.png" /></channel>
+  <icon src="https://logos.json.schedulesdirect.org/stationLogos/s11164_dark_360w_270h.png" /></channel>
   <channel id="CBS.News.National.Stream.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s104846_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s104846_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s104846_ll_h15_ad.png?w=360&amp;h=270" />
     <display-name lang="en">CBS News National Stream</display-name>
   </channel>
@@ -47398,22 +47398,22 @@
     <display-name lang="en">Great Entertainment Television</display-name>
   </channel>
   <channel id="Cooking.Channel.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s30156_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s30156_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s68065_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">Cooking Channel HD</display-name>
   </channel>
   <channel id="NHL.Network.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s58570_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s58570_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s58690_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">NHL Network HD</display-name>
   </channel>
   <channel id="Big.Ten.Network.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s56783_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s56783_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s58321_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">Big Ten Network HD</display-name>
   </channel>
   <channel id="Galavision.Cable.Network.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10222_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s10222_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s68367_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">Galavision Cable Network HD</display-name>
   </channel>
@@ -47428,37 +47428,37 @@
     <display-name lang="en">Fox Business HD</display-name>
   </channel>
   <channel id="SEC.Network.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s89535_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s89535_dark_360w_270h.png" />
     <icon src="https://cdn.tvpassport.com/image/station/240x135/v2/s89714_h15_aa.png" />
     <display-name lang="en">SEC Network HD</display-name>
   </channel>
   <channel id="ESPNU.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s45654_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s45654_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s60696_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">ESPNU HD</display-name>
   </channel>
   <channel id="NBC.Sports.Philadelphia.HD.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s32571_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s32571_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s32571_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">NBC Sports Philadelphia HD</display-name>
   </channel>
   <channel id="AdultSwim.com.Cartoon.Network.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16496_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s16496_dark_360w_270h.png" />
     <icon src="https://www.adultswim.com/img/as-logo.svg" />
     <display-name lang="en">AdultSwim com Cartoon Network</display-name>
   </channel>
   <channel id="FX.Movie.Channel.HD.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s70253_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s70253_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s70253_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">FX Movie Channel HD</display-name>
   </channel>
   <channel id="CHSN.Chicago.Sports.Network.us2">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s166708_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s166708_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s166708_ll_h15_aa.png?w=360&amp;h=270" />
     <display-name lang="en">CHSN Chicago Sports Network</display-name>
   </channel>
   <channel id="BUZZR.Stream.us2">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s93430_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s93430_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s93430_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">BUZZR Stream</display-name>
   </channel>
@@ -431174,42 +431174,42 @@
     </rating>
   </programme>
   <channel id="WSCV-DT.us_locals1">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10239_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s10239_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s73245_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">WSCV-DT</display-name>
   </channel>
   <channel id="WLTV-DT.us_locals1">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11118_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s11118_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s11118_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">WLTV-DT</display-name>
   </channel>
   <channel id="WFXT-DT.us_locals1">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s28719_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s28719_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s28719_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">WFXT-DT</display-name>
   </channel>
   <channel id="WCBS-DT.us_locals1">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s10098_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s28711_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">WCBS-DT</display-name>
   </channel>
   <channel id="WGN-DT.us_locals1">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s53098_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s53098_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s51306_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">WGN-DT</display-name>
   </channel>
   <channel id="KRPC-LD.us_locals1">
-    <icon src="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s78584_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s78584_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s78584_ll_h15_ab.png?w=360&amp;h=270" />
     <display-name lang="en">KRPC-LD</display-name>
   </channel>
   <channel id="WABC-DT.us_locals1">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10003_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s10003_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s28708_ll_h15_ac.png?w=360&amp;h=270" />
     <display-name lang="en">WABC-DT</display-name>
   </channel>
   <channel id="WNBC-DT.us_locals1">
-    <icon src="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10991_dark_360w_270h.png" />
+    <icon src="https://logos.json.schedulesdirect.org/stationLogos/s10991_dark_360w_270h.png" />
     <icon src="http://dtil.tmsimg.com/assets/s28717_ll_h15_ad.png?w=360&amp;h=270" />
     <display-name lang="en">WNBC-DT</display-name>
   </channel>
