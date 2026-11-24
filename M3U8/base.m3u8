@@ -511,7 +511,7 @@ https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=
 https://turnerlive.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_3564000.m3u8
 
 #EXTINF:-1 tvg-chno="160" tvg-id="truTV.HD.us2" tvg-name="truTV" tvg-logo="https://logos.json.schedulesdirect.org/stationLogos/s10153_dark_360w_270h.png" group-title="TV",truTV
-http://23.237.104.106:8080/USA_TRUTV/index.m3u8
+https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
 
 #EXTINF:-1 tvg-chno="161" tvg-id="truTV.HD.(Pacific).us2" tvg-name="truTV West" tvg-logo="https://logos.json.schedulesdirect.org/stationLogos/s10153_dark_360w_270h.png" group-title="TV",truTV West
 https://turnerlive.warnermediacdn.com/hls/live/2023178/truwest/slate/VIDEO_0_3564000.m3u8
