@@ -53,24 +53,24 @@ class Network:
         self.client_unv = httpx.AsyncClient(**client_params, verify=False)
 
     async def setup_adblock(self) -> None:
-        easylist_file = Path(__file__).parent / "easylist.txt"
+        ezlist_file = Path(__file__).parent / "easylist.txt"
 
-        easylist = easylist_file.read_text(encoding="utf-8")
+        ezlist = ezlist_file.read_text(encoding="utf-8")
 
-        if Time.rn().timestamp() - easylist_file.stat().st_mtime >= 345_600:
+        if Time.rn().timestamp() - ezlist_file.stat().st_mtime >= 345_600:
             logger.info("Updating EasyList file")
 
-            if r := await self.request(
-                "https://easylist.to/easylist/easylist.txt"
-            ):
-                easylist_file.write_bytes(r.content)
-                easylist = r.text
+            ezlist_url = "https://easylist.to/easylist/easylist.txt"
 
-            else:
+            if not (r := await self.request(ezlist_url)):
                 logger.warning("Unable to update EasyList file")
 
+            else:
+                ezlist_file.write_bytes(r.content)
+                ezlist = r.text
+
         filter_set = adblock.FilterSet()
-        filter_set.add_filter_list(easylist)
+        filter_set.add_filter_list(ezlist)
         self.engine = adblock.Engine(filter_set)
 
     async def request(

@@ -13,8 +13,6 @@ TAG = "SPRTSBITE"
 
 CACHE_FILE = Cache(TAG, exp=10_800)
 
-API_FILE = Cache(f"{TAG}-api", exp=19_800)
-
 BASE_URL = "https://sportsbite.org"
 
 
@@ -26,31 +24,20 @@ def process_event(url: str, url_num: int) -> str:
     return f"{s}.m3u8?cdn=1"
 
 
-async def refresh_api_cache(now: Time) -> list[dict[str, Any]]:
-    api_data = {"timestamp": now.timestamp()}
-
-    if r := await network.request(
-        urljoin(BASE_URL, "api/forestgump/matches"),
-        log=log,
-    ):
-        api_data: dict[str, Any] = r.json()
-
-        api_data["timestamp"] = now.timestamp()
-
-    return api_data
-
-
 async def get_events(cached_keys: KeysView[str]) -> dict[str, dict[str, str | float]]:
     now = Time.rn()
 
     events = {}
 
-    if not (api_data := API_FILE.load(per_entry=False)):
-        log.info("Refreshing API cache")
+    if not (
+        api_req := await network.request(
+            urljoin(BASE_URL, "api/forestgump/matches"),
+            log=log,
+        )
+    ):
+        return events
 
-        api_data = await refresh_api_cache(now)
-
-        API_FILE.write(api_data)
+    api_data: list[dict[str, Any]] = api_req.json()
 
     start_ts = now.delta(minutes=-30).timestamp()
     end_ts = now.delta(minutes=30).timestamp()

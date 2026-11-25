@@ -19,6 +19,18 @@ BASE_URL = "https://streamxhd.sbs"
 
 
 async def process_event(url: str, url_num: int) -> str | None:
+    splits = urlsplit(url)
+
+    dom = "life"
+
+    if splits.netloc != (base_netloc := f"streamxhd.{dom}"):
+        url = urlunsplit(
+            splits._replace(
+                netloc=base_netloc,
+                path=splits.path.replace("/libre/", "/"),
+            )
+        )
+
     if not (
         event_data := await network.request(
             url,
@@ -37,7 +49,7 @@ async def process_event(url: str, url_num: int) -> str | None:
     digit_func_ptrn = re.compile(r"{return\s+(\d*);}", re.I)
 
     if not (digit_list := digit_func_ptrn.findall(event_data.text)):
-        log.warning(f"URL {url_num}) Unable to decode url.")
+        log.warning(f"URL {url_num}) Unable to decode url. [1]")
         return
 
     embed_list_ptrn = re.compile(
@@ -46,7 +58,7 @@ async def process_event(url: str, url_num: int) -> str | None:
     )
 
     if not (match := embed_list_ptrn.search(event_data.text)):
-        log.warning(f"URL {url_num}) Unable to decode url.")
+        log.warning(f"URL {url_num}) Unable to decode url. [2]")
         return
 
     embed_list_str = match[0].split("=", 1)[-1].strip(";")
