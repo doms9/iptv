@@ -6,15 +6,18 @@
 [![license](https://img.shields.io/github/license/doms9/iptv?logoColor=86b58c)](LICENSE)
 ![python](https://img.shields.io/badge/Python-4584b6?logo=python&logoColor=fff)
 
-## [Base](M3U8/base.m3u8) Log @ 2026-11-24 23:36 UTC
+## [Base](M3U8/base.m3u8) Log @ 2026-11-25 11:38 UTC
 
-<h3>✅ Working Streams: 174<br>❌ Dead Streams: 4</h3>
+<h3>✅ Working Streams: 171<br>❌ Dead Streams: 7</h3>
 <table>
 <tr><th>Channel</th><th>Error (Code)</th></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ced8/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWQ4OjE3OTU1NzU2MDMxMDI6Y2RubGl2ZXR2LnR2OmI3YmM0MzFkZDIxNTUxYTMuMjNlYWM5YTBjNjJkNDlkNGExYjg2MDY4ZDQ1OWZiYmY4YTkwMGRiZGIyZjk0YTdiNGEzYTQ3MDkyODI2ODNjMQ'>Altitude Sports</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTU1NzU2MDUyNDI6Y2RubGl2ZXR2LnR2OmNmOWNiNGE3ZDhjY2Y0OTEuMWQ0MjM1NWExMWNlMWU3OGFlOTllOTQ5NTZkNTkwZTY5YTU0NWRhOWU5YzRlZjc3ZTRiYzIwZGZiYjE1YWM1MQ'>NHL Network</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c87b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODdiOjE3OTU1NzU2MDY3Nzg6Y2RubGl2ZXR2LnR2OmYzMTc3ZDU3NGI4ZWUwNDUuMzgyNTIwMjA2ZDI0MzlhZDcyMDBmNTQ4OWU3ZWFkYTJjM2VmNjZhNDNlYWMxZjk0MTI1OTFkY2Q4MTE3ZTVmZg'>Sky Sports Racing</a></td><td>HTTP Error (503)</td></tr>
-<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed42/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDQyOjE3OTU1NzU2MDg4MzQ6Y2RubGl2ZXR2LnR2OjkyMGYwMTc3YzQ4N2UyYmEuYjE3ODk5MDhlNmNiZmExYTFlYWU4NzYzZjE2NDQwYzI4NjY3NTYzZTEwN2JkZDVmYTE5OWYyMmYzMTJjNDhlYg'>TSN 5</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ced8/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWQ4OjE3OTU2MjA2MDM3NjU6Y2RubGl2ZXR2LnR2OmJkOTdiZGRkZmFkNTkyYjMuZWQwOTkxNGMxMmFjN2YwOTg2OGRlMzQ5MjcxYmQzMWM3ZTM2MTNhODQzNTA1NmEyMjkzNWY3OTAwN2FmYTA0Yw'>Altitude Sports</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d280/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMjgwOjE3OTU2MjA2MDQzODI6Y2RubGl2ZXR2LnR2OjE4YzJiZTE3NjA4NzUzNmMuMDk4NThmNzc1YTNkYWZmY2UwYWY1NWZmYzNmOGNhMGJhM2E5YzY4YTM4ZmQ5MWMzMGExMDAxYjQ4MGEwY2M0Mw'>Chicago Sports Network</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf32/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMyOjE3OTU2MjA2MDU0MDQ6Y2RubGl2ZXR2LnR2OjY4NDViYjQ3NzI0NDVjNGYuMzM1MmNiZTk0OTM1NTlkZWQ5MDA4NWU3Y2VlYTUxNjQ2ZGYzNDZjMDYyZGNiY2VjZTY2NGMyYWUxMDc3ZmI2MQ'>MSG</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTU2MjA2MDU4MTM6Y2RubGl2ZXR2LnR2OjBlMDQxOTUxOGU3M2ZlZTIuNmY5NjFhYjEwZTQ2YWU0YjdiODVlNDhiMDcwZWQ5YjBjOTIyMzRmNWFiNjE2NTg0ZTRmNWYyZGQ3ZDY3NDE5ZA'>NHL Network</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b1/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIxOjE3OTU2MjA2MDc4Njg6Y2RubGl2ZXR2LnR2Ojc3Nzk5YTBlZmEzMDAzNmQuODAzMTllN2U3ZDQyMmZkMGZlMzdjNDc0YWY1OTEwY2Y2NGE1YzNjODdkZTY0MWYxNzNmYTdkZDk2OGYyNTY4NQ'>Space City Home Network</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b3/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIzOjE3OTU2MjA2MDgwNzI6Y2RubGl2ZXR2LnR2OjAyMWI3YzNkYjY0NDY4MWEuZjhiMWFjYTEwZjEyOWU2ODU3Y2FhZjY4OGYwYzAzNDU1YzBmNGJmZWFhZTZiYjgyYzIzMDUyN2Q0MjE3ZDRiZg'>SportsNet New York</a></td><td>HTTP Error (503)</td></tr>
+<tr><td><a href='https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTU2MjA2MDg2Nzc6Y2RubGl2ZXR2LnR2OmZhNDgxNDliOGRlODFlZTAuY2UyYzg5ZGM4ZmU4NGRhODlmM2U0M2YzMDczNDQ1OWQzOWY0MWFiMGYwY2M2M2RhMDFmYWM5MjJmZDU3MjljOA'>TNT Sports 3</a></td><td>HTTP Error (503)</td></tr>
 </table>
 </div>
 
