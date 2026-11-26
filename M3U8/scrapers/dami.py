@@ -14,7 +14,7 @@ urls: dict[str, dict[str, str | float]] = {}
 
 TAG = "DAMITV"
 
-CACHE_FILE = Cache(TAG, exp=10_800)
+CACHE_FILE = Cache(TAG, exp=14_400)
 
 API_FILE = Cache(f"{TAG}-api", exp=19_800)
 

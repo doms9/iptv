@@ -13,7 +13,7 @@ urls: dict[str, dict[str, str | float]] = {}
 
 TAG = "iSTRMEAST"
 
-CACHE_FILE = Cache(TAG, exp=10_800)
+CACHE_FILE = Cache(TAG, exp=14_400)
 
 BASE_URL = "https://streameast.cool"
 

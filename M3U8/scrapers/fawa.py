@@ -12,7 +12,7 @@ urls: dict[str, dict[str, str | float]] = {}
 
 TAG = "FAWA"
 
-CACHE_FILE = Cache(TAG, exp=10_800)
+CACHE_FILE = Cache(TAG, exp=14_400)
 
 BASE_URL = "http://www.fawanews.sc/"
 

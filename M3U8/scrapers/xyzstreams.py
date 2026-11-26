@@ -20,7 +20,7 @@ urls: dict[str, dict[str, str | float]] = {}
 
 TAG = "XYZ"
 
-CACHE_FILE = Cache(TAG, exp=10_800)
+CACHE_FILE = Cache(TAG, exp=14_400)
 
 HTML_FILE = Cache(f"{TAG}-html", exp=19_800)
 

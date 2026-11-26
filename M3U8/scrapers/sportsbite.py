@@ -11,7 +11,7 @@ urls: dict[str, dict[str, str | float]] = {}
 
 TAG = "SPRTSBITE"
 
-CACHE_FILE = Cache(TAG, exp=10_800)
+CACHE_FILE = Cache(TAG, exp=14_400)
 
 BASE_URL = "https://sportsbite.org"
 
