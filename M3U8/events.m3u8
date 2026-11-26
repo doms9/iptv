@@ -1434,3 +1434,18 @@ https://yxdlc29tzq.fubo18.com:443/disney7/mono.m3u8?token=d6082f7f2fa936ae5a3fd9
 #EXTVLCOPT:http-referrer=https://la18hd.su/vivo/canales.php?stream=espn4mx
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://ewvz.fubo18.com:443/espn4mx/mono.m3u8?token=bfcfd389389e1860aab07be5e7145345494ac00c-e3-1795715110-1795697110
+
+#EXTINF:-1 tvg-chno="288" tvg-id="Live.Event.us" tvg-name="[World Cup U17] New Zealand U17 vs Belgium U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] New Zealand U17 vs Belgium U17 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/DADADAD.m3u8
+
+#EXTINF:-1 tvg-chno="289" tvg-id="Live.Event.us" tvg-name="[World Cup U17] Vietnam U17 vs Mali U17 (FAWA)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[World Cup U17] Vietnam U17 vs Mali U17 (FAWA)
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+http://193.47.62.41/hls/DADADA.m3u8
+
+#EXTINF:-1 tvg-chno="290" tvg-id="PPV.EVENTS.Dummy.us" tvg-name="[fighting] WWE NXT 1 (SPRTSBITE)" tvg-logo="https://files.catbox.moe/jd3pxq.png" group-title="Live Events",[fighting] WWE NXT 1 (SPRTSBITE)
+#EXTVLCOPT:http-referrer=https://sportsbite.org
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+https://sportsbite.org/selfhost/cdn/s-dc6b492c3656834ce533.m3u8?cdn=1
